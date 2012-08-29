@@ -1,0 +1,22 @@
+/* Primary stylesheet for nateeag.com. */
+
+html
+{
+    font-family: sans-serif;
+}
+
+div.content
+{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px grey solid;
+}
+
+a
+{
+    text-decoration: none;
+}
