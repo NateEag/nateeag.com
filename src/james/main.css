@@ -1,0 +1,32 @@
+/* Stylesheet for newborn photo gallery of James Eagleson.  */
+
+body {
+    margin: 5%;
+}
+
+ul {
+    /* DEBUG This should be handled by a reset stylesheet. */
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+
+    padding: 10px;
+
+    margin-bottom: 40px;
+
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+
+    list-style-type: none;
+}
+
+.thumbnail {
+    width: 300px;
+}
+
+.caption {
+    float: left;
+}
