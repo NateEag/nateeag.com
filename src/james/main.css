@@ -10,23 +10,31 @@ ul {
 }
 
 li {
-    display: inline-block;
+    display: block;
 
     padding: 10px;
 
     margin-bottom: 40px;
 
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #aaaaaa;
     border-width: 1px;
 
     list-style-type: none;
 }
 
-.thumbnail {
+.thumbnail-wrapper {
     width: 300px;
 }
 
+.thumbnail {
+    width: 300px;
+
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-style: solid;
+}
+
 .caption {
-    float: left;
+    padding-top: 10px;
 }
