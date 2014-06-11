@@ -24,7 +24,12 @@ li {
 }
 
 .photo {
+    display: inline-block;
+    vertical-align: top;
+
     max-width: 300px;
+
+    margin-right: 40px;
 }
 
 .thumbnail {
@@ -36,6 +41,7 @@ li {
 }
 
 .caption {
+    /* DEBUG This should be handled by a reset stylesheet too. */
     margin-top: 0;
     margin-bottom: 0;
 
