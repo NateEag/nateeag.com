@@ -9,27 +9,22 @@ ul {
     padding: 0;
 }
 
-li {
-    display: block;
-
-    padding: 10px;
-
-    margin-bottom: 40px;
-
-    border-style: solid;
-    border-color: #aaaaaa;
-    border-width: 1px;
-
-    list-style-type: none;
-}
-
 .photo {
     display: inline-block;
     vertical-align: top;
 
     max-width: 300px;
 
+    border-style: solid;
+    border-color: #aaaaaa;
+    border-width: 1px;
+
+    list-style-type: none;
+
+    padding: 10px;
+
     margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .thumbnail {
