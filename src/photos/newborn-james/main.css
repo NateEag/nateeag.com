@@ -9,26 +9,26 @@ ul {
     padding: 0;
 }
 
-li {
-    display: block;
+.photo {
+    display: inline-block;
+    vertical-align: top;
 
-    padding: 10px;
-
-    margin-bottom: 40px;
+    max-width: 300px;
 
     border-style: solid;
     border-color: #aaaaaa;
     border-width: 1px;
 
     list-style-type: none;
-}
 
-.thumbnail-wrapper {
-    width: 300px;
+    padding: 10px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .thumbnail {
-    width: 300px;
+    max-width: 300px;
 
     border-width: 1px;
     border-color: #aaaaaa;
@@ -36,5 +36,9 @@ li {
 }
 
 .caption {
+    /* DEBUG This should be handled by a reset stylesheet too. */
+    margin-top: 0;
+    margin-bottom: 0;
+
     padding-top: 10px;
 }
