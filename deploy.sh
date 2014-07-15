@@ -29,7 +29,10 @@ ssh -t www.nateeag.com "$commands"
 rsync -azv "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
-# Do the atomic symlink rename dance.
+# Do the atomic symlink rename dance. The key is making the temporary link then
+# moving it, per this blog post:
+#
+# http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 #
 # GRIPE I don't like using sudo here, but I don't want my webserver to have
 # write access to a static site's docroot. Is there a better way?
