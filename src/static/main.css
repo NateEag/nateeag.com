@@ -63,18 +63,18 @@ h1
 /* Link styles. */
 a
 {
+    color: #cb4b16;
     text-decoration: none;
-    color: #6666cc;
 }
 
 a:visited
 {
-    color: grey;
+    color: #b58900;
 }
 
 a:hover
 {
-    color: #8888FF;
+    color: #268bd2;
 }
 
 /* Make lists a little less ugly. */
