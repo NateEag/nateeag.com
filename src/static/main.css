@@ -4,19 +4,60 @@
 html
 {
     font-family: sans-serif;
+
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body
+{
+    display: block;
+    position: relative;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border: 0;
+
+    background-color:  #fdf6e3;
+    color: #839496;
+}
+
+div.header
+{
+    margin-top: 0;
+    background-color: #073642;
 }
 
 /* Main display area. */
 div.content
 {
     position: relative;
-    left: 100px;
-    top: 50px;
+
     width: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 80px;
+
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 80px;
-    border: 1px grey solid;
+}
+
+h1
+{
+    width: 600px;
+
+    margin-top: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+
+    color: #cb4b16;
 }
 
 /* Link styles. */
