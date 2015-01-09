@@ -21,7 +21,7 @@ body
     border: 0;
 
     background-color:  #fdf6e3;
-    color: #839496;
+    color: #073642;
 }
 
 div.header
@@ -60,10 +60,6 @@ h1
     color: #cb4b16;
 }
 
-h3
-{
-    color: #073642;
-}
 
 /* Link styles. */
 a
