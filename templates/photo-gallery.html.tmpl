@@ -1,0 +1,26 @@
+{# Template for photo gallery pages. #}
+{% extends "page.html.tmpl" %}
+
+{% block stylesheets %}
+    {# TODO Eventually call super() here to make it match other pages. #}
+    <link rel="stylesheet" href="/static/photos.css" type="text/css" />
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+{{ preface }}
+
+    <ul>
+    {% for photo in photos %}
+        <li class="photo">
+            <a href="/static/photos/{{ photo_dir }}/{{ photo.filename }}">
+                <img class="thumbnail" src="/static/photos/{{ photo_dir }}/thumbnail-{{ photo.filename }}" alt="{{ photo.caption }}" />
+            </a>
+
+            <p class="caption">
+                {{ photo.caption }}
+            </p>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
