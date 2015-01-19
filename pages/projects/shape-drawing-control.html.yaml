@@ -5,7 +5,7 @@ slug: shape-drawing-conrol
 template: project.html.tmpl
 links:
   - url: http://developer.mapquest.com/web/documentation/sdk/javascript/v7.2/controls#drawingcontrol
-    text: ShapeDrawingControl demo
+    text: ShapeDrawingControl documentation
 summary: MapQuest's JavaScript API for user-drawn shapes
 description: |
              <p>
@@ -50,19 +50,55 @@ description: |
              <p>
                  Thus, I extracted the common code in the three engines
                  into a base graphics engine, then fixed the bugs I had
-                 found in the different engines.
+                 found.
              </p>
 
              <p>
                  I re-engineered the proof-of-concept for robustness and
                  correctness, and added support for IE 8.
              </p>
+
              <p>
                  I suggested, designed, and implemented several new features,
                  including the shape movement and deletion tools.
              </p>
 
              <p>
-                 I wrote Jasmine specs for the new features, and wrote code
-                 samples for the docs on developer.mapquest.com.
+                 I wrote Jasmine specs for the new features, and wrote
+                 documentation about the control for developer.mapquest.com.
              </p>
+
+             <p>
+                 Try the embedded demo below. It shows the control's built-in
+                 behavior. A real website would hook into the control's
+                 events to do things like only showing search results inside the
+                 drawn shapes.
+             </p>
+
+             <div id="map" style="width: 600px; height: 200px;"></div>
+             <script src="http://www.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluu829u12h%2C8x%3Do5-947nur"></script>
+             <script type="text/javascript">
+             MQA.EventUtil.observe(window, 'load', function() {
+                 var options = {
+                     elt: document.getElementById('map'),
+                     zoom: 10,
+                     latLng: { lat: 39.743943, lng: -105.020089 }
+                 };
+
+                 window.map = new MQA.TileMap(options);
+                 MQA.withModule('shapedrawingcontrol', 'mousewheel', function() {
+                     map.addControl(new MQA.ShapeDrawingControl({
+                             color: '#000000',
+                             colorAlpha: 0.5,
+                             fillColor: '#000000',
+                             fillColorAlpha: 0.5,
+                             borderWidth: 2
+                         }),
+                         new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT,
+                                                    new MQA.Size(5,5))
+                     );
+
+                     map.enableMouseWheelZoom();
+                 });
+             });
+             </script>
