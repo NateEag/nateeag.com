@@ -10,11 +10,6 @@ import yaml
 from jinja2 import Environment, FileSystemLoader
 
 
-
-def load_page(page_path):
-    pass
-
-
 def render_page(path, source_dir, target_dir, jinja_env):
     """Render the page at `path` into `target_dir`."""
 
@@ -36,6 +31,7 @@ def render_page(path, source_dir, target_dir, jinja_env):
     f.write(contents)
     f.close()
 
+
 def get_page_paths(dir):
     """Return a list of page definition paths."""
 
@@ -50,23 +46,20 @@ def get_page_paths(dir):
 
 
 def main():
+    if len(sys.argv) != 2:
+        print >> sys.stderr, "Usage: %s <output_dir>" % sys.argv[0]
+
+        exit(2)
 
     project_path = os.path.dirname(os.path.realpath(__file__))
 
     templates_path = os.path.join(project_path, 'templates')
     env = Environment(loader=FileSystemLoader(templates_path))
 
-    if len(sys.argv) != 2:
-        print >> sys.stderr, "Usage: %s <output_dir>" % sys.argv[0]
-
-        exit(2)
-
     pages_path = os.path.join(project_path, 'pages')
     for page_path in get_page_paths(pages_path):
         render_page(page_path, pages_path, sys.argv[1], env)
 
-
-    # for page in pages:
 
 if __name__ == '__main__':
     main()
