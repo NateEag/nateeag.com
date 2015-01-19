@@ -1,0 +1,68 @@
+# Project data for the ShapeDrawingControl.
+---
+title: ShapeDrawingControl
+slug: shape-drawing-conrol
+template: project.html.tmpl
+links:
+  - url: http://developer.mapquest.com/web/documentation/sdk/javascript/v7.2/controls#drawingcontrol
+    text: ShapeDrawingControl demo
+summary: MapQuest's JavaScript API for user-drawn shapes
+description: |
+             <p>
+                 My first major project at MapQuest was the ShapeDrawingControl,
+                 a map control that lets users define geographical areas by
+                 drawing shapes on a map.
+             </p>
+
+             <p>
+                 I began by assessing the existing code's state. Someone had
+                 started on it in the past, but no one knew how close it was to
+                 completion.
+             </p>
+
+             <p>
+                 The existing code proved to be a semi-functional
+                 proof-of-concept. It extended the ShapeOverlay classes with
+                 drag handles, but was buggy, crash-prone, and did not work at all
+                 in IE 8, one of the targeted browsers.
+             </p>
+
+             <p>
+                 While assessing the ShapeDrawingControl's state, I discovered
+                 several issues with underlying code.
+             </p>
+
+             <p>
+                 The Maps API has three different graphics engines
+                 (<a href="http://en.wikipedia.org/wiki/Vector_Markup_Language">VML</a>,
+                 <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a>,
+                 and <a href="http://en.wikipedia.org/wiki/Canvas_element">canvas</a>),
+                 and loads the correct one based on browser support.
+             </p>
+
+             <p>
+                 Those three engines had huge swathes of duplicate logic, and past
+                 maintainers had not kept them in sync. Each one had bugs not
+                 present in the others (though some bugs were common to all
+                 three).
+             </p>
+
+             <p>
+                 Thus, I extracted the common code in the three engines
+                 into a base graphics engine, then fixed the bugs I had
+                 found in the different engines.
+             </p>
+
+             <p>
+                 I re-engineered the proof-of-concept for robustness and
+                 correctness, and added support for IE 8.
+             </p>
+             <p>
+                 I suggested, designed, and implemented several new features,
+                 including the shape movement and deletion tools.
+             </p>
+
+             <p>
+                 I wrote Jasmine specs for the new features, and wrote code
+                 samples for the docs on developer.mapquest.com.
+             </p>
