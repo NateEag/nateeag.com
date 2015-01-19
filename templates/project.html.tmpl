@@ -1,0 +1,34 @@
+{# Template for showing a project to the world. #}
+
+{% extends "page.html.tmpl" %}
+
+{% block content %}
+    <h2>{{ summary }}</h2>
+
+    {{ description }}
+
+    {% if links %}
+        <h2>Links</h2>
+        <ul class="links">
+        {% for link in links %}
+            <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    {# TODO Style screenshots and photo galleries the same? Share template? #}
+    {% if screenshots %}
+        <h2>Screenshots</h2>
+        <ul class="screenshots">
+        {% for screenshot in screenshots %}
+            <li>
+                <a href="/static/projects/{{ slug }}/{{ screenshot.filename }}"
+                   class="screenshot">
+                    <img src="/static/projects/{{ slug }}/thumbnail-{{ screenshot.filename }}"
+                         alt="{{ screenshot.caption }}" />
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
