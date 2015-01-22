@@ -6,8 +6,19 @@ import sys
 
 # Third party imports.
 import yaml
+import markdown
 
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment
+from jinja2 import FileSystemLoader
+from jinja2 import Markup
+
+
+def markdown_filter(text):
+    """Simple Markdown filter for Jinja2."""
+
+    # Since Markdown only comes from my git repo, I don't have to worry
+    # about XSS.
+    return Markup(markdown.markdown(text))
 
 
 def render_page(path, source_dir, target_dir, jinja_env):
@@ -55,6 +66,7 @@ def main():
 
     templates_path = os.path.join(project_path, 'templates')
     env = Environment(loader=FileSystemLoader(templates_path))
+    env.filters['markdown'] = markdown_filter
 
     pages_path = os.path.join(project_path, 'pages')
     for page_path in get_page_paths(pages_path):
