@@ -76,7 +76,7 @@ description: |
              </p>
 
              <div id="map" style="width: 600px; height: 200px;"></div>
-             <script src="http://www.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluu829u12h%2C8x%3Do5-947nur"></script>
+             <script src="http://open.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluu829u12h%2C8x%3Do5-947nur"></script>
              <script type="text/javascript">
              MQA.EventUtil.observe(window, 'load', function() {
                  var options = {
