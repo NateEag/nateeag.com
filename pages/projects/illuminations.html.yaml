@@ -15,37 +15,24 @@ summary: Cross-platform lesson planning software
 # TODO Should I explain the underpinnings? Update handling? The pain of building
 # drag-and-drop?
 description: |
-             <p>
-                 Illuminations is a homeschool curriculum with a large set of
-                 pre-planned subjects to pick and choose from, so academic
-                 schedule planning for the year takes just a few minutes.
-             </p>
+  Illuminations is a homeschool curriculum with a large set of pre-planned
+  subjects to pick and choose from, so academic schedule planning for the year
+  takes just a few minutes.
 
-             <p>
-                 The early versions were just sets of PDFs containing the daily
-                 lesson plans for each subject and a grid showing the weekly
-                 schedule for all subjects together.
-             </p>
+  The early versions were just sets of PDFs containing the daily lesson plans
+  for each subject and a grid showing the weekly schedule for all subjects
+  together.
 
-             <p>
-                 Customers loved the core product of pre-packaged lesson plans,
-                 but wanted some features PDF documents couldn't provide:
-             </p>
+  Customers loved the core product of pre-packaged lesson plans, but wanted
+  some features PDF documents couldn't provide:
 
-             <ul>
-                 <li>a way to show only their selected subjects on the weekly schedule</li>
-                 <li>a way to add their own subjects to the weekly schedule</li>
-                 <li>a way to change subject order on the weekly schedule</li>
-             </ul>
+  * a way to show only their selected subjects on the weekly schedule
+  * a way to add their own subjects to the weekly schedule
+  * a way to change subject order on the weekly schedule
 
-             <p>
-                 The publishers hired me to write an application to replace
-                 their weekly schedule PDFs and meet those needs.
-             </p>
+  The publishers hired me to write an application to replace their weekly
+  schedule PDFs and meet those needs.
 
-             <p>
-                 The result is a wxPython program that runs on Mac OS X
-                 (10.6+) and Windows (XP and up). The Windows installer is built
-                 using
-                 <a href="http://www.jrsoftware.org/isinfo.php">InnoSetup</a>.
-             </p>
+  The result is a wxPython program that runs on Mac OS X (10.6+) and Windows
+  (XP and up). The Windows installer is built using
+  [InnoSetup](http://www.jrsoftware.org/isinfo.php).

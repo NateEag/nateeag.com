@@ -5,7 +5,7 @@
 {% block content %}
     <h2>{{ summary }}</h2>
 
-    {{ description }}
+    {{ description|markdown }}
 
     {% if links %}
         <h2>Links</h2>
