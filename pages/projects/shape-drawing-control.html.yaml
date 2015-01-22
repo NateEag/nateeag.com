@@ -70,8 +70,8 @@ description: |
 
              <p>
                  Try the embedded demo below. It shows the control's built-in
-                 behavior. A real website would hook into the control's
-                 events to do things like only showing search results inside the
+                 behavior. A real website would use the control's events to do
+                 something useful, like filtering search results with the
                  drawn shapes.
              </p>
 
