@@ -16,10 +16,9 @@ description: |
   started on it in the past, but no one knew how close it was to
   completion.
 
-  The existing code proved to be a semi-functional
-  proof-of-concept. It extended the ShapeOverlay classes with drag
-  handles, but was buggy, crash-prone, and did not work at all in
-  IE 8, one of the targeted browsers.
+  The existing code turned out to be a proof-of-concept broken by code drift.
+  It extended the ShapeOverlay classes with drag handles, but was buggy,
+  crash-prone, and did not work at all in IE 8, one of the targeted browsers.
 
   While assessing the ShapeDrawingControl's state, I discovered
   several issues with underlying code.
