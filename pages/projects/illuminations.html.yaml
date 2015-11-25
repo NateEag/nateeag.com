@@ -4,7 +4,7 @@ title: Illuminations
 slug: illuminations
 template: project.html.tmpl
 links:
-  - url: https://www.brightideaspress.com/store/index.php?main_page=index&cPath=1
+  - url: https://www.brightideaspress.com/product-category/illuminations/
     text: Main product page
   - url: https://www.youtube.com/watch?v=CE9uwdUNnGM
     text: Demo screencast
@@ -24,7 +24,7 @@ description: |
   together.
 
   Customers loved the core product of pre-packaged lesson plans, but wanted
-  some features PDF documents couldn't provide:
+  some features PDFs couldn't provide:
 
   * a way to show only their selected subjects on the weekly schedule
   * a way to add their own subjects to the weekly schedule
