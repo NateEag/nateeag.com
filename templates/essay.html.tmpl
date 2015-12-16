@@ -1,0 +1,7 @@
+{# Template for a simple Markdown-based essay. #}
+
+{% extends "page.html.tmpl" %}
+
+{% block content %}
+    {{ body|markdown }}
+{% endblock content %}
