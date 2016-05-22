@@ -1,5 +1,11 @@
 /* Primary stylesheet for nateeag.com. */
 
+$old-lace: #fdf6e3;
+$sapphire: #073642;
+$harley-davidson-orange: #cb4b16;
+$pelorus-blue: #268bd2;
+$dark-goldenrod: #b58900;
+
 /* Site-wide styles. */
 html
 {
@@ -20,8 +26,8 @@ body
 
     border: 0;
 
-    background-color:  #fdf6e3;
-    color: #073642;
+    background-color: $old-lace;
+    color: $sapphire;
 
     line-height: 1.4;
 }
@@ -29,7 +35,7 @@ body
 div.header
 {
     margin-top: 0;
-    background-color: #073642;
+    background-color: $sapphire;
 }
 
 /* Main display area. */
@@ -61,18 +67,18 @@ h1
 
     padding: 1rem;
 
-    color: #cb4b16;
+    color: $harley-davidson-orange;
 }
 
 /* TODO get rid of this step into the specificity war. */
 h1 > a:visited
 {
-    color: #cb4b16;
+    color: $harley-davidson-orange;
 }
 
 h1 > a:hover
 {
-    color: #268bd2;
+    color: $pelorus-blue;
 }
 
 h1 > span.subtitle
@@ -90,18 +96,18 @@ h2
 /* Link styles. */
 a
 {
-    color: #cb4b16;
+    color: $harley-davidson-orange;
     text-decoration: none;
 }
 
 a:visited
 {
-    color: #b58900;
+    color: $dark-goldenrod;
 }
 
 a:hover
 {
-    color: #268bd2;
+    color: $pelorus-blue;
 }
 
 a.screenshot

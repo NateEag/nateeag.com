@@ -7,6 +7,7 @@ import sys
 # Third party imports.
 import yaml
 import markdown
+import sass
 
 from jinja2 import Environment
 from jinja2 import FileSystemLoader
@@ -56,6 +57,12 @@ def get_page_paths(dir):
     return paths
 
 
+def compile_stylesheets(src_dir, target_dir):
+    """Generate CSS from SCSS stylesheets."""
+
+    sass.compile(dirname=(src_dir, target_dir))
+
+
 def main():
     if len(sys.argv) != 2:
         print >> sys.stderr, "Usage: %s <output_dir>" % sys.argv[0]
@@ -71,6 +78,10 @@ def main():
     pages_path = os.path.join(project_path, 'pages')
     for page_path in get_page_paths(pages_path):
         render_page(page_path, pages_path, sys.argv[1], env)
+
+    stylesheet_dir = os.path.join(project_path, 'stylesheets')
+    css_dir = os.path.join(project_path, sys.argv[1], 'static')
+    compile_stylesheets(stylesheet_dir, css_dir)
 
 
 if __name__ == '__main__':
