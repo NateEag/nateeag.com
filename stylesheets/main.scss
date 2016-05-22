@@ -1,10 +1,6 @@
 /* Primary stylesheet for nateeag.com. */
 
-$old-lace: #fdf6e3;
-$sapphire: #073642;
-$harley-davidson-orange: #cb4b16;
-$pelorus-blue: #268bd2;
-$dark-goldenrod: #b58900;
+@import 'colors';
 
 /* Site-wide styles. */
 html

@@ -1,5 +1,7 @@
 /* Stylesheet for newborn photo gallery of James Eagleson.  */
 
+@import 'colors';
+
 body {
     margin: 2%;
 }
@@ -18,7 +20,7 @@ ul {
     background-color: white;
 
     border-style: solid;
-    border-color: #aaaaaa;
+    border-color: $dark-grey;
     border-width: 1px;
 
     list-style-type: none;
@@ -33,7 +35,7 @@ ul {
     max-width: 300px;
 
     border-width: 1px;
-    border-color: #aaaaaa;
+    border-color: $dark-grey;
     border-style: solid;
 }
 

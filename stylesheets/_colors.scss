@@ -1,0 +1,21 @@
+// CSS colors we use on the site.
+//
+// I have yet to find a perfect solution to color names - it's tempting to name
+// them for their role in the site, so names don't have to be updated when the
+// color scheme changes, but that tends to wind up with misleading names - given
+// sufficient time and maintainers, someone will use an existing color in a
+// totally new context and not update the name.
+//
+// I'm currently sticking with "poetic" names as they're memorable and easy to
+// search for.
+
+$sapphire: #073642;
+$pelorus-blue: #268bd2;
+
+$dark-grey: #aaaaaa;
+
+$harley-davidson-orange: #cb4b16;
+
+$dark-goldenrod: #b58900;
+
+$old-lace: #fdf6e3;
