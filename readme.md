@@ -11,8 +11,7 @@ Usage
 To create a local sandbox, do the following:
 
     $ ./install-virtualenv.sh
-    $ source virtualenv/bin/activate
-    $ python generator.py src
+    $ ./generate.sh
 
 To view the generated code, just view it through a browser. An easy way:
 
