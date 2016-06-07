@@ -26,6 +26,10 @@ ssh -t www.nateeag.com "$commands"
 
 # Could use sticky bit to set group server-side? For moment, relies on later
 # sudo command to get perms right...
+# TODO Use a faster deployment mechanism.
+# A straightforward hack could be to recursively copy the previous deployment's
+# directory to the new one's path, so rsync only needs to synchronize the
+# changes since the last deployment.
 rsync -azv "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
