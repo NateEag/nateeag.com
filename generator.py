@@ -52,7 +52,9 @@ def get_page_paths(dir):
         if len(dir_listing[2]):
             for path in dir_listing[2]:
                 path = os.path.join(dir_listing[0], path)
-                paths.append(path)
+
+                if path.endswith('.yaml'):
+                    paths.append(path)
 
     return paths
 
