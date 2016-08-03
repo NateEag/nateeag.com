@@ -2,6 +2,7 @@
 
 # Standard library imports.
 import os
+import shutil
 import sys
 
 # Third party imports.
@@ -59,6 +60,20 @@ def get_page_paths(dir):
     return paths
 
 
+def copy_assets(src_dir, target_dir):
+    """Copy static assets from `src_dir` to `target_dir`.
+
+    Exists largely so I can keep static assets in the same directories
+    as the pages they belong to.
+
+    """
+
+    shutil.copytree(src_dir,
+                    target_dir,
+                    False,
+                    shutil.ignore_patterns('*.yaml'))
+
+
 def compile_stylesheets(src_dir, target_dir):
     """Generate CSS from SCSS stylesheets."""
 
@@ -71,18 +86,34 @@ def main():
 
         exit(2)
 
+    # Blow away output directory, first thing.
+    #
+    # This is a bit dangerous in some ways, but otherwise you will have old
+    # stuff lying around, and usually builds want clean envs.
+    #
+    # Also, we use shutil.copytree as the innards for copy_assets, and that
+    # will fail if the directory exists.
+    #
+    # Rather than re-implement our own version of it that supports pre-existing
+    # directories, we just copy assets first, thereby working around the issue.
+
     project_path = os.path.dirname(os.path.realpath(__file__))
+    output_path = sys.argv[1]
+    pages_path = os.path.join(project_path, 'pages')
+
+    shutil.rmtree(output_path)
+
+    copy_assets(pages_path, output_path)
 
     templates_path = os.path.join(project_path, 'templates')
     env = Environment(loader=FileSystemLoader(templates_path))
     env.filters['markdown'] = markdown_filter
 
-    pages_path = os.path.join(project_path, 'pages')
     for page_path in get_page_paths(pages_path):
-        render_page(page_path, pages_path, sys.argv[1], env)
+        render_page(page_path, pages_path, output_path, env)
 
     stylesheet_dir = os.path.join(project_path, 'stylesheets')
-    css_dir = os.path.join(project_path, sys.argv[1], 'static')
+    css_dir = os.path.join(project_path, output_path)
     compile_stylesheets(stylesheet_dir, css_dir)
 
 

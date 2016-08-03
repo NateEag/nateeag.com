@@ -4,6 +4,3 @@
 # src/ is where I generate the site to while working on a page - thus, we
 # ignore it.
 /src/*
-# We do not ignore src/static, though, since the assets stored there are not
-# generated.
-!/src/static/

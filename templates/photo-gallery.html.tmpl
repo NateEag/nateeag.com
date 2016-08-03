@@ -3,7 +3,7 @@
 
 {% block stylesheets %}
     {# TODO Eventually call super() here to make it match other pages. #}
-    <link rel="stylesheet" href="/static/photos.css" type="text/css" />
+    <link rel="stylesheet" href="/photos.css" type="text/css" />
     {{ super() }}
 {% endblock %}
 
@@ -13,8 +13,12 @@
     <ul>
     {% for photo in photos %}
         <li class="photo">
-            <a href="/static/photos/{{ photo_dir }}/{{ photo.filename }}">
-                <img class="thumbnail" src="/static/photos/{{ photo_dir }}/thumbnail-{{ photo.filename }}" alt="{{ photo.caption }}" />
+            {# TODO Stop hardcoding photo_dir in yaml files - it could be
+               inferred with my new approach (so could the set of photos,
+               actually. Come to that, maybe even the thumbnails themselves...)
+            #}
+            <a href="/photos/{{ photo_dir }}/{{ photo.filename }}">
+                <img class="thumbnail" src="/photos/{{ photo_dir }}/thumbnail-{{ photo.filename }}" alt="{{ photo.caption }}" />
             </a>
 
             <p class="caption">

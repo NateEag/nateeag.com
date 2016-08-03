@@ -19,11 +19,9 @@ short_hash=$(git rev-parse --short "$1")
 
 echo $short_hash
 
-mkdir -p "$project_dir/build/$short_hash/static"
+mkdir -p "$project_dir/build/$short_hash"
 
 git checkout "$short_hash"
-
-cp -r "$project_dir/src/static/" "$project_dir/build/$short_hash/static"
 
 source "$project_dir/virtualenv/bin/activate"
 python generator.py "$project_dir/build/$short_hash"
