@@ -15,10 +15,20 @@ short_hash=$(git rev-parse --short "$1")
 # TODO I should probably make this a standard path. /var/www/sites?
 site_root=/usr/local/nginx/sites/www.nateeag.com
 
-# Make sure the base directories exist.
+# TODO Use Heredoc for embedded scripts?
+# The nest of escaping is hard to cope with in the current form.
+
+# Make sure the base directories exist, and copy the previous build into the
+# new build's planned location. This makes deployments a whole lot faster,
+# since for most deployments, relatively little changes, so rsync doesn't have
+# much work to do.
+#
+# FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
-mkdir -p \"$site_root/builds\" \
-mkdir -p \"$site_root/releases\" \
+mkdir -p \"$site_root/builds\" && \
+last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) && \
+mkdir -p \"$site_root/releases\" && \
+cp -r \"$site_root/builds/\$last_build_dir\" \"$site_root/builds/$short_hash\" \
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -26,10 +36,6 @@ ssh -t www.nateeag.com "$commands"
 
 # Could use sticky bit to set group server-side? For moment, relies on later
 # sudo command to get perms right...
-# TODO Use a faster deployment mechanism.
-# A straightforward hack could be to recursively copy the previous deployment's
-# directory to the new one's path, so rsync only needs to synchronize the
-# changes since the last deployment.
 rsync -azv "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
@@ -45,9 +51,9 @@ rsync -azv "$project_dir/build/$short_hash/" \
 #
 #   * Bring up a test instance of the site on some IP-limited domain name
 #   * Once smoke tests are run against the test instance, a human pulls the
-#     trigger  on moving the prod symlink.
+#     trigger on moving the prod symlink.
 commands="\
-sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\"
+sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\" && \
 ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" &&\
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
