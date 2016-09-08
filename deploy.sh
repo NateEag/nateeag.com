@@ -23,6 +23,14 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 # since for most deployments, relatively little changes, so rsync doesn't have
 # much work to do.
 #
+# It is, of course, possible to speed things up in much the same way by keeping
+# the git repository on the server, pushing to it, and performing builds
+# server-side.
+#
+# However, that means installing more dependencies on the server.
+#
+# When you want to avoid that, something like this approach is useful.
+#
 # FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
 mkdir -p \"$site_root/builds\" && \
