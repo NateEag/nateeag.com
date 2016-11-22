@@ -7,4 +7,6 @@ project_dir=$(dirname "$0")
 
 source "$project_dir/virtualenv/bin/activate"
 
+mkdir -p "$project_dir/src"
+
 python "$project_dir/generator.py" "$project_dir/src"
