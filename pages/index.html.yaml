@@ -6,10 +6,12 @@ meta_content:
   Nate Eagleson's personal website, which would be close to right.
 template: "essay.html.tmpl"
 body: |
+  I am Nate Eagleson. This website tries to explain who I am and what I do.
+
   [comment]: (TODO Hyperlink for Christian.)
-  I am a Christian. I believe that the Maker of the universe loves me so
-  strongly that He died to save me from myself. That belief is the heart of who
-  I am.
+
+  I am a Christian. I believe that the Maker of the universe loves me so much
+  that He died to save me from myself. That belief is the heart of who I am.
 
   [comment]: (TODO Hyperlinks for 'husband' and 'father'.)
   I am a husband to my beautiful, talented wife Stephanie and a father to my sons
