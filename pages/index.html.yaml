@@ -6,7 +6,7 @@ meta_content:
   Nate Eagleson's personal website, which would be close to right.
 template: "essay.html.tmpl"
 body: |
-  I am Nate Eagleson. This website tries to explain who I am and what I do.
+  I am Nate Eagleson.
 
   [comment]: (TODO Hyperlink for Christian.)
 
