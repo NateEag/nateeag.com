@@ -52,8 +52,7 @@ rsync -azv "$project_dir/build/$short_hash/" \
 #
 # http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 #
-# GRIPE I don't like using sudo here, but I don't want my webserver to have
-# write access to a static site's docroot. Is there a better way?
+# TODO Use rsync >= 3.1.1 and its --usermap/--groupmap option to avoid sudo.
 #
 # TODO For a site that mattered, deployment would be two-phase:
 #
