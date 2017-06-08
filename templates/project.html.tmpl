@@ -22,10 +22,9 @@
         <ul class="screenshots">
         {% for screenshot in screenshots %}
             <li>
-                {# TODO Infer 'slug' from folder names, instead of hardcoding. #}
-                <a href="/projects/{{ slug }}/{{ screenshot.filename }}"
+                <a href="{{ screenshot.filename }}"
                    class="screenshot">
-                    <img src="/projects/{{ slug }}/thumbnail-{{ screenshot.filename }}"
+                    <img src="thumbnail-{{ screenshot.filename }}"
                          alt="{{ screenshot.caption }}" />
                 </a>
             </li>
