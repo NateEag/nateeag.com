@@ -7,7 +7,7 @@ template: project.html.tmpl
 links:
   - url: http://www.avantcorefrigeration.com
     text: Avantco Refrigeration
-summary:
+summary: Avantco Refrigeration website
 description: |
   One of my projects at [Clark Associates](http://www.clarkassociatesinc.biz/)
   was implementing the Avantco Refrigeration website, a digital product catalog
