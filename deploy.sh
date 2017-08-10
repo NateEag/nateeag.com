@@ -44,7 +44,11 @@ ssh -t www.nateeag.com "$commands"
 
 # Could use sticky bit to set group server-side? For moment, relies on later
 # sudo command to get perms right...
-rsync -azv "$project_dir/build/$short_hash/" \
+#
+# Because we copy the previous release to save time, we delete extraneous
+# files, so no outdated files are hanging around in the docroot after the
+# sync.
+rsync -azv --delete "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
 # Do the atomic symlink rename dance. The key is making the temporary link then
