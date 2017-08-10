@@ -3,7 +3,7 @@
 title: ""
 meta_content:
   Nate Eagleson's projects and callings. You could even argue that this is
-  Nate Eagleson's personal website, which would be close to right.
+  Nate Eagleson's personal website, which would likely be right.
 template: "essay.html.tmpl"
 body: |
   I am Nate Eagleson.
@@ -24,8 +24,8 @@ body: |
   [comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
   [comment]: (TODO Hyperlinks for 'artist' and 'craftsman'.)
-  I am an artist and a craftsman. I love bringing new things into being, and
-  guiding them as they grow into what they should be. My primary mediums are
+  I am an artist and a craftsman. I love bringing new things into being and
+  helping them grow into what they should be. My primary mediums are
   [software](/software/), [writing](/writing/), [music](/music/), and
   [audio synthesis](/audio-synthesis/). Despite being avisual, I sometimes
   dabble in [photography](/photos/).
