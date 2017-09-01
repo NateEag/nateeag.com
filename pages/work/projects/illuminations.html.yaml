@@ -1,4 +1,3 @@
-# Project data for the BIP Illuminations app.
 ---
 title: Illuminations
 slug: illuminations
@@ -14,25 +13,26 @@ screenshots:
 summary: Cross-platform lesson planning software
 # TODO Should I explain the underpinnings? Update handling? The pain of
 # building drag-and-drop?
-description: |
-  Illuminations is a homeschool curriculum with a large set of pre-planned
-  subjects to choose from, so academic schedule planning for the year takes
-  just a few minutes.
+---
 
-  The early versions were just sets of PDFs containing the daily lesson plans
-  for each subject and a grid showing the weekly schedule for all subjects
-  together.
+Illuminations is a homeschool curriculum with a large set of pre-planned
+subjects to choose from, so academic schedule planning for the year takes
+just a few minutes.
 
-  Customers loved the core product of pre-packaged lesson plans, but wanted
-  some features PDFs couldn't provide:
+The early versions were just sets of PDFs containing the daily lesson plans
+for each subject and a grid showing the weekly schedule for all subjects
+together.
 
-  * a way to show only their selected subjects on the weekly schedule
-  * a way to add their own subjects to the weekly schedule
-  * a way to change subject order on the weekly schedule
+Customers loved the core product of pre-packaged lesson plans, but wanted
+some features PDFs couldn't provide:
 
-  The publishers hired me to write an application to replace their weekly
-  schedule PDFs and meet those needs.
+* a way to show only their selected subjects on the weekly schedule
+* a way to add their own subjects to the weekly schedule
+* a way to change subject order on the weekly schedule
 
-  The result is a wxPython program that runs on Mac OS X (10.6+) and Windows
-  (XP and up). The Windows installer is built using
-  [InnoSetup](http://www.jrsoftware.org/isinfo.php).
+The publishers hired me to write an application to replace their weekly
+schedule PDFs and meet those needs.
+
+The result is a wxPython program that runs on Mac OS X (10.6+) and Windows
+(XP and up). The Windows installer is built using
+[InnoSetup](http://www.jrsoftware.org/isinfo.php).

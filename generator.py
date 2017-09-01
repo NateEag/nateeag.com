@@ -4,6 +4,8 @@
 import os
 import shutil
 import sys
+import re
+import StringIO
 
 # Third party imports.
 import yaml
@@ -27,8 +29,30 @@ def render_page(path, source_dir, target_dir, jinja_env):
     """Render the page at `path` into `target_dir`."""
 
     f = open(path, 'r')
-    page = yaml.load(f)
+
+    yaml_header = ''
+    body = ''
+    num_matches = 0
+
+    for line in f.readlines():
+        if line == '---\n':
+           num_matches += 1
+
+           continue
+
+        if num_matches < 2:
+            yaml_header += line
+        else:
+            body += line
+
     f.close()
+
+    if body == '':
+        print yaml_header
+        raise Exception(path + ' has no body!')
+
+    page = yaml.load(StringIO.StringIO(yaml_header))
+    page['body'] = body
 
     template = jinja_env.get_template(page['template'])
     contents = template.render(**page)
@@ -85,6 +109,7 @@ def main():
         print >> sys.stderr, "Usage: %s <output_dir>" % sys.argv[0]
 
         exit(2)
+
 
     # Blow away output directory, first thing.
     #

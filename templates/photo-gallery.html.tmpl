@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-{{ preface }}
+{{ body|markdown }}
 
     <ul>
     {% for photo in photos %}
