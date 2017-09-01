@@ -58,7 +58,7 @@ def render_page(path, source_dir, target_dir, jinja_env):
     contents = template.render(**page)
 
     target_path = os.path.join(target_dir, path[len(source_dir) + 1:])
-    target_path = os.path.splitext(target_path)[0]
+    target_path = os.path.splitext(target_path)[0] + '.html'
     target_subdir = os.path.dirname(target_path)
 
     if not os.path.exists(target_subdir):
@@ -78,7 +78,7 @@ def get_page_paths(dir):
             for path in dir_listing[2]:
                 path = os.path.join(dir_listing[0], path)
 
-                if path.endswith('.yaml'):
+                if path.endswith('.md'):
                     paths.append(path)
 
     return paths
@@ -95,7 +95,7 @@ def copy_assets(src_dir, target_dir):
     shutil.copytree(src_dir,
                     target_dir,
                     False,
-                    shutil.ignore_patterns('*.yaml'))
+                    shutil.ignore_patterns('*.md'))
 
 
 def compile_stylesheets(src_dir, target_dir):
