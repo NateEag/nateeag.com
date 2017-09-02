@@ -1,8 +1,9 @@
 ---
 title: ShapeDrawingControl
-slug: shape-drawing-conrol
+slug: shape-drawing-control
 template: project.html.tmpl
 links:
+  # Once this goes offline, use archive.org: https://web.archive.org/web/20150920172034/https://developer.mapquest.com/documentation/javascript-api/controls/
   - url: https://developer.mapquest.com/documentation/javascript-api/controls#drawingcontrol
     text: ShapeDrawingControl documentation
 summary: MapQuest's JavaScript API for user-drawn shapes
@@ -51,14 +52,14 @@ behavior. A real website would use the control's events to do
 something useful, like filtering search results with the
 drawn shapes.
 
-<div id="map" style="width: 600px; height: 200px;"></div>
+<div id="map" style="width: 600px; height: 600px;"></div>
 <script src="http://open.mapquestapi.com/sdk/js/v7.2.s/mqa.toolkit.js?key=Fmjtd%7Cluu829u12h%2C8x%3Do5-947nur"></script>
 <script type="text/javascript">
 MQA.EventUtil.observe(window, 'load', function() {
     var options = {
         elt: document.getElementById('map'),
-        zoom: 10,
-        latLng: { lat: 39.743943, lng: -105.020089 }
+        zoom: 18,
+        latLng: { lat: 40.052498, lng: -76.313839 }
     };
 
     window.map = new MQA.TileMap(options);
