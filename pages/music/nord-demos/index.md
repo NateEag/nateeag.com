@@ -1,6 +1,5 @@
 ---
 title: Nord Keyboard Demos
-slug: nord-keyboard-demos
 template: project.html.tmpl
 links:
   - url: /music/nord-demos/aquatic-doodle.mp3
