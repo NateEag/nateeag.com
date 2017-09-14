@@ -34,4 +34,5 @@ site and populated the database tables accordingly. Most of the complexity was
 in the category system, which I designed and implemented.
 
 The site seems to be fairly broken these days, and I suspect it may have been
-rewritten since my time there.
+rewritten since my time there, since several UI components have changed
+significantly.
