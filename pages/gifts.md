@@ -29,7 +29,7 @@ not because I expect or want anyone to give them to me.
   the latest models
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
-  + easier to find)
+  and easier to find)
 * [Google's Site Reliability Engineering
   book](http://www.amazon.com/gp/product/149192912X/)
 * [Ultimate Guide To Wilderness Living](https://www.amazon.com/Ultimate-Guide-Wilderness-Living-Surviving/dp/1569756503/)
