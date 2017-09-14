@@ -30,4 +30,4 @@ helping them grow into what they should be. My primary mediums are
 [audio synthesis](/audio-synthesis/). Despite being avisual, I sometimes
 dabble in [photography](/photos/).
 
-I live in Elizabethtown, Pennsylvania.
+I live in [Elizabethtown, Pennsylvania](https://www.etownonline.com/).
