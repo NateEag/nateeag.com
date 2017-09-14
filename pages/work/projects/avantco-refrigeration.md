@@ -27,12 +27,12 @@ the few dynamic client-side features that required it (like the scrolling ad
 banner on the front page). I tried to make the site worked well without it,
 though, in the tradition of progressive enhancement.
 
-Much of the site's content was pulled from a pre-existing master database, so a
-real CMS would have added unnecessary complexity. Thus, I implemented a
+Much of the site's content was pulled from a pre-existing master database, so
+using a CMS to manage it would have been clumsy. Thus, I implemented a
 lightweight management system that parsed a CSV of the products to list on the
 site and populated the database tables accordingly. Most of the complexity was
 in the category system, which I designed and implemented.
 
-The site seems to be fairly broken these days, and I suspect it may have been
-rewritten since my time there, since several UI components have changed
+The site has accumulated some breakage since my time there, and I suspect it
+may have been rewritten since, as several UI components have changed
 significantly.
