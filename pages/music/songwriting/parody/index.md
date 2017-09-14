@@ -1,6 +1,5 @@
 ---
 title: Musical Parodies
-slug: parody
 template: project.html.tmpl
 links:
   - url: the-sound-of-shopping.html
