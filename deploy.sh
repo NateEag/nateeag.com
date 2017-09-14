@@ -35,15 +35,22 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 #
 # When you want to avoid that, something like this approach is useful.
 #
+# FIXME Remove clumsy hacks to work around file ownership problems. Most of the
+# chmod/chown dances are to make sure the actual rsync from the deployment
+# system to the webserver hits no permissions issues, and then we do it again
+# later to make sure the files have the right ownership for the webserver. It's
+# all a pile of hackery and I need to think it through correctly.
+#
 # FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
 mkdir -p \"$site_root/builds\" && \
 last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) && \
 mkdir -p \"$site_root/releases\" && \
 mkdir -p \"$site_root/builds/$short_hash\" &&
-sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\" &&
-sudo chmod g+rwx \"$site_root/builds/$short_hash\" &&
-rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\"
+sudo chmod ug+rwx \"$site_root/builds/$short_hash\" &&
+sudo rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\" &&
+sudo chown -R \$(whoami):deployers \"$site_root/builds/$short_hash\" &&
+sudo chmod -R ug+rwx \"$site_root/builds/$short_hash\"
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -55,7 +62,8 @@ ssh -t www.nateeag.com "$commands"
 # Because we copy the previous release to save time, we delete extraneous
 # files, so no outdated files are hanging around in the docroot after the
 # sync.
-rsync -azv --delete "$project_dir/build/$short_hash/" \
+rsync -azv --delete \
+      "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
 # Do the atomic symlink rename dance. The key is making the temporary link then
@@ -63,7 +71,8 @@ rsync -azv --delete "$project_dir/build/$short_hash/" \
 #
 # http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 #
-# TODO Use rsync >= 3.1.1 and its --usermap/--groupmap option to avoid sudo.
+# TODO Use rsync >= 3.1.1 and its --chown option to avoid sudo? Not sure it
+# would work, but worth looking into.
 #
 # TODO For a site that mattered, deployment would be two-phase:
 #
@@ -72,7 +81,7 @@ rsync -azv --delete "$project_dir/build/$short_hash/" \
 #     trigger on moving the prod symlink.
 commands="\
 sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\" && \
-ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" &&\
+ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" && \
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
 ssh -t www.nateeag.com "$commands"
