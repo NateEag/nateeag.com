@@ -24,6 +24,13 @@ not because I expect or want anyone to give them to me.
 * More [ErgoDox EZ](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) keyboards (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
 * [Continuum Fingerboard](http://www.hakenaudio.com/Continuum/hakenaudioovervg.html)
-* [Google's Site Reliability Engineering book](http://www.amazon.com/gp/product/149192912X/)
+* [88-key Nord Stage](http://www.nordkeyboards.com/products/nord-stage), since
+  my 76-key is a bit too small and is missing a lot of awesome features from
+  the latest models
+* Nord G2X (backup/home copy, for when my current one dies)
+* Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
+  + easier to find)
+* [Google's Site Reliability Engineering
+  book](http://www.amazon.com/gp/product/149192912X/)
 * [Ultimate Guide To Wilderness Living](https://www.amazon.com/Ultimate-Guide-Wilderness-Living-Surviving/dp/1569756503/)
 * [The Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
