@@ -21,7 +21,7 @@ not because I expect or want anyone to give them to me.
 * Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
 * Dual 27" monitors (<https://www.amazon.com/dp/B0043T34RK/>)
 * Plastic carpet protector (to put under the office chair)
-* More [ErgoDox EZ](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) keyboards (black, blank keycaps, Cherry MX Brown keyswitches)
+* More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
 * [Continuum Fingerboard](http://www.hakenaudio.com/Continuum/hakenaudioovervg.html)
 * [88-key Nord Stage](http://www.nordkeyboards.com/products/nord-stage), since
