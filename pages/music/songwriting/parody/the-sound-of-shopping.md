@@ -34,10 +34,13 @@ spilled onto the page, nearly full-formed.
 
 ## The Sound of Shopping
 
-    Hello Daddy my old friend I've come to talk with you again. Because a
-    vision softly creeping, planted seeds while I was sleeping, and the
-    vision that was planted in my brain still remains within the sound of
-    shopping.
+    Hello Daddy my old friend
+    I've come to talk with you again.
+    Because a vision softly creeping,
+    planted seeds while I was sleeping,
+    and the vision that was planted in my brain
+    still remains
+    within the sound of shopping.
 
     Through large textbooks I worked alone,
     pages on volcanic stone.
@@ -47,25 +50,25 @@ spilled onto the page, nearly full-formed.
     it split the night
     and touched the sound of shopping.
 
-      And in the vapor lights I saw
-      ten million people, maybe more.
-      People shopping without reason,
-      buying things that were out of season.
-      People buying things they'd never, ever, need.
-      And so you see
-      that is the sound of shopping.
+    And in the vapor lights I saw
+    ten million people, maybe more.
+    People shopping without reason,
+    buying things that were out of season.
+    People buying things they'd never, ever, need.
+    And so you see
+    that is the sound of shopping.
 
-      "Mom," said I, "you do not know,
-      shopping like a cancer grows.
-      Hear my words that I might teach you,
-      Take a phone that I might reach you."
-      But my words like silent raindrops fell
-      And echoed in the wells of shopping.
+    "Mom," said I, "you do not know,
+    shopping like a cancer grows.
+    Hear my words that I might teach you,
+    Take a phone that I might reach you."
+    But my words like silent raindrops fell
+    And echoed in the wells of shopping.
 
-      And my mother went and stayed
-      by the Wal-Mart sign they made.
-      And the sign flashed out its warning
-      through the words which it was forming.
-      And the sign said "We're open twenty-four hours every day
-      So come and stay"
-      and whispered in the sound of shopping.
+    And my mother went and stayed
+    by the Wal-Mart sign they made.
+    And the sign flashed out its warning
+    through the words which it was forming.
+    And the sign said "We're open twenty-four hours every day
+    So come and stay"
+    and whispered in the sound of shopping.
