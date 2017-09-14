@@ -40,7 +40,7 @@ commands="\
 mkdir -p \"$site_root/builds\" && \
 last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) && \
 mkdir -p \"$site_root/releases\" && \
-rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\" \
+sudo rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\" \
 "
 
 # SSH commands rely on setup in my personal SSH config.
