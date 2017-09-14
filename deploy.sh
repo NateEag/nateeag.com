@@ -17,6 +17,10 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 
 # TODO Use Heredoc for embedded scripts?
 # The nest of escaping is hard to cope with in the current form.
+#
+# Something like https://stackoverflow.com/a/7363641/1128957 is probably the
+# best answer. I mean, yeah, Ansible, but this is much simpler for my use case
+# (completely static sites).
 
 # Make sure the base directories exist, and copy the previous build into the
 # new build's planned location. This makes deployments a whole lot faster,
