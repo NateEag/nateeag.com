@@ -1,0 +1,40 @@
+There are some changes I would like to see to the United States federal
+government.
+
+Here are some scattered notes, digitized so I won't lose them to the
+increasingly-tattered piece of paper they've resided on for the last year or
+two.
+
+I'm not solid on all of these - I believe they need some work. Just my current
+vague thoughts on how to improve things.
+
+Supreme Court is practically an oligarchy. How to fix that?
+
+- Justices are elected, not appointed
+- Justices terms are limited
+- Judicial review revisions to law go through the usual legislative veto
+  process, allowing Congress a shot at vetoing as well (2/3rds majority or
+  whatever it is right now for overturning a Presidential veto?)
+
+Washington is run by politicians, which is a terrible state of things.
+
+- Limit officeholders to governing X man-hours. Local mayors of small towns can
+  be in for a long time, but being a Senator or a President means only a small
+  fraction of your lifetime can be spent in the job - you can't be in the job
+  long enough to learn to abuse the power and influence effectively, is the
+  hope. Gotta work out the formula - probably something about percentage of
+  country's man-hours governed?
+
+It's impossible for anyone but a major-party candidate to get any meaningful
+attention. So:
+
+- All ballots are write-in. Allow assistants for illiterate citizens if they
+  request it, but require a literate witness to verify the assistant is
+  following the voter's dictation.
+
+The country is massively in debt and it just keeps getting more so.
+
+- Federal budget is defined to be X% of the previous fiscal year's GDP. And now
+  the tax code is by definition just an X% VAT (if that means what I believe it
+  does). Until the debt is gone, require some Y% (which is < X) to be spent
+  paying down the debt.
