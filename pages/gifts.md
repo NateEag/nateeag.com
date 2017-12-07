@@ -16,21 +16,22 @@ Some of these things are obscenely expensive and/or hard to actually buy.
 They are listed because I am tracking things I would in theory like to own,
 not because I expect or want anyone to give them to me.
 
-* Standing desk (more research needed)
+* Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
-* Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
+* Plastic carpet protector (to put under chair)
 * Dual 27" monitors (<https://www.amazon.com/dp/B0043T34RK/>)
-* Plastic carpet protector (to put under the office chair)
+* Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
 * More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
 * [Continuum Fingerboard](http://www.hakenaudio.com/Continuum/hakenaudioovervg.html)
-* [88-key Nord Stage](http://www.nordkeyboards.com/products/nord-stage), since
-  my 76-key is a bit too small and is missing a lot of awesome features from
-  the latest models
+* [88-key Nord Stage 2
+  EX](http://www.nordkeyboards.com/products/nord-stage-2-ex), since my 76-key
+  is a bit too short, is missing a lot of awesome features from the latest
+  models, and is starting to break.
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
   and easier to find)
 * [Google's Site Reliability Engineering
   book](http://www.amazon.com/gp/product/149192912X/)
-* [Ultimate Guide To Wilderness Living](https://www.amazon.com/Ultimate-Guide-Wilderness-Living-Surviving/dp/1569756503/)
-* [The Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
+* All but the first of the [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
+* All but the first of the [Schlock Mercenary books](http://store.schlockmercenary.com/SearchResults.asp?Cat=20)
