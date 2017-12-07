@@ -1,0 +1,28 @@
+#! /bin/bash
+
+script_name="$(basename "$0")"
+help_msg="Start a local development server for this project.
+
+Only works if [fswatch](https://github.com/emcrisostomo/fswatch) and [http-server](https://github.com/indexzero/http-server) are installed globally.
+
+TODO Install dependencies locally and activate them with direnv.
+
+Usage: $script_name"
+
+if [ $# -eq 1 ] && [ "$1" = '--help' ]; then
+    echo "$help_msg"
+
+    exit
+elif ! command -v fswatch > /dev/null ||
+     ! command -v http-server > /dev/null ||
+     [ $# -ne 0 ]; then
+    echo "$help_msg" >&2
+
+    exit 1
+fi
+
+project_path="$(dirname "$0")"
+
+http-server -p 8000 "$project_path/src" &
+
+./watch.sh

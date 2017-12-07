@@ -16,13 +16,6 @@ To create a local sandbox, do the following:
 
 To view the generated code, just view it through a browser. An easy way:
 
-    $ cd src
-    $ http-server -p 8000 src
-
-assuming you have installed the
-[Node http-server module](https://github.com/indexzero/http-server) globally.
+    $ ./run-devserver
 
 then open a browser and hit localhost:8000.
-
-`watch.sh` uses the [fswatch](https://github.com/emcrisostomo/fswatch) command
-to re-render the site when something in the `pages/` directory changes.
