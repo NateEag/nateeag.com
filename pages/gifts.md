@@ -33,5 +33,7 @@ not because I expect or want anyone to give them to me.
   and easier to find)
 * [Google's Site Reliability Engineering
   book](http://www.amazon.com/gp/product/149192912X/)
-* All but the first of the [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
-* All but the first of the [Schlock Mercenary books](http://store.schlockmercenary.com/SearchResults.asp?Cat=20)
+* [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
+* [Aluminum KeyBar](https://www.keybar.us/product/aluminum/)
+* Any but the first of the [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
+* Any but the first of the [Schlock Mercenary books](http://store.schlockmercenary.com/SearchResults.asp?Cat=20)
