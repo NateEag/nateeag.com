@@ -35,5 +35,8 @@ not because I expect or want anyone to give them to me.
   book](http://www.amazon.com/gp/product/149192912X/)
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
 * [Aluminum KeyBar](https://www.keybar.us/product/aluminum/)
+* [Maggard Razor Wet Shaving Starter
+  kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
+  razor, V3 head, Green Tea & Oat soap, and 10-blade sampler
 * Any but the first of the [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first of the [Schlock Mercenary books](http://store.schlockmercenary.com/SearchResults.asp?Cat=20)
