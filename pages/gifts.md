@@ -31,6 +31,10 @@ not because I expect or want anyone to give them to me.
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
   and easier to find)
+* [M-Audio Keystation 49 MIDI controller](https://www.amazon.com/gp/product/B00IWWZAM6/),
+  for tinkering with music while my main boards live at church
+* [Boss FV-500L Volume Pedal](https://www.sweetwater.com/store/detail/FV500L),
+  for use with G2 and Stage
 * [Google's Site Reliability Engineering
   book](http://www.amazon.com/gp/product/149192912X/)
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
