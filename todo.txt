@@ -1,0 +1,28 @@
+- Add permalinks on page title header
+
+- Add notes on what I like to work on and what tech stacks I like to work with.
+
+- Add entry for Verse or Worse? I can't find the poems; not sure what I did
+  with them.
+
+- Move work/interests.html.yaml to software/interests.html.yaml
+
+- Add base page for work history, with links to job summaries.
+
+- Add project pages to expand on each project mentioned in the work history.
+
+- Make links from "preferences" page to pages that comment on my feelings for
+  and experience with the tech in question.
+
+- Stop using absolute URLs for assets. I should be able to use relative within
+  a folder, at least, and that would make renaming/reorganizing the folder
+  structure easier.
+
+- Polish JS Tetris and add it as a project
+
+- Finish up James gallery (Polaroid look, lightbox on click)
+
+- Add some of my OSS contributions as projects (skewer-reload-stylesheets,
+  maybe web-mode auto-complete support, anything else?)
+
+- Put up NoisePad + quick demo as evidence of my patch design efforts
