@@ -13,7 +13,11 @@ fi
 project_dir=$(dirname "$0")
 
 cur_branch=$(git rev-parse --abbrev-ref HEAD)
-git stash save
+
+if ! git diff --exit-code --quiet; then
+    stash_saved=yes
+    git stash save
+fi
 
 short_hash=$(git rev-parse --short "$1")
 
@@ -27,4 +31,7 @@ source "$project_dir/virtualenv/bin/activate"
 python generator.py "$project_dir/build/$short_hash"
 
 git checkout "$cur_branch"
-git stash pop
+
+if [ -n "$stash_saved" ]; then
+    git stash pop
+fi
