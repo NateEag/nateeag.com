@@ -4,6 +4,12 @@
 - Use rsync instead of cp for pre-deployment copy job so it works even if the
   previous attempt failed or was killed
 
+- Extract site source file watcher from how-i-code project
+
+- Extract chrome-watcher.sh from how-i-code project
+
+- Generalize nginx config for static sites with Ansible
+
 - Add permalinks on page title header
 
 - Add notes on what I like to work on and what tech stacks I like to work with.
