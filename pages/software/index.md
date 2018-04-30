@@ -9,9 +9,9 @@ problems](http://howicode.nateeag.com/hypotheticals-are-deadly.html) for
 [actual users](http://howicode.nateeag.com/caring-for-users.html). I care
 intensely about the [tools I use to do so](/software/tools.html).
 
-I enjoy teaching and mentoring other developers. I did not have a mentor when
-I first started writing software, so I learned many lessons the hard way.
-Helping others avoid those pitfalls is extremely satisfying.
+I enjoy teaching and mentoring other developers. I did not have a mentor when I
+started writing software, so I learned many lessons the hard way. Helping
+others avoid those pitfalls is extremely satisfying.
 
 I spend a lot of time thinking about
 [software development workflows](http://howicode.nateeag.com/category/workflow.html),
