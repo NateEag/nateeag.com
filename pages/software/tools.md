@@ -34,16 +34,16 @@ I have learned enough programming languages to know that all languages are
 equal, but some are more equal than others. In descending order of preference
 (but not necessarily experience), I have spent quality time with:
 
-* Python
 * JavaScript
 * Emacs Lisp
-* Scheme
+* Python
 * bash
-* PHP
+* Scheme
 * C
-* Objective-C
 * Java
 * Pascal
+* Objective-C
+* PHP
 * C++
 
 When it makes sense (which it often does), I use relational databases for
