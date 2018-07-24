@@ -27,7 +27,8 @@ eternally grateful for all they have poured into my life.
 I am an artist and a craftsman. I love bringing new things into being and
 helping them grow into what they should be. My primary mediums are
 [software](/software/), [writing](/writing/), [music](/music/), and
-[audio synthesis](/audio-synthesis/). Despite being avisual, I sometimes
-dabble in [photography](/photos/).
+[audio synthesis](/audio-synthesis/). Despite being
+[avisual](https://en.wikipedia.org/wiki/Aphantasia),
+I sometimes dabble in [photography](/photos/).
 
 I live in [Elizabethtown, Pennsylvania](https://www.etownonline.com/).
