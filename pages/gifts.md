@@ -25,16 +25,20 @@ because I expect anyone to give them to me.
 * Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
 * More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
-* [Continuum Fingerboard](http://www.hakenaudio.com/Continuum/hakenaudioovervg.html)
-* [88-key Nord Stage 3](http://www.nordkeyboards.com/products/nord-stage-2-ex),
+* [Continuum Fingerboard](https://www.hakenaudio.com/continuum-fingerboard/)
+* [Continuumini](https://www.hakenaudio.com/continuumini/), as a much-cheaper
+  (if less awesome) alternative to the Fingerboard. Only $700 (though really,
+  the 4-octave half size might be a better middle ground because no limits to
+  number of fingers it can detect)
+* [88-key Nord Stage 3](https://www.nordkeyboards.com/products/nord-stage-3),
   since my 76-key is a bit too short, is missing a lot of awesome features from
   the latest models, and is starting to break.
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
   and easier to find)
 * [M-Audio Keystation 49 MIDI
-  controller](https://www.amazon.com/gp/product/B00IWWZAM6/) or similar, for
-  tinkering with music while my main boards live at church
+  controller](https://www.amazon.com/dp/B07DDN6TP6/ref=dp_prsubs_1) or similar,
+  for tinkering with music while my main boards live at church
 * [Boss FV-500L Volume Pedal](https://www.sweetwater.com/store/detail/FV500L),
   for use with G2 and Stage
 * [Google's Site Reliability Engineering
@@ -43,5 +47,5 @@ because I expect anyone to give them to me.
 * [Maggard Razor Wet Shaving Starter
   kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
   razor, V3 head, Green Tea & Oat soap, and 10-blade sampler
-* Any but the first of the [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
-* Any but the first of the [Schlock Mercenary books](http://store.schlockmercenary.com/SearchResults.asp?Cat=20)
+* Any but the first two [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
+* Any but the first two [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
