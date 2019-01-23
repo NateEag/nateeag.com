@@ -17,11 +17,9 @@ are listed because I am tracking things I would in theory like to own, not
 because I expect anyone to give them to me.
 
 * Physical CD of [Through The Deep, Dark Valley](https://music.theohhellos.com/album/through-the-deep-dark-valley)
-* Physical CD of [The Queen of Hearts](https://www.amazon.com/Queen-Hearts-Offa-Rex/dp/B0711RH4FD)
 * Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
-* Dual 27" monitors (<https://www.amazon.com/dp/B0043T34RK/>)
 * Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
 * More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
@@ -41,11 +39,12 @@ because I expect anyone to give them to me.
   for tinkering with music while my main boards live at church
 * [Boss FV-500L Volume Pedal](https://www.sweetwater.com/store/detail/FV500L),
   for use with G2 and Stage
-* [Google's Site Reliability Engineering
-  book](http://www.amazon.com/gp/product/149192912X/)
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
 * [Maggard Razor Wet Shaving Starter
   kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
   razor, V3 head, Green Tea & Oat soap, and 10-blade sampler
-* Any but the first two [Foxfire Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
+* [Designing Data-Intensive Applications](https://dataintensive.net/) looks like
+  a very interesting read.
+* Any but the first two [Foxfire
+  Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first two [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
