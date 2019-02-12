@@ -31,4 +31,8 @@ helping them grow into what they should be. My primary mediums are
 [avisual](https://en.wikipedia.org/wiki/Aphantasia),
 I sometimes dabble in [photography](/photos/).
 
+[comment]: (TODO Hyperlink for sustainability.)
+
+I think a lot about sustainability.
+
 I live in [Elizabethtown, Pennsylvania](https://www.etownonline.com/).
