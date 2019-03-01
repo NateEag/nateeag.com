@@ -2,9 +2,9 @@
 title: "Software Development Tools"
 meta_content: "Tools Nate Eagleson uses to write software."
 template: "essay.html.tmpl"
-# TODO Merge my useful-programs repository into this page?
+# TODO Merge my useful-programs repository into this page.
 # I don't believe I use it for anything other than dev software at present...
-# TODO Break this page into multiple sub-pages?
+# TODO Break this page into multiple sub-pages.
 # It would be nice to have a breakdown of tools I use for specific tasks and
 # environments.
 ---
