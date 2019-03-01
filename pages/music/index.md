@@ -28,8 +28,9 @@ I can sightread a piano piece like
 and carry on a conversation at the same time.
 
 With time, I can learn most piano compositions, though my classical chops are
-rusty these days. In high school I learned the first movement of
-[Schumann's Piano Concerto in A Minor](https://en.wikipedia.org/wiki/Piano_Concerto_(Schumann)).
+rusty these days. In college I learned the first movement of [Schumann's Piano
+Concerto in A Minor](https://en.wikipedia.org/wiki/Piano_Concerto_(Schumann)),
+which was probably the most advanced repertoire I learned.
 
 On the other end of the musical spectrum, if a band is playing a song I don't
 know, as long as someone's yelling the chords before we hit them, I can play
