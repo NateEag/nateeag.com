@@ -47,4 +47,4 @@ codebases that have not observed one previously. Instead of making a large
 risky block of changes to huge files to clean them up, you just ensure new
 changes follow the rules.
 
-https://github.com/NateEag/diff-check
+[https://github.com/NateEag/diff-check](https://github.com/NateEag/diff-check)
