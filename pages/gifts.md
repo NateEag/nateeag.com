@@ -39,12 +39,14 @@ because I expect anyone to give them to me.
   for tinkering with music while my main boards live at church
 * [Boss FV-500L Volume Pedal](https://www.sweetwater.com/store/detail/FV500L),
   for use with G2 and Stage
+* [The Writer's Glove](https://thewritersglove.com/) might help keep my hands
+  warm without impairing my ability to type.
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
 * [Maggard Razor Wet Shaving Starter
   kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
   razor, V3 head, Green Tea & Oat soap, and 10-blade sampler
 * [Designing Data-Intensive Applications](https://dataintensive.net/) looks like
-  a very interesting read.
+  an interesting read.
 * Any but the first two [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first two [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
