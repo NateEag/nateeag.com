@@ -6,8 +6,9 @@ appropriate place.
 For questions about what the Bible says, my approach to finding answers is
 simple, if time-consuming - I read it through and see. In some cases quirks of
 translation could become relevant, but so far I have found little need to dig
-into the original languages (though I do occasionally worry about not knowing
-them, but that's its own rabbit-hole).
+into the original languages (I do occasionally worry about not knowing them,
+but that's its own rabbit-hole).
+
 
 - Does the Bible say that eternal suffering is the final fate of people who
   reject Jesus?
@@ -21,7 +22,16 @@ them, but that's its own rabbit-hole).
 
   - Genesis 3:22 - 24 (denial of eternal life by preventing access to Tree)
 
+
 - When Jesus says "No man comes to the Father except through Me," does that
-  imply you must know him personally to enter into His kingdom? I'm wondering
-  here about Lewis' idea of people from other religions being saved through
-  Christ despite not knowing who He is, as depicted in The Last Battle.
+  imply you must know him personally to enter into His kingdom?
+
+  I'm wondering here about Lewis' speculation about people from other religions
+  being saved through Christ despite not knowing who He is, as depicted in The
+  Last Battle.
+
+
+- What on earth do the striped rods Jacob makes in Genesis 30 have to do with
+  anything? Is it just something he did that had no impact on anything? Is it
+  an elliptic description of some breeding practice that actually makes sense
+  but doesn't translate clearly?
