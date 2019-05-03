@@ -1,3 +1,8 @@
+- Support backwards-compatible article renames by walking Git history and
+  generating a table of 302s for inclusion in the nginx config for every
+  rename. Obviously you'd want to cache the rename history somehow so you don't
+  have to walk all of history every time you build the site.
+
 - Use setgid in deployment infrastructure to stop having to sudo for every
   single deployment
 
