@@ -4,13 +4,7 @@ meta_content: "Things You Could Give Nate If So Inclined"
 template: "essay.html.tmpl"
 ---
 
-Because I have a kind and generous family, every time my birthday and
-Christmas roll around, I am asked what presents I might like.
-
-Inevitably, I find myself uncertain until it is too late.
-
-I hope that this list of things I would not mind receiving will help resolve
-that problem.
+Here is a list of physical objects I would like to own.
 
 Some of these things are obscenely expensive and/or hard to actually buy. They
 are listed because I am tracking things I would in theory like to own, not
