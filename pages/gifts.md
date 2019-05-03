@@ -42,6 +42,8 @@ because I expect anyone to give them to me.
   for use with G2 and Stage
 * [The Writer's Glove](https://thewritersglove.com/) might help keep my hands
   warm without impairing my ability to type.
+* [There Is No Cloud](https://shop.spreadshirt.co.uk/chriswatterston/there+is+no+cloud+t-shirt+heather+blue-A108460005)
+  t-shirt
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
 * [Maggard Razor Wet Shaving Starter
   kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
