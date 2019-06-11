@@ -27,22 +27,30 @@ is the Word of God, written by humans who were [inspired by the Holy
 Spirit](https://www.biblegateway.com/passage/?search=2Tim+3%3A16&version=NKJV).
 I believe it is true, beautiful, wise, trustworthy, and powerful.
 
-I am not certain it is [completely error-free in every possible
+I am not convinced it is [completely error-free in every possible
 respect](https://en.wikipedia.org/wiki/Biblical_inerrancy), and I know of no
 passage where it claims to be. Where it presents history I believe that history
-is true, but that does not mean every detail must be perfectly correct. Whether
-the centurion [came to Jesus
+is true, but that does not mean every detail must be perfectly correct. Matthew
+and Luke disagree Whether the centurion [came to Jesus
 himself](https://www.biblegateway.com/passage/?search=Matthew+8%3A5-13&version=NKJV)
 or [sent a
-messenger](https://www.biblegateway.com/passage/?search=Luke+7%3A1-10&version=NKJV)
-is a point of disagreement between Matthew and Luke, but it is not a
-significant point in the story, nor is it the sort of difference that makes
-historians disregard documents as untrustworthy.
+messenger](https://www.biblegateway.com/passage/?search=Luke+7%3A1-10&version=NKJV),
+but it is does not change the story significantly, nor is it the sort of
+difference that makes historians discard documents as untrustworthy.
 
 As that suggests, I am not a [Biblical
-literalist](https://en.wikipedia.org/wiki/Biblical_literalism), because a
-lifetime of reading the Bible and many other texts makes it clear to me that
-the Bible contains many non-literal genres, ranging from parables to aphorisms
-to poems. Where it does contain historical accounts, they were not written as
-modern academic historical treatises, and reading them as if they were seems
-unwise to me.
+literalist](https://en.wikipedia.org/wiki/Biblical_literalism). A lifetime of
+reading the Bible and many other texts has made it clear to me that the Bible
+contains many non-literal genres, ranging from parables to aphorisms to poems.
+Where it does contain historical accounts, they were not written as modern
+academic historical treatises, and reading them as if they were seems unwise
+and obtuse.
+
+Fathering young children taught me that my determination to make my children
+understand something as thoroughly as I did usually harmed their understanding
+rather than helping it.
+
+I imagine God handles similar tradeoffs when communicating with us, and I
+believe that surfaces from time to time in Scripture. If you hold the entire
+universe in your mind, you likely know a lot of things that are hard (perhaps
+impossible) for a tiny mind to hold.
