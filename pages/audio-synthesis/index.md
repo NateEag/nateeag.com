@@ -31,9 +31,10 @@ fascinating, and would love to investigate it further.
 [comment]: (TODO Merge this with comments elsewhere. Project page?)
 ## Audio DSP Engine Design
 
-I would love to have a real-time open-source synth engine with G2-like
-features that runs on general-purpose computer hardware. Thus far I haven't
-found one that fits the bill.
+I would love to have a real-time open-source synth engine with G2-like features
+that runs on general-purpose computer hardware. Thus far I haven't found one
+that fits the bill.
 
-If you know of one, I'd love to hear about it. If you don't but would like
-one, get in touch, because I want to build it.
+If you know of one, I'd love to hear about it. If you don't but would like one,
+get in touch, because [I want to build
+it](https://github.com/NateEag/audio-engine).
