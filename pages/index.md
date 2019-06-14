@@ -31,6 +31,14 @@ helping them grow into what they should be. My primary mediums are
 [avisual](https://en.wikipedia.org/wiki/Aphantasia),
 I sometimes dabble in [photography](/photos/).
 
+[comment]: (TODO Hyperlink "software" below to stories about software mentoring.)
+[comment]: (TODO Hyperlink "teach our children" to a homeschooling page.)
+
+I am a teacher. I love sharing what I have learned and helping people avoid the
+pitfalls and mistakes I have made. I have taught music and software
+professionally, while I help my wife teach our children as a passionate
+amateur.
+
 [comment]: (TODO Hyperlink for sustainability.)
 
 I think a lot about sustainability.
