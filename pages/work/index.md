@@ -11,12 +11,11 @@ After taking a lengthy drive around the American West, I settled in to [try a
 startup](http://www.codeninjaz.net) with [Bob
 Stouffer](https://www.bobandkellystouffer.com/) on September 3rd, 2007. I think
 the only startup mistake we didn't make was taking external funding (a.k.a.
-"debt"), and on January 31st, 2009 I threw in the towel (Bob threw it in a few
-months later, and on May 2nd, 2009, codeninjaz.net, inc was formally
-dissolved).
+"debt"), and on January 31st, 2009 I threw in the towel. Bob threw it in a few
+months later, and on May 2nd, 2009, codeninjaz.net, inc was formally dissolved.
 
-I worked freelance contracts from then until the end of 2010, doing everything
-from web development to system administration to [working on a desktop app in
+I did freelance contracts from then until the end of 2010, doing everything
+from web development to system administration to [building a desktop app in
 wxPython](/work/projects/illuminations).
 
 On January 3rd, 2011, I started a long-term contract as lead developer for
@@ -48,3 +47,36 @@ to bat for me and getting my contract extended a few weeks so I could finish
 closing on my first house.
 
 My last day at MapQuest was January 30th, 2015.
+
+On March 9th, 2015, I started work as a contract JavaScript developer at United
+Concordia.
+
+I was told during the interview process that I would be trained in AngularJS,
+the framework for the planned project, and that there would be two or three more
+experienced JavaScript developers joining the project.
+
+When no AngularJS training or real work materialized in the first few days
+there, I learned it myself by cranking out a few toy projects.
+
+When business plans changed a few weeks into my contract, I was moved to a
+different project and told there would be no additional JS hires. Instead, I was
+offered a student intern who had specialized in COBOL maintenance. I sighed,
+added a thirty percent penalty to my estimate spreadsheet, and warned
+management we were unlikely to hit their aggressive project deadline.
+
+Fortunately, [Melanie](https://www.linkedin.com/in/melanie-durko-61197282)
+turned out to be brilliant. I sank into teaching her front-end web development
+and version control with Git while helping the new project collect business
+requirements and review the data model plans.
+
+My content-heavy mentoring style and her ability to soak up information like a
+sponge paired well, and she performed beautifully. I did the heavy lifting of
+building the complex UI components we did not have while she did wrote the UI
+for the first phase of the project
+
+TODO Explain some of the components I built and the constraints that made
+building them necessary.
+
+My last day contracting for United Concordia was September 12th, 2016.
+
+My first day at Nxtbook Media was September 19th, 2016.
