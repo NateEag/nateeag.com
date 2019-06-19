@@ -35,3 +35,10 @@ but that's its own rabbit-hole).
   anything? Is it just something he did that had no impact on anything? Is it
   an elliptic description of some breeding practice that actually makes sense
   but doesn't translate clearly?
+
+
+- Do the laws for leprosy in Leviticus 13 - 14 make sense from a modern medical
+  perspective? In large part they seem to line up with basic germ theory but
+  I've no idea what diagnosing leprosy looks like. And yes, I realize that what
+  the ancient Israelites meant by "leprosy" may not be quite what a modern
+  Western doc does.
