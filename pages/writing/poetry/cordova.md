@@ -10,7 +10,7 @@ grateful it exists.
 It is also remarkable how many sharp edges there are in the developer
 experience of writing a mobile application meant to run on iOS and Android.
 It's clear that the makers of both platforms believe they can be profitable
-without happy developers (and they're likely correct).
+without happy developers (and they're clearly correct).
 
 One day as I was battling with an iOS-specific detail for the hundredth time,
 and grumbling about it to a sysadmin, the following quatrain appeared in Slack.
