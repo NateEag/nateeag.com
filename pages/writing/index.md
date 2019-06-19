@@ -10,6 +10,6 @@ putting pen to page.
 I have a [growing set of essays on writing software](http://howicode.nateeag.com).
 
 I sometimes fail to suppress the urge to
-[write bad comic verse](/writing/poetry/).
+[write poems](/writing/poetry/).
 
 In a similar vein, [I sometimes parody songs](/music/songwriting/parody/).

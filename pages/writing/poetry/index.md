@@ -11,4 +11,5 @@ Inspiration often strikes while working on household tasks, such as
 [baking](/writing/poetry/egg-whites.html).
 
 Occasionally [writing software](/writing/poetry/cordova.html) puts me in the
-mood as well.
+mood as well. Sometimes it's a [dark mood,
+though](/writing/poetry/job-destroyers.html).
