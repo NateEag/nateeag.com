@@ -11,11 +11,11 @@ O'Shaughnessy](https://en.wikipedia.org/wiki/Arthur_O%27Shaughnessy).
 ## Ode
 
     We are the job-destroyers
-    And we are the dreamers of dreams.
-    Fixing issues from lone code-breakers
-    Piping stdin to stdout streams.
-    World-builders and world-forsakers
-    On whom the search-engine gleams
+    And we are the dreamers of dreams,
+    Fixing issues from lone code-breakers,
+    Piping stdin to stdout streams;--
+    World-builders and world-forsakers,
+    On whom the search-engine gleams:
     Yet we are the movers and breakers
     Of the world forever, it seems.
 
