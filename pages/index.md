@@ -41,6 +41,6 @@ amateur.
 
 [comment]: (TODO Hyperlink for sustainability.)
 
-I think a lot about sustainability.
+I think a lot about [sustainability](/sustaining/).
 
 I live in [Elizabethtown, Pennsylvania](https://www.etownonline.com/).
