@@ -1,3 +1,8 @@
+- Make the site design responsive.
+
+- Add link hierarchy to pages to increase discoverability. Right now each
+  article is a little walled garden, a dead-end street.
+
 - Support backwards-compatible article renames by walking Git history and
   generating a table of 302s for inclusion in the nginx config for every
   rename. Obviously you'd want to cache the rename history somehow so you don't

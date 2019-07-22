@@ -54,6 +54,20 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page = yaml.load(StringIO.StringIO(yaml_header))
     page['body'] = body
 
+    docroot_relative_path = path[len(source_dir):]
+    # FIXME Should the link to / be considered a breadcrumb? How about current
+    # page title? Should that be linked, too?
+    ancestral_folders = docroot_relative_path.split(os.path.sep)[1:-1]
+    href = '/'
+    breadcrumbs = []
+    for folder in ancestral_folders:
+        href += folder + '/'
+        breadcrumbs.append({
+            'name': folder,
+            'href': href
+        })
+    page['breadcrumbs'] = breadcrumbs
+
     template = jinja_env.get_template(page['template'])
     contents = template.render(**page)
 

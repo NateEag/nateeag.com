@@ -17,6 +17,9 @@
     <div class="header">
         {# TODO - make nateag.com a hyperlink back to main page. #}
         <h1><a href="/">nateeag.com</a>
+            {% for crumb in breadcrumbs %}
+                <span class="subtitle"><a href="{{ crumb.href }}">{{ crumb.name }}</a></span>
+            {% endfor %}
             {% if title %}
             <span class="subtitle">- {{ title }}</span>
             {% endif %}
