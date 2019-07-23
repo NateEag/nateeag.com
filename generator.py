@@ -63,7 +63,7 @@ def render_page(path, source_dir, target_dir, jinja_env):
     for folder in ancestral_folders:
         href += folder + '/'
         breadcrumbs.append({
-            'name': folder,
+            'name': folder.replace('-', ' '),
             'href': href
         })
     page['breadcrumbs'] = breadcrumbs
