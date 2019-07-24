@@ -55,17 +55,33 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page['body'] = body
 
     docroot_relative_path = path[len(source_dir):]
-    # FIXME Should the link to / be considered a breadcrumb? How about current
-    # page title? Should that be linked, too?
-    ancestral_folders = docroot_relative_path.split(os.path.sep)[1:-1]
+    path_components = docroot_relative_path.split(os.path.sep)[1:]
     href = '/'
-    breadcrumbs = []
-    for folder in ancestral_folders:
+
+    breadcrumbs = [{
+        'name': 'nateeag.com',
+        'href': '/'
+    }]
+
+    for folder in path_components:
         href += folder + '/'
         breadcrumbs.append({
             'name': folder.replace('-', ' '),
             'href': href
         })
+
+    # Set the breadcrumb for the page to the document's title and link.
+    #
+    # FIXME Validate that each page has a non-empty title.
+    breadcrumbs[-1]['name'] = page['title']
+    # TODO Instead of removing trailing slash, don't add it in first place.
+    breadcrumbs[-1]['href'] = href.replace('.md/', '.html')
+
+    if path.endswith('/index.md'):
+        # The last folder is redundant with the document in this case, so throw
+        # it out.
+        del breadcrumbs[-2]
+
     page['breadcrumbs'] = breadcrumbs
 
     template = jinja_env.get_template(page['template'])
