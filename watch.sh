@@ -27,5 +27,8 @@ project_path=$(dirname "$0")
 
 OUTPUT_DATE_CMD='echo $(date "+%Y-%m-%d %H:%M:%S"): Rendered site'
 
-fswatch --one-per-batch "$project_path/pages" "generator.py" | \
+fswatch --one-per-batch \
+        "$project_path/pages" \
+        "$project_path/templates" \
+        "generator.py" |
     xargs -L 1 bash -c "$project_path/generate.sh && $OUTPUT_DATE_CMD"
