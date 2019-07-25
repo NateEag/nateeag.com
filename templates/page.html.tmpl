@@ -19,6 +19,9 @@
             {# TODO Style first and last items differently. #}
             {% for crumb in breadcrumbs %}
                 <span class="subtitle"><a href="{{ crumb.href }}">{{ crumb.name }}</a></span>
+                {% if not loop.last %}
+                    <span>>></span>
+                {% endif %}
             {% endfor %}
         </h1>
     </div>

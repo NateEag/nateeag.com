@@ -56,6 +56,8 @@ def render_page(path, source_dir, target_dir, jinja_env):
 
     docroot_relative_path = path[len(source_dir):]
     path_components = docroot_relative_path.split(os.path.sep)[1:]
+    folders = path_components[:-1]
+    article = path_components[-1]
     href = '/'
 
     breadcrumbs = [{
@@ -63,7 +65,7 @@ def render_page(path, source_dir, target_dir, jinja_env):
         'href': '/'
     }]
 
-    for folder in path_components:
+    for folder in folders:
         href += folder + '/'
         breadcrumbs.append({
             'name': folder.replace('-', ' '),
@@ -72,15 +74,20 @@ def render_page(path, source_dir, target_dir, jinja_env):
 
     # Set the breadcrumb for the page to the document's title and link.
     #
-    # FIXME Validate that each page has a non-empty title.
-    breadcrumbs[-1]['name'] = page['title']
-    # TODO Instead of removing trailing slash, don't add it in first place.
-    breadcrumbs[-1]['href'] = href.replace('.md/', '.html')
+    # FIXME Validate that pages have non-empty titles.
+
+    breadcrumbs.append({
+        'name': page['title'],
+        # TODO Decide whether a relative link is the best way to do this. This
+        # happens to work but it's certainly not the most obvious way to write
+        # HTML.
+        'href': article.replace('.md', '.html')
+    })
 
     if path.endswith('/index.md'):
-        # The last folder is redundant with the document in this case, so throw
-        # it out.
-        del breadcrumbs[-2]
+        # The document is redundant with the folder in this case, so throw it
+        # out.
+        del breadcrumbs[-1]
 
     page['breadcrumbs'] = breadcrumbs
 
