@@ -28,10 +28,16 @@ body
     line-height: 1.4;
 }
 
-div.header
+.header
 {
     margin-top: 0;
     background-color: $sapphire;
+}
+
+/* Make breadcrumb separators less visible. */
+.header .separator {
+    font-size: 12px;
+    vertical-align: middle;
 }
 
 /* Main display area. */

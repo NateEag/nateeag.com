@@ -20,7 +20,7 @@
             {% for crumb in breadcrumbs %}
                 <span class="subtitle"><a href="{{ crumb.href }}">{{ crumb.name }}</a></span>
                 {% if not loop.last %}
-                    <span>>></span>
+                    <span class="separator">>></span>
                 {% endif %}
             {% endfor %}
         </h1>
