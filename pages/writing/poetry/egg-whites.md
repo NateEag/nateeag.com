@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Egg Whites"
 meta_content: "Hypothetical mistakes in historical cakes"
 template: "essay.html.tmpl"
 ---
