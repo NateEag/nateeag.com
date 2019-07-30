@@ -35,22 +35,17 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 #
 # When you want to avoid that, something like this approach is useful.
 #
-# FIXME Remove clumsy hacks to work around file ownership problems. Most of the
-# chmod/chown dances are to make sure the actual rsync from the deployment
-# system to the webserver hits no permissions issues, and then we do it again
-# later to make sure the files have the right ownership for the webserver. It's
-# all a pile of hackery and I need to think it through correctly.
+# FIXME Automate provisioning. For the current setup to work, siteroot owner
+# needs to be the SSH user, the site group owner needs to be www-data, and it
+# (or a parent dir) needs to have the setgid bit set.
 #
 # FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
 mkdir -p \"$site_root/builds\" && \
-last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) && \
-mkdir -p \"$site_root/releases\" && \
+last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) &&
+mkdir -p \"$site_root/releases\" &&
 mkdir -p \"$site_root/builds/$short_hash\" &&
-sudo chmod ug+rwx \"$site_root/builds/$short_hash\" &&
-sudo rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\" &&
-sudo chown -R \$(whoami):deployers \"$site_root/builds/$short_hash\" &&
-sudo chmod -R ug+rwx \"$site_root/builds/$short_hash\"
+rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\"
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -80,7 +75,6 @@ rsync -azv --delete \
 #   * Once smoke tests are run against the test instance, a human pulls the
 #     trigger on moving the prod symlink.
 commands="\
-sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\" && \
 ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" && \
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
