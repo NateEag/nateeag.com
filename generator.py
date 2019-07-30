@@ -54,6 +54,10 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page = yaml.load(StringIO.StringIO(yaml_header))
     page['body'] = body
 
+    # Pages must have a title so we can show it in the link hierarchy.
+    if page['title'] is None or page['title'] == '':
+        raise Exception(path + ' has no title!')
+
     docroot_relative_path = path[len(source_dir):]
     path_components = docroot_relative_path.split(os.path.sep)[1:]
     folders = path_components[:-1]
@@ -73,8 +77,6 @@ def render_page(path, source_dir, target_dir, jinja_env):
         })
 
     # Set the breadcrumb for the page to the document's title and link.
-    #
-    # FIXME Validate that pages have non-empty titles.
 
     breadcrumbs.append({
         'name': page['title'],
