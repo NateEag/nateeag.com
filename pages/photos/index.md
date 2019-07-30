@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Photos"
 meta_content:
   Photos taken by Nate Eagleson.
 template: "essay.html.tmpl"

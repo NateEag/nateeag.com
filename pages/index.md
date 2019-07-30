@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "nateeag.com"
 meta_content:
   Nate Eagleson's projects and callings. You could even argue that this is
   Nate Eagleson's personal website, which would likely be right.
