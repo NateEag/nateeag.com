@@ -37,7 +37,7 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 #
 # FIXME Automate provisioning. For the current setup to work, siteroot owner
 # needs to be the SSH user, the site group owner needs to be www-data, and it
-# (or a parent dir) needs to have the setgid bit set.
+# needs to have the setgid bit set.
 #
 # FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
@@ -66,15 +66,16 @@ rsync -azv --delete \
 #
 # http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 #
-# TODO Use rsync >= 3.1.1 and its --chown option to avoid sudo? Not sure it
-# would work, but worth looking into.
-#
 # TODO For a site that mattered, deployment would be two-phase:
 #
 #   * Bring up a test instance of the site on some IP-limited domain name
 #   * Once smoke tests are run against the test instance, a human pulls the
 #     trigger on moving the prod symlink.
+#
+# The chmod makes sure the web user can actually read the files, as the default
+# umask doesn't give the group access to them.
 commands="\
+chmod -R g+rx \"$site_root/builds/$short_hash\"
 ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" && \
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
