@@ -163,3 +163,19 @@ make it possible at present.
 
 In tandem with this, I would like some tools that can analyze the data locally
 on my system to show me the big-picture trends.
+
+
+## Open Source GPS Track Analyzer
+
+Runners and walkers often use proprietary programs to record their ambulation
+and analyze it for data points like average speed, distance covered, estimated
+calories burned, and the like.
+
+Those programs usually store user data on remote servers. That means the users
+have little control over the data, which could easily be stolen by or sold to
+third parties (like health insurance companies) against the users' will.
+
+I would like to have a program that analyzes GPS track files for similar
+purposes. I would like it to work locally on the computer where the data are
+stored, so that the user can maintain control of their personal data while
+still gaining insight into the details of their walking and running routines.
