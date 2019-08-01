@@ -179,3 +179,35 @@ I would like to have a program that analyzes GPS track files for similar
 purposes. I would like it to work locally on the computer where the data are
 stored, so that the user can maintain control of their personal data while
 still gaining insight into the details of their walking and running routines.
+
+
+## Real-Life Marauder's Map
+
+[The Marauder's
+Map](https://www.pottermore.com/writing-by-jk-rowling/the-marauders-map) was
+one of J. K. Rowling's cleverer ideas.
+
+It should be possible to build something surprisingly close to the original
+using GPS, [OpenStreetMap data](https://planet.openstreetmap.org/), a color
+e-ink display, and an internet connection.
+
+The most crucial functionality of the map, the ability to see the name and
+location of everyone in a defined area, you could not reproduce. People who
+carry an internet-equipped GPS device (like a smartwatch or smartphone) and who
+will let it report location to the map software could be displayed, however.
+
+Using the stream of location data, the map could display an area of the earth
+that displays the locations of all linked devices framing and size, dynamically
+resizing it as necessary so that all participants are visible at all times.
+
+With OpenStreetMap's raw data, it should be possible to render the map in a
+visual style similar to the one from the film adaptations.
+
+The color e-ink display is not necessary, strictly speaking. It would certainly
+enhance the effect, though, if mounted on the wall in a plausible frame. The
+lower framerate e-ink displays suffer from might make it less convincing, but
+the texture and coloration of paper would make it look much more like the
+genuine item.
+
+I doubt I will ever write this program - it would be highly entertaining, but it
+seems to have little practical value, and I care about my other ideas more.
