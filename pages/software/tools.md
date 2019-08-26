@@ -28,11 +28,13 @@ reliably runs MacOS or simulates iOS. I don't want to ever have to tell a
 client "I can't update your app because an OS update broke my Hackintosh," so
 even if it were legal to build one, I still wouldn't.
 
-Version control is a fundamental part of my programming workflow, whether
-solo or on a team, and my default choice is [Git](https://git-scm.com/). I
-almost went with [Mercurial](https://www.mercurial-scm.org/) when I first
-made the jump to DVCS, but decided that Git's popularity was more valuable
-than Mercurial's simpler interface.
+Version control is a fundamental part of my programming workflow, whether solo
+or on a team. I think about it a lot, and while I believe [a better VCS is
+possible](https://github.com/NateEag/next-vcs), my default choice at present is
+[Git](https://git-scm.com/). I almost went with
+[Mercurial](https://www.mercurial-scm.org/) when I first made the jump to DVCS,
+but decided that Git's popularity was more valuable than Mercurial's simpler
+interface.
 
 I have learned enough programming languages to know that [all languages are
 equal](https://stackoverflow.com/questions/7284/what-is-turing-complete), but
