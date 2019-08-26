@@ -40,10 +40,10 @@ equal, but some are more equal than others. In descending order of preference
 * bash
 * Scheme
 * C
+* PHP
 * Java
 * Pascal
 * Objective-C
-* PHP
 * C++
 
 When it makes sense (which it often does), I use relational databases for
