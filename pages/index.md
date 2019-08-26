@@ -16,10 +16,10 @@ that He died to save me from myself. That belief is the heart of who I am.
 [comment]: (TODO Hyperlinks for 'husband' and 'father'.)
 
 I am a husband to my beautiful, talented wife Stephanie and a father to my
-sons [James](/photos/newborn-james/) and Isaac. I am a brother to my three
-sisters, Hannah, Miriam, and Abigail, and a son to my parents, Bruce and Mary
-Ann. They are a far better family than I could ever have asked for, and I am
-eternally grateful for all they have poured into my life.
+children [James](/photos/newborn-james/), Isaac, and Maryn. I am a brother to
+my three sisters, Hannah, Miriam, and Abigail, and a son to my parents, Bruce
+and Mary Ann. They are a far better family than I could ever have asked for,
+and I am eternally grateful for all they have poured into my life.
 
 [comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
@@ -36,7 +36,7 @@ I sometimes dabble in [photography](/photos/).
 
 I am a teacher. I love sharing what I have learned and helping people avoid the
 pitfalls and mistakes I have made. I have taught music and software
-professionally, while I help my wife teach our children as a passionate
+professionally, while I help my wife homeschool our children as a passionate
 amateur.
 
 [comment]: (TODO Hyperlink for sustainability.)
