@@ -18,11 +18,15 @@ When I'm not in Emacs, I'm usually in a
 with using Emacs' built-in terminal emulators, but have not yet taken the
 time to adapt them to my style properly.
 
-My preferred desktop is Mac OS X, with [Slate](https://github.com/mattr-/slate)
-for keyboard-driven window management,
-[Karabiner](https://pqrs.org/osx/karabiner/) to remap a handful of keys, and
-[Seil](https://pqrs.org/osx/karabiner/seil.html.en) to remap Caps Lock into
-something more useful.
+My preferred desktop is Mac OS X, with
+[HammerSpoon](http://www.hammerspoon.org/) for keyboard-driven window
+management and
+[Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) to remap a
+handful of keys on MacBooks. In an ideal world I might prefer to run a Linux
+desktop, but since Macs can run Windows and Linux, and no other hardware
+reliably runs MacOS or simulates iOS. I don't want to ever have to tell a
+client "I can't update your app because an OS update broke my Hackintosh," so
+even if it were legal to build one, I still wouldn't.
 
 Version control is a fundamental part of my programming workflow, whether
 solo or on a team, and my default choice is [Git](https://git-scm.com/). I
