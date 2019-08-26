@@ -30,9 +30,11 @@ almost went with [Mercurial](https://www.mercurial-scm.org/) when I first
 made the jump to DVCS, but decided that Git's popularity was more valuable
 than Mercurial's simpler interface.
 
-I have learned enough programming languages to know that all languages are
-equal, but some are more equal than others. In descending order of preference
-(but not necessarily experience), I have spent quality time with:
+I have learned enough programming languages to know that [all languages are
+equal](https://stackoverflow.com/questions/7284/what-is-turing-complete), but
+some are [more equal than others](http://www.paulgraham.com/avg.html). In
+descending order of preference (not necessarily experience or expertise), I
+have spent quality time with:
 
 * JavaScript
 * Emacs Lisp
