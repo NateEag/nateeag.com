@@ -45,7 +45,7 @@ mkdir -p \"$site_root/builds\" && \
 last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) &&
 mkdir -p \"$site_root/releases\" &&
 mkdir -p \"$site_root/builds/$short_hash\" &&
-rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\"
+cp -r \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\"
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -57,7 +57,8 @@ ssh -t www.nateeag.com "$commands"
 # Because we copy the previous release to save time, we delete extraneous
 # files, so no outdated files are hanging around in the docroot after the
 # sync.
-rsync -azv --delete \
+rsync -rltzv --delete \
+      --chmod=Dg+s \
       "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
@@ -72,10 +73,14 @@ rsync -azv --delete \
 #   * Once smoke tests are run against the test instance, a human pulls the
 #     trigger on moving the prod symlink.
 #
-# The chmod makes sure the web user can actually read the files, as the default
-# umask doesn't give the group access to them.
+# The chmods make sure the web user can actually read the files and that not
+# every user can, as the default umask doesn't give the group access to them.
+#
+# TODO Figure out how to get rsync to just set permissions as if I were working
+# interactively on the remote server.
 commands="\
-chmod -R g+rx \"$site_root/builds/$short_hash\"
+chmod -R o-rwx \"$site_root/builds/$short_hash\" &&
+chmod -R g+rxs \"$site_root/builds/$short_hash\" &&
 ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" && \
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
