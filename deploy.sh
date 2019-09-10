@@ -44,8 +44,7 @@ commands="\
 mkdir -p \"$site_root/builds\" && \
 last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) &&
 mkdir -p \"$site_root/releases\" &&
-mkdir -p \"$site_root/builds/$short_hash\" &&
-cp -r \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\"
+cp -rp \"$site_root/builds/\$last_build_dir\" \"$site_root/builds/$short_hash\"
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -58,7 +57,7 @@ ssh -t www.nateeag.com "$commands"
 # files, so no outdated files are hanging around in the docroot after the
 # sync.
 rsync -rltzv --delete \
-      --chmod=Dg+s \
+      --chmod=ugo=rwX \
       "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
