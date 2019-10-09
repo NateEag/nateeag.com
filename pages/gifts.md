@@ -12,9 +12,9 @@ because I expect anyone to give them to me.
 
 * Physical CD of [Through The Deep, Dark Valley](https://music.theohhellos.com/album/through-the-deep-dark-valley)
 * Physical CD of [Home In Halifax](https://www.amazon.com/Home-Halifax-STAN-ROGERS/dp/B000003BU3)
-* Physical CD of [A Liturgy, A Legacy, And A Ragamuffin Band](https://www.amazon.com/Liturgy-Legacy-Ragamuffin-Band/dp/B0000004SD)
 * Physical CD of [The World As Best As I Remember It, vol. 1](https://www.amazon.com/World-As-Best-Remember/dp/B0000004RU)
 * Physical CD of [The World As Best As I Remember It, vol. 2](https://www.amazon.com/World-As-Best-Remember-Vol/dp/B00138D4UG)
+* [The Gift](https://www.amazon.com/Gift-Creativity-Artist-Modern-World/dp/0307279502)
 * Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
