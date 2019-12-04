@@ -35,16 +35,22 @@ site_root=/usr/local/nginx/sites/www.nateeag.com
 #
 # When you want to avoid that, something like this approach is useful.
 #
-# FIXME Automate provisioning. For the current setup to work, siteroot owner
-# needs to be the SSH user, the site group owner needs to be www-data, and it
-# needs to have the setgid bit set.
+# FIXME Remove clumsy hacks to work around file ownership problems. Most of the
+# chmod/chown dances are to make sure the actual rsync from the deployment
+# system to the webserver hits no permissions issues, and then we do it again
+# later to make sure the files have the right ownership for the webserver. It's
+# all a pile of hackery and I need to think it through correctly.
 #
 # FIXME We should skip the recursive copy when the builds/ folder is empty.
 commands="\
 mkdir -p \"$site_root/builds\" && \
-last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) &&
-mkdir -p \"$site_root/releases\" &&
-cp -rp \"$site_root/builds/\$last_build_dir\" \"$site_root/builds/$short_hash\"
+last_build_dir=\$(ls -1tc \"$site_root/builds\" | head -1) && \
+mkdir -p \"$site_root/releases\" && \
+mkdir -p \"$site_root/builds/$short_hash\" &&
+sudo chmod ug+rwx \"$site_root/builds/$short_hash\" &&
+sudo rsync -a \"$site_root/builds/\$last_build_dir/\" \"$site_root/builds/$short_hash\" &&
+sudo chown -R \$(whoami):deployers \"$site_root/builds/$short_hash\" &&
+sudo chmod -R ug+rwx \"$site_root/builds/$short_hash\"
 "
 
 # SSH commands rely on setup in my personal SSH config.
@@ -56,8 +62,7 @@ ssh -t www.nateeag.com "$commands"
 # Because we copy the previous release to save time, we delete extraneous
 # files, so no outdated files are hanging around in the docroot after the
 # sync.
-rsync -rltzv --delete \
-      --chmod=ugo=rwX \
+rsync -azv --delete \
       "$project_dir/build/$short_hash/" \
       www.nateeag.com:"$site_root/builds/$short_hash"
 
@@ -66,20 +71,16 @@ rsync -rltzv --delete \
 #
 # http://blog.moertel.com/posts/2005-08-22-how-to-change-symlinks-atomically.html
 #
+# TODO Use rsync >= 3.1.1 and its --chown option to avoid sudo? Not sure it
+# would work, but worth looking into.
+#
 # TODO For a site that mattered, deployment would be two-phase:
 #
 #   * Bring up a test instance of the site on some IP-limited domain name
 #   * Once smoke tests are run against the test instance, a human pulls the
 #     trigger on moving the prod symlink.
-#
-# The chmods make sure the web user can actually read the files and that not
-# every user can, as the default umask doesn't give the group access to them.
-#
-# TODO Figure out how to get rsync to just set permissions as if I were working
-# interactively on the remote server.
 commands="\
-chmod -R o-rwx \"$site_root/builds/$short_hash\" &&
-chmod -R g+rxs \"$site_root/builds/$short_hash\" &&
+sudo chown -R www-data:deployers \"$site_root/builds/$short_hash\" && \
 ln -s \"$site_root/builds/$short_hash/\" \"$site_root/releases/prod-tmp\" && \
     mv -Tf \"$site_root/releases/prod-tmp\" \"$site_root/releases/prod\"
 "
