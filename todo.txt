@@ -1,3 +1,14 @@
+- Make sure every folder has an index page. Right now /music/songwriting/
+  is a 403 because it doesn't.
+
+- Add build sanity check that every folder has an index page.
+
+- Require -f flag to deploy if build exits with non-zero status (so I stop
+  pushing out errors).
+
+- Run linkchecker locally as part of build process; exit non-zero status if it
+  fails.
+
 - Make the site design responsive.
 
 - Support backwards-compatible article renames by walking Git history and
