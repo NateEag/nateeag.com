@@ -25,6 +25,33 @@ roles that result in a reader talking to themselves. This is totally
 automatable."
 
 
+## lsp-mode Compatibility With php-language-server
+
+When I first discovered the [Language Server
+Protocol](https://microsoft.github.io/language-server-protocol/), I was
+incredibly excited, because I had wanted PHP intelligence in Emacs for over a
+decade.
+
+When I dropped
+[php-language-server](https://github.com/felixfbecker/php-language-server) into
+my setup and hacked up a [quick PHP
+backend](https://github.com/NateEag/.emacs.d/blob/8261d90ca053af74632c57983620df0ed66fe7ce/site-lisp/mode-configs/php-mode-init.el#L96)
+for [lsp-mode](https://github.com/emacs-lsp/lsp-mode), I discovered that
+completion at point wasn't working.
+
+That led to [this bug
+report](https://github.com/emacs-lsp/lsp-mode/issues/119), where I uncovered a
+corner of lsp-mode that didn't conform to the LSP specification.
+
+Once I understood that was the root cause, [the
+fix](https://github.com/emacs-lsp/lsp-mode/pull/127) wasn't hard to get
+working.
+
+I now use the official lsp-php backend, but as far as I know, I was the first
+person to get a PHP language server working in Emacs and publish the fact
+publically.
+
+
 ## skewer-reload-stylesheets
 
 As an Emacser, I'm a fan of live-editing wherever possible.
@@ -32,6 +59,9 @@ As an Emacser, I'm a fan of live-editing wherever possible.
 I thus made it possible to [live-edit
 stylesheets](https://github.com/NateEag/skewer-reload-stylesheets), whether
 they're in CSS, SCSS, or a CSS preprocessor I've never personally heard of.
+
+As that suggests, the technique used to implement it is
+preprocessor-independent. See the project itself for details.
 
 This work is entirely dependent on Chistopher Wellon's awesome
 [skewer-mode](https://github.com/skeeto/skewer-mode).
