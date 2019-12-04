@@ -115,7 +115,7 @@ is only useful if most people can just start using it.
 
 The FDA has a branded food products database that would be a decent baseline for "scan a UPC and add calories to the day".
 
-Pair that with their regular nutritient database and a source of meal
+Pair that with their regular nutrient database and a source of meal
 ingredients and amounts (like an OSS recipe database, perhaps?), and I think
 most meals could be pretty quick to enter.
 
