@@ -4,7 +4,7 @@
 - Add build sanity check that every folder has an index page.
 
 - Require -f flag to deploy if build exits with non-zero status (so I stop
-  pushing out errors).
+  pushing out errors to prod).
 
 - Run linkchecker locally as part of build process; exit non-zero status if it
   fails.
@@ -17,7 +17,11 @@
   have to walk all of history every time you build the site.
 
 - Use setgid in deployment infrastructure to stop having to sudo for every
-  single deployment
+  single deployment. I think maybe the problem in my previous attempts was that
+  I didn't recursively setgid, so child directories would probably have broken.
+  Not sure about that but it's my best guess. I should probably capture the
+  site's setup in a Vagrantfile/Ansible config so I can debug this without
+  hurting production.
 
 - Use rsync instead of cp for pre-deployment copy job so it works even if the
   previous attempt failed or was killed
@@ -62,8 +66,5 @@
 - Polish JS Tetris and add it as a project
 
 - Finish up James gallery (Polaroid look, lightbox on click)
-
-- Add some of my OSS contributions as projects (skewer-reload-stylesheets,
-  maybe web-mode auto-complete support, anything else?)
 
 - Put up NoisePad + quick demo as evidence of my patch design efforts
