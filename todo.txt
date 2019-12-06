@@ -28,6 +28,17 @@
 
 - Generalize nginx config for static sites with Ansible
 
+- Add argument against ice water to sustainability section. The rough idea is
+  that the energy cost to populate the whole first world's beverages with ice
+  is probably monumental, and if everyone just drank things warmer, we could
+  save a lot of energy (and by proxy, carbon, since we still mostly burn fossil
+  fuels). Ideally, do it in a reproducible research style (which would probably
+  mean adding complexity to the rendering pipeline). I haven't done the math
+  yet, so this idea may prove to be false - just thought it would be worth
+  trying. Someone who did some ballpark figures here, though rather differently
+  than I would like to:
+  https://www.wired.com/2014/08/how-much-does-it-cost-to-make-ice/
+
 - Add permalinks on page title header
 
 - Add notes on what I like to work on and what tech stacks I like to work with.
