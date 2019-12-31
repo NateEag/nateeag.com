@@ -105,10 +105,26 @@ designs to mine people's unavailable/available times, which is more than you
 likely meant to give someone when you said "sure, a jam session could be fun -
 here's my schedule QR code."
 
-Using one-off nonced URLs for accepting invites should prevent that from being
-possible, but then you may be far enough outside the CalDAV/etc protocols that
-you hit the mindshare / complexity / critical mass problem, as this whole idea
-is only useful if most people can just start using it.
+Using nonced URLs for accepting invites should prevent that from being feasible
+(the nonce loses access rights once the engine has found a solution [though the
+engine can re-grant it rights if the initiating user chooses to reschedule]).
+
+CalDAV itself probably doesn't have all the features this would need in order
+to work, so you'd have to stand up an API that acts as the intermediary between
+the scheduling logic and actual calendar URLs. Each user would have to opt into
+that API
+
+Once it's arrived at an acceptable date, it could show a review UI (making note
+of the most-crowded schedules), and on confirmation it can send invites to
+everyone who got a QR code scanned.
+
+Note that such an API doesn't have to be on a server - a single person's phone
+could do the job by scanning QR codes from other devices to get the nonced
+URLs, as long as the other phones are on the same WiFi network.
+
+That said, you'd probably want the API available on a server, so that you can
+plan events without everyone being in the same physical space (which is what
+the distributed QR scanning logic assumes).
 
 
 ## Open Source Calorie/Nutrient Tracker
