@@ -13,3 +13,6 @@ Inspiration often strikes while working on household tasks, such as
 Occasionally [writing software](/writing/poetry/cordova.html) puts me in the
 mood as well. Sometimes it's a [dark mood, though, with no comedy in
 it](/writing/poetry/job-destroyers.html).
+
+[Pure silliness](/writing/poetry/happy-new-year.html) has a definite place in
+my world, too.
