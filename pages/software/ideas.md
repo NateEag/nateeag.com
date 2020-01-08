@@ -213,8 +213,9 @@ carry an internet-equipped GPS device (like a smartwatch or smartphone) and who
 will let it report location to the map software could be displayed, however.
 
 Using the stream of location data, the map could display an area of the earth
-that displays the locations of all linked devices framing and size, dynamically
-resizing it as necessary so that all participants are visible at all times.
+that displays the locations of all linked devices, dynamically resizing it as
+necessary so that all participants are visible but the map is zoomed out no
+further than necessary to enable that.
 
 With OpenStreetMap's raw data, it should be possible to render the map in a
 visual style similar to the one from the film adaptations.
@@ -225,5 +226,5 @@ lower framerate e-ink displays suffer from might make it less convincing, but
 the texture and coloration of paper would make it look much more like the
 genuine item.
 
-I doubt I will ever write this program - it would be highly entertaining, but it
-seems to have little practical value, and I care about my other ideas more.
+I doubt I will ever work on this - it would be highly entertaining, but it seems
+to have little practical value, and I care about my other ideas more.
