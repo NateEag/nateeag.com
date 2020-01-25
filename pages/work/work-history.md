@@ -114,7 +114,8 @@ supporting it. The first naive version became fairly slow once we got a real
 dataload working, so I had to spend a few days optimizing to make it
 acceptable. The last piece of work I did with it was retooling it so that any
 slow-loading chunks of data would show a spinner at their location in the
-navigation tree.
+navigation tree (mostly because the backend team never did manage to make their
+services acceptably quick).
 
 In the second phase, we extended BPIR to support defining the provider networks
 and pricing models that could be attached to policies. As part of that
@@ -148,26 +149,31 @@ that it was not reasonable).
 I had much less development time than previously, though, as various team
 members had figured out I was good at gathering requirements, fixing workflows,
 and generally solving any problem you might throw at me, so I became one of the
-go-to guys on the team for keeping forward momentum.
+team's go-to people for keeping forward momentum.
 
 I also spent a lot of time teaching the new team members about JS, Angular,
-code review, and Git (we moved to a more-formal system of using Git as a
-collaborative frontend to Harvest, as Melanie and I had both suffered what
-would have been data loss at Harvest's hands had it not been for git, and there
-were rumblings that the organization would be moving to git in the next year
-anyway).
+code review, and Git.
+
+I moved us to a more-formal system of using Git as a collaborative frontend to
+Harvest, as Melanie and I had both suffered what would have been data loss at
+Harvest's hands had it not been for git, and there were rumblings that the
+organization would be moving to git in the next year anyway. I therefore worked
+out a simple, robust branching and code review strategy for our team,
+documented it, taught everyone how to follow it, and manually merged our work
+from the unofficial Git repo into Harvest on a regular basis. By the time I
+left, I had just about automated the merge-to-Harvest process.
 
 As the second phase was winding down roughly on time and the team was being
 split apart by unwise corporate higherups, one of the backend devs said to me
 of his own accord: ~"We had a good little team going for a while, didn't we. We
-had some fun."
+even had some fun."
 
 It was very satisfying hearing my goals were achieved, and knowing I'd been
 part of why that happened.
 
 My last day contracting for United Concordia was September 12th, 2016, as I was
 recruited away to work at Nxtbook Media. I stayed on an extra day beyond my
-original planned resignation date to help them with a release, since one of the
-managers asked that as a favor.
+original planned resignation date to help them with a overnight release, since
+one of the managers asked that of me as a personal favor.
 
 My first day at Nxtbook was September 19th, 2016.
