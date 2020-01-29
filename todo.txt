@@ -1,4 +1,7 @@
-- Add HTTPS to site
+- Add HTTPS to the site. This protects from middlemen like ISPs injecting their
+  own content, and also should prevent Chrome from saying "could not connect to
+  site" when you just type www.nateeag.com (because it assumes HTTPS for bare
+  domains).
 
 - Make the site design responsive.
 
