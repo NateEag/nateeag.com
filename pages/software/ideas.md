@@ -218,7 +218,11 @@ necessary so that all participants are visible but the map is zoomed out no
 further than necessary to enable that.
 
 With OpenStreetMap's raw data, it should be possible to render the map in a
-visual style similar to the one from the film adaptations.
+visual style similar to the one from the film adaptations. [This OSM watercolor
+tile generator](https://github.com/stamen/watercolor) could serve as a great
+example of how to build out the tileset. Not sure how up-to-date it is, but for
+a POC you could maybe just hack the rendering logic to use an archaiac visual
+style.
 
 The color e-ink display is not necessary, strictly speaking. It would certainly
 enhance the effect, though, if mounted on the wall in a plausible frame. The
