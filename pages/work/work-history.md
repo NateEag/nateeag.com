@@ -177,3 +177,17 @@ original planned resignation date to help them with a overnight release, since
 one of the managers asked that of me as a personal favor.
 
 My first day at Nxtbook was September 19th, 2016.
+
+When I showed up for orientation on day one, [my
+manager](https://github.com/mattguest) pointed me at my first project, which
+was replacing a pair of aging, buggy mobile app codebases with a single hybrid
+app codebase using [Apache Cordova](https://cordova.apache.org/) and
+[AngularJS](https://angularjs.org/).
+
+The task was further complicated by the fact that the apps weren't actually
+individual apps - they were a pair of ad-hoc frameworks for generating custom
+iOS and Android app, each having its own set of customizable behaviors,
+brandable interface, and build system to support them.
+
+Starting with a rough draft Matt had hacked out and copy/pasted for a few early
+customers, I defined a minimal dataset structure and built a
