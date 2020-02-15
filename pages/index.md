@@ -43,4 +43,6 @@ amateur.
 
 I think a lot about [sustainability](/sustaining/).
 
+I am a [reader](/reading/).
+
 I live in [Elizabethtown, Pennsylvania](https://www.etownonline.com/).
