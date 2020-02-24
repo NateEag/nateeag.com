@@ -11,7 +11,12 @@ vague thoughts on how to improve things.
 Supreme Court is practically an oligarchy. How to fix that?
 
 - Justices are elected, not appointed
+
 - Justices terms are limited
+
+- Judicial review may strike down laws but not introduce new ones or
+  significantly alter interpretation of existing ones
+
 - Judicial review revisions to law go through the usual legislative veto
   process, allowing Congress a shot at vetoing as well (2/3rds majority or
   whatever it is right now for overturning a Presidential veto?)
@@ -30,7 +35,11 @@ attention. So:
 
 - All ballots are write-in. Allow assistants for illiterate citizens if they
   request it, but require a literate witness to verify the assistant is
-  following the voter's dictation.
+  following the voter's dictation. If a candidate cares about their candidacy
+  enough to worry about name collisions, they should register a unique
+  identifier with the FEC and publicize it to their supporters. Ballots would
+  offer an optional field next to candidate name for this purpose (labeled
+  something like "Additional identifying information").
 
 The country is massively in debt and it just keeps getting more so.
 
