@@ -1,7 +1,22 @@
+- Add HTTPS to site
+
+- Protect photo galleries containing pictures of people with HTTP basic auth
+  and by forcing redirects to HTTPS for secured pages.
+  https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
+  has what I need for a rough draft of this.
+
+- Add protected gallery of Maryn's first birthday
+
+- Make the site design responsive.
+
+- Finish up photo gallery design (Polaroid look, lightbox on click)
+
 - Make sure every folder has an index page. Right now /music/songwriting/
   is a 403 because it doesn't.
 
 - Add build sanity check that every folder has an index page.
+
+- Indicate essay draft status in header metadata, not by filesystem location
 
 - Require -f flag to deploy if build exits with non-zero status (so I stop
   pushing out errors to prod).
@@ -9,12 +24,11 @@
 - Run linkchecker locally as part of build process; exit non-zero status if it
   fails.
 
-- Make the site design responsive.
-
 - Support backwards-compatible article renames by walking Git history and
   generating a table of 302s for inclusion in the nginx config for every
   rename. Obviously you'd want to cache the rename history somehow so you don't
-  have to walk all of history every time you build the site.
+  have to walk all of history every time you build the site. Looks like maps
+  could be highly pertinent: https://bjornjohansen.no/nginx-redirect
 
 - Use setgid in deployment infrastructure to stop having to sudo for every
   single deployment. I think maybe the problem in my previous attempts was that
@@ -64,7 +78,5 @@
   structure easier.
 
 - Polish JS Tetris and add it as a project
-
-- Finish up James gallery (Polaroid look, lightbox on click)
 
 - Put up NoisePad + quick demo as evidence of my patch design efforts
