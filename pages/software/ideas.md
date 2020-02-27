@@ -35,6 +35,48 @@ Note that before I started thinking about designing a new DVCS, I planned an
 [distributed code review system](https://github.com/NateEag/git-revue) for Git.
 
 
+## Interactive Browser-Based Git Tutorial
+
+Until a much better DVCS gains major mindshare, git is what I'll be using.
+
+Because it's hard to learn and understand, I really wish there was an
+interactive browser-based tutorial I could point people to.
+
+It should break things down into lessons, which have a starting repo state and
+an ending repo state (perhaps for multiple repos, when dealing with remotes),
+along with the canonical steps to get there. [This site is close to what I
+want](https://learngitbranching.js.org/), but it fails some of my criteria
+below.
+
+It should let you work with actual file contents, because without that
+experience you won't really be learning git. The whole point is to version a
+set of files. This effectively means being able to open up a code editor panel.
+Bonus points if it lets you evaluate JS, as you could then do real programming
+exercises in here.
+
+It should give good visualizations of how you're manipulating the DAG of
+commits (https://git-school.github.io/visualizing-git/ does the visualizations
+really well).
+
+It should offer all the core git commands.
+
+It should let you use basic shell commands too - `edit` to open a file in the
+editing UI, and the standard bash friends of `cd` / `mkdir` / `rmdir` / `ls` /
+`rm`, at least (if perhaps in a newbie-friendly form).
+
+It should let you experience interacting with remotes.
+
+[Git-it](https://github.com/jlord/git-it-electron) takes an alternate approach
+I have considered before, which is bundling all this up for downloading locally
+as a desktop app. That raises the barrier to entry by requiring you to install
+multiple tools and fuss with your local environment (especially a pain in the
+context of enterprise development, where even developer workstations tend to be
+incredibly locked-down).
+
+[Isomorphic Git](https://isomorphic-git.org/docs/en/quickstart) would be a huge
+help in building this.
+
+
 ## track-time
 
 I occasionally use [Watson](https://github.com/TailorDev/Watson) to keep track
