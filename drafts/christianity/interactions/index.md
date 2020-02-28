@@ -37,3 +37,16 @@ hear at that moment, well...
 
 It doesn't seem a probable set of coincidences. I believe You set all that up on
 purpose.
+
+
+===========================
+2020-02-27
+
+It had been a long night of cleaning after a tiring day. I was starting the
+final push of toy storage when I heard the baby start cranking up a fuss over
+the monitor.
+
+She was clearly starting to get worked up and I sighed a tired, worn-out plea:
+"God, please not now."
+
+She promptly went silent and slept solidly for two more hours.
