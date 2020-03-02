@@ -11,6 +11,12 @@
 
 - Finish up photo gallery design (Polaroid look, lightbox on click)
 
+- Add note in /christianity/ about evangelism and include All The Crooked
+  Saints quote that explains why the modern American version is an error: "This
+  did not, as you might imagine, make Pete feel any better, as very few people
+  are ever healed by being told a truth instead of feeling the truth for
+  themselves."
+
 - Make sure every folder has an index page. Right now /music/songwriting/
   is a 403 because it doesn't.
 
