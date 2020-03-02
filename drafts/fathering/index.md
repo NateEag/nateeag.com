@@ -5,4 +5,4 @@ as long as the consequences are not unduly dangerous, they should be
 responsible for the action and the consequence. As a parent you can step
 alongside them to help them with their response to the consequence, but you
 should not protect them from it. They own their actions and you are just
-alongside then because you love them.
+alongside them because you love them.
