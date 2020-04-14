@@ -169,6 +169,16 @@ plan events without everyone being in the same physical space (which is what
 the distributed QR scanning logic assumes).
 
 
+## Shared Schedule Conflict Monitor
+
+I'd really like a program to warn me when a set of CalDAV URLs have a schedule
+conflict in the next month. My wife and I use CalDAV to have a constant view of
+both our schedules, but we're human and so miss conflicts anyway sometimes.
+
+I feel this must exist out there somewhere. I'm surprised it's not built into
+Google Calendar in some form, but it doesn't seem to be as of 2020-04-14.
+
+
 ## Open Source Calorie/Nutrient Tracker
 
 The FDA has a branded food products database that would be a decent baseline for "scan a UPC and add calories to the day".
