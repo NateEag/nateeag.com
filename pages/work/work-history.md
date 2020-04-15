@@ -192,4 +192,15 @@ iOS and Android app, each having its own set of customizable behaviors,
 brandable interface, and build system to support them.
 
 Starting with a rough draft Matt had hacked out and copy/pasted for a few early
-customers, I defined a minimal dataset structure and built a
+customers, I extracted the diverging data from the different forks into data
+folders, defined a lightweight schema describing those dataset folders, built a
+program to validate that dataset folders followed the schema, merged the forks
+into a single codebase, and built a set of [Cordova
+hooks](https://cordova.apache.org/docs/en/latest/guide/appdev/hooks/) to
+integrate a target dataset into the codebase at build time.
+
+TODO Go more in-depth on how the schema worked. The markdown file listing +
+optional file validator concept is a good example of my software design skills
+at work and the kind of strengths I bring to a team.
+
+I then used that system to deliver a long-overdue app update to a new client.
