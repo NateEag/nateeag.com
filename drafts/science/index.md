@@ -6,6 +6,9 @@ I have Opinions about it.
 
 I should try to explicate them here, perhaps.
 
+
+## Epistemology
+
 First, science is fundamentally fallacious. It's a huge exercise in post hoc
 ergo propter hoc.
 
@@ -26,3 +29,36 @@ thinking they prove things.
 So, science is about pragmatic experimentation and finding practically-usable
 guidelines for predicting things ("Under what circumstances will this bridge
 collapse?").
+
+
+## What Studies Actually Do
+
+TODO Restate this compactly. It's a quick stab at saving an idea that drifted
+through my head.
+
+I have seen people try to live their lives based on scientific guidelines.
+
+That's often badly mistaken.
+
+For things we understand pretty well, like Newtonian physics - great. Those
+predictions work reliably in most situations and we know pretty well the
+circumstances where they don't.
+
+A lot of recent studies focus on complex unclear things like human behaviors or
+health consequences of choices.
+
+Those are worth studying, but when you have statistics about the herd, they
+tell you about what happens in a random sampling of the herd.
+
+They do *not* have predictive power when looking at a specific individual,
+namely you.
+
+You are *not* one out of a thousand - you are you. Generalizing from "what a
+randomly-selected member of this population should do" to "What should I do" is
+often a mistake.
+
+If you have no other data, then yes, let the studies guide you.
+
+But if you can, say, gather data about your specific biology or mindset or risk
+factors, you should massively prefer that to assuming you're a
+randomly-selected population member.
