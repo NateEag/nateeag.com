@@ -34,10 +34,12 @@ positions. On October 1st, 2012, I started work as a web developer at Clark
 Associates.
 
 I was recruited away from Clark to do a contract as a front-end JS developer
-for MapQuest, which I started on June 24th, 2014. A month after I started,
-Brian McMahon showed up unannounced and said, in effect, "Hey guys, we're
-closing the Lancaster office next year. If you want to move to Denver, CO, feel
-free to re-apply."
+for MapQuest - my last day at clark was June 20th, 2014, and I started at
+MapQuest on June 24th, 2014.
+
+A month after I started, Brian McMahon showed up unannounced and said, in
+effect, "Hey guys, we're closing the Lancaster office next year. If you want to
+move to Denver, CO, feel free to re-apply."
 
 After that earthshattering event, my contract wound up getting extended through
 the scheduled office closing in March of 2015, but when most of the employees
