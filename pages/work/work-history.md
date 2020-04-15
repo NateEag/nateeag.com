@@ -174,9 +174,9 @@ It was very satisfying hearing my goals were achieved, and knowing I'd been
 part of why that happened.
 
 My last day contracting for United Concordia was September 12th, 2016, as I was
-recruited away to work at Nxtbook Media. I stayed on an extra day beyond my
-original planned resignation date to help them with a overnight release, since
-one of the managers asked that of me as a personal favor.
+recruited away to work at Nxtbook Media. I stayed on an extra Monday beyond my
+original planned resignation date to help United Concordia with an overnight
+release, since one of the managers asked that of me as a personal favor.
 
 My first day at Nxtbook was September 19th, 2016.
 
