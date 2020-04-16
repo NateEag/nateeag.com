@@ -1,0 +1,197 @@
+// Menu Hamburger Icon
+jQuery(document).ready(function($){
+	$('.primary_nav_wrap').append('<div class="menu-icon"><img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/menu.svg" alt="Navigation Menu" class="fit_img"></div>');
+	$(".menu-icon").click(function(){
+		$(".nav").slideToggle();
+		$(this).toggleClass("active open");
+	});
+});
+function myFunction(x) {
+  if (x.matches) {
+	jQuery(document).ready(function($){
+		$(".menu-item a").click(function(){
+			$(".nav").slideToggle();
+			$(this).toggleClass("active open");
+		});
+	});
+  } else { } 
+}
+var x = window.matchMedia("(max-width: 975px)")
+myFunction(x)
+x.addListener(myFunction)
+
+// Sub Menu Mobile Display
+jQuery(document).ready(function($){
+	$("header ul.menu li:has(ul)").append('<span class="sub-list"><img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/down_arrow.svg" class="fit_img"></span>');
+	$(".sub-list").click(function(){
+		$(this).prev().toggleClass("show__me");
+	});
+});
+
+// Smooth Scroll for Same page links
+jQuery(function ($) {
+$(function() {
+	$('a[href*="#"]:not([href="#"])').click(function() {
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	if (target.length) {
+		$('html, body').animate({
+			scrollTop: target.offset().top
+		}, 1500);
+		return false;
+		}
+	}
+	});
+});
+});
+
+// Back to top icon/link doesn't appear until you scroll down
+jQuery(function ($) {
+	$(window).scroll(function () {
+	var scrollval = $(window).scrollTop();
+	if (scrollval >= 80) {
+		$("#back_to_top").show();
+	}
+	else {
+		$("#back_to_top").hide();
+	}
+});
+});
+
+//  Header.sticky doesn't appear until you scroll down
+jQuery(function ($) {
+	$(window).scroll(function () {
+	var scrollval = $(window).scrollTop();
+	if (scrollval >= 500) {
+		$(".sticky").show();
+	}
+	else {
+		$(".sticky").hide();
+	}
+});
+});
+
+// Hide Header.sticky on on scroll down, show on scroll up
+jQuery(function ($) {
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.sticky').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+	if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('.sticky').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('.sticky').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    lastScrollTop = st;
+	}
+});
+
+// Load on scroll -- AOS
+AOS.init({
+	offset: 200,
+	duration: 600,
+	easing: 'ease-in-sine',
+	delay: 100,
+});
+
+
+// Add AOS to blockquotes
+jQuery(document).ready(function($){
+	$('blockquote').wrap('<div class="aos-item" data-aos="fade-in" />');
+});
+
+// Flexslider
+jQuery(function ($) {
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation: "fade"
+		});
+	});
+});
+
+// Light Box Modals
+function openModal() { document.getElementById('myModal').style.display = "grid"; }
+function closeModal() { document.getElementById('myModal').style.display = "none"; }
+
+function openSecondModal() { document.getElementById('myModal2').style.display = "grid"; }
+function closeSecondModal() { document.getElementById('myModal2').style.display = "none"; }
+
+// FitVids
+jQuery(document).ready(function($){
+	$("#vid").fitVids();
+});
+
+jQuery(document).ready(function($){
+	$("#vid2").fitVids();
+});
+
+jQuery(document).ready(function($){
+	$(".embed-youtube").fitVids();
+});
+
+jQuery(document).ready(function($){
+	$(".mejs-video").fitVids();
+});
+
+// Header Resize
+function resizeHeaderOnScroll() {
+	const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+	shrinkOn = 200,
+	headerEl = document.getElementById('js-header');
+		if (distanceY > shrinkOn) {
+			headerEl.classList.add("smaller");
+		} else {
+			headerEl.classList.remove("smaller");
+		}
+	}
+window.addEventListener('scroll', resizeHeaderOnScroll);
+
+// Search Bar
+jQuery(document).ready(function($){
+	$('#site_search').prepend('<div id="search_icon"></div>');
+	$("#search_icon").click(function(){
+		$("#search_box").slideToggle();
+		$(this).toggleClass("active");
+	});
+});
+
+// slide toggle on FAQ
+jQuery(document).ready(function($){
+    $(".faq").click(function(){
+		jQuery('#div'+$(this).attr('target')).slideToggle();
+    });
+});
+
+// Cookie Policy Popup 
+jQuery(document).ready(function () {
+    function openFancybox() {
+		setTimeout(function gdpr(){
+		  var popup = document.getElementById("gdpr-pop");
+		  popup.classList.toggle("show");
+		}, 0);
+    };
+   if (!localStorage['cookie_accept']) {
+    	openFancybox();
+   } else {
+}});

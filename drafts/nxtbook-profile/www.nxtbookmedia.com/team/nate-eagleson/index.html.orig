@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  	<![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nate Eagleson &ndash; Nxtbook Media</title>
+	<!--[if lt IE 9]>
+		<script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('footer');
+		</script>
+	<![endif]-->
+	
+<!-- This site is optimized with the Yoast SEO plugin v13.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Nate Eagleson &ndash; Nxtbook Media" />
+<meta property="og:description" content="At Nxtbook, I’m responsible for designing, implementing, testing, documenting, and maintaining software. By implication, I am responsible to care deeply for those who use our software. Before joining the team at Nxtbook, I worked on software startups that never reached solvency, worked as a software dev in gigantic corporations, and did everything in between. What &hellip;" />
+<meta property="og:url" content="https://www.nxtbookmedia.com/team/nate-eagleson/" />
+<meta property="og:site_name" content="Nxtbook Media" />
+<meta property="article:publisher" content="https://www.facebook.com/NxtbookMedia/" />
+<meta property="og:image" content="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/nxtbook-media-currated-digital-content-experiences.jpg" />
+<meta property="og:image:secure_url" content="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/nxtbook-media-currated-digital-content-experiences.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="At Nxtbook, I’m responsible for designing, implementing, testing, documenting, and maintaining software. By implication, I am responsible to care deeply for those who use our software. Before joining the team at Nxtbook, I worked on software startups that never reached solvency, worked as a software dev in gigantic corporations, and did everything in between. What [&hellip;]" />
+<meta name="twitter:title" content="Nate Eagleson &ndash; Nxtbook Media" />
+<meta name="twitter:image" content="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/nxtbook-media-currated-digital-content-experiences.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.nxtbookmedia.com/#organization","name":"Nxtbook Media","url":"https://www.nxtbookmedia.com/","sameAs":["https://www.facebook.com/NxtbookMedia/","https://www.instagram.com/nxtbookmedia/","https://www.linkedin.com/company/nxtbook-media/","https://www.youtube.com/user/Nxtbook"],"logo":{"@type":"ImageObject","@id":"https://www.nxtbookmedia.com/#logo","inLanguage":"en-US","url":"https://www.nxtbookmedia.com/wp-content/uploads/2020/02/nxtbook_media_logo.jpg","width":1080,"height":578,"caption":"Nxtbook Media"},"image":{"@id":"https://www.nxtbookmedia.com/#logo"}},{"@type":"WebSite","@id":"https://www.nxtbookmedia.com/#website","url":"https://www.nxtbookmedia.com/","name":"Nxtbook Media","inLanguage":"en-US","description":"Curated Digital Content Experiences","publisher":{"@id":"https://www.nxtbookmedia.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.nxtbookmedia.com/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"WebPage","@id":"https://www.nxtbookmedia.com/team/nate-eagleson/#webpage","url":"https://www.nxtbookmedia.com/team/nate-eagleson/","name":"Nate Eagleson &ndash; Nxtbook Media","isPartOf":{"@id":"https://www.nxtbookmedia.com/#website"},"inLanguage":"en-US","datePublished":"2020-01-14T18:46:52+00:00","dateModified":"2020-01-14T18:46:52+00:00","potentialAction":[{"@type":"ReadAction","target":["https://www.nxtbookmedia.com/team/nate-eagleson/"]}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='normalize-css'  href='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/css/normalize.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='aos-css'  href='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/css/aos.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/css/flexslider.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='type-css'  href='https://use.typekit.net/srm2cvv.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/style-refresh.css?ver=5.4' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://www.nxtbookmedia.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nxtbookmedia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.nxtbookmedia.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4" />
+<link rel='shortlink' href='https://www.nxtbookmedia.com/?p=16975' />
+<link rel="alternate" type="application/json+oembed" href="https://www.nxtbookmedia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nxtbookmedia.com%2Fteam%2Fnate-eagleson%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.nxtbookmedia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nxtbookmedia.com%2Fteam%2Fnate-eagleson%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel="icon" href="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/cropped-favicon-1-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/cropped-favicon-1-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/cropped-favicon-1-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.nxtbookmedia.com/wp-content/uploads/2020/02/cropped-favicon-1-1-270x270.png" />
+</head>
+<body id="top">
+			<div class="top-alert">
+			<div class="the-text">
+				<h1>COVID-19 Preparedness Statement <a href="https://www.nxtbookmedia.com/alerts/covid-19/" class="button">Read More</a></h1>
+			</div>
+		</div>
+		<header id="js-header">
+		<nav class="wrapper">
+			<div class="head_logo"><a href="https://www.nxtbookmedia.com"><img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/logo-white.min.svg" alt="Nxtbook Media" class="fit_img"></a></div>
+			<div class="primary_nav_wrap">
+				<div class="nav">
+					<ul id="menu-primary-menu" class="menu"><li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14"><a href="https://www.nxtbookmedia.com/digital-platforms/">Platforms</a>
+<ul class="sub-menu">
+	<li id="menu-item-16855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16855"><a href="https://www.nxtbookmedia.com/responsive/">Responsive</a></li>
+	<li id="menu-item-16831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16831"><a href="https://www.nxtbookmedia.com/replica/">Replica</a></li>
+</ul>
+</li>
+<li id="menu-item-16820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16820"><a href="https://www.nxtbookmedia.com/examples/">Examples</a>
+<ul class="sub-menu">
+	<li id="menu-item-16819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16819"><a href="https://www.nxtbookmedia.com/client-stories/">Client Stories</a></li>
+	<li id="menu-item-16851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16851"><a href="https://www.nxtbookmedia.com/digital-magazine/">Digital Magazine</a></li>
+	<li id="menu-item-16850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16850"><a href="https://www.nxtbookmedia.com/digital-catalogs/">Digital Catalogs</a></li>
+	<li id="menu-item-16852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16852"><a href="https://www.nxtbookmedia.com/digital-reports/">Digital Reports</a></li>
+	<li id="menu-item-16848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16848"><a href="https://www.nxtbookmedia.com/digital-archives/">Digital Archives</a></li>
+	<li id="menu-item-16849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16849"><a href="https://www.nxtbookmedia.com/digital-brochures/">Digital Brochures</a></li>
+</ul>
+</li>
+<li id="menu-item-16824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16824"><a href="https://www.nxtbookmedia.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-16791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16791"><a href="https://www.nxtbookmedia.com/blog/">Blog</a></li>
+	<li id="menu-item-16854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16854"><a href="https://www.nxtbookmedia.com/product-support/">Product Support</a></li>
+	<li id="menu-item-16853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16853"><a href="https://www.nxtbookmedia.com/ebooks-and-guides/">Ebooks &#038; Guides</a></li>
+	<li id="menu-item-16856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16856"><a target="_blank" rel="noopener noreferrer" href="https://help.nxtbookmedia.com">Client Knowledge Base</a></li>
+	<li id="menu-item-18237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18237"><a href="https://www.nxtbookmedia.com/payment/">Payment Portal</a></li>
+</ul>
+</li>
+<li id="menu-item-16839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16839"><a href="https://www.nxtbookmedia.com/about/">About</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.nxtbookmedia.com/schedule-a-demo/">Schedule a Demo</a></li>
+</ul>				</div>
+			</div>
+ 		</nav>
+	</header>
+	<div class="green_mile"></div>
+	<header class="sticky">
+		<nav class="wrapper">
+			<div class="head_logo"><a href="https://www.nxtbookmedia.com"><img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/logo.min.svg" alt="Nxtbook Media" class="fit_img"></a></div>
+			<div class="primary_nav_wrap">
+				<div class="nav">
+					<ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14"><a href="https://www.nxtbookmedia.com/digital-platforms/">Platforms</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16855"><a href="https://www.nxtbookmedia.com/responsive/">Responsive</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16831"><a href="https://www.nxtbookmedia.com/replica/">Replica</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16820"><a href="https://www.nxtbookmedia.com/examples/">Examples</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16819"><a href="https://www.nxtbookmedia.com/client-stories/">Client Stories</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16851"><a href="https://www.nxtbookmedia.com/digital-magazine/">Digital Magazine</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16850"><a href="https://www.nxtbookmedia.com/digital-catalogs/">Digital Catalogs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16852"><a href="https://www.nxtbookmedia.com/digital-reports/">Digital Reports</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16848"><a href="https://www.nxtbookmedia.com/digital-archives/">Digital Archives</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16849"><a href="https://www.nxtbookmedia.com/digital-brochures/">Digital Brochures</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16824"><a href="https://www.nxtbookmedia.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16791"><a href="https://www.nxtbookmedia.com/blog/">Blog</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16854"><a href="https://www.nxtbookmedia.com/product-support/">Product Support</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16853"><a href="https://www.nxtbookmedia.com/ebooks-and-guides/">Ebooks &#038; Guides</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16856"><a target="_blank" rel="noopener noreferrer" href="https://help.nxtbookmedia.com">Client Knowledge Base</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18237"><a href="https://www.nxtbookmedia.com/payment/">Payment Portal</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16839"><a href="https://www.nxtbookmedia.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.nxtbookmedia.com/schedule-a-demo/">Schedule a Demo</a></li>
+</ul>				</div>
+			</div>
+ 		</nav>
+	</header>
+	<script type="text/javascript">
+		function gdprstop() {
+			var popup = document.getElementById("gdpr-pop");
+			popup.classList.toggle("show");
+	        localStorage['cookie_accept'] = 'yes';
+		}
+	</script>
+	<div class="popup">
+		<div class="popuptext" id="gdpr-pop">
+			<div class="closeit" onclick="gdprstop()">&#10005;</div>
+			<div class="inside-pop-text">
+				<p class="light-text">Sorry, but we had to.<br>This website uses cookies to ensure you get the best experience on our website. To understand more about how we use cookies please see our <a href="https://www.nxtbookmedia.com/privacy-policy/">Privacy Policy</a>.<br><br>By continuing to use our site, you consent to our Cookie Policy.</p>
+			</div>
+
+		</div>
+	</div>
+	<a href="#top"><div id="back_to_top"><img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/up_arrow.svg" alt="Back to Top" title="Back to Top" /></div></a>		<div class="col1 background-color-one"><div class="large_pad white_curve_bottom"></div></div>
+<div class="pad"></div>
+<section class="col1 pad wrapper">
+	<article id="vid">
+		<h1>Nate Eagleson</h1>
+				<p>At Nxtbook, I’m responsible for designing, implementing, testing, documenting, and maintaining software.</p>
+<p>By implication, I am responsible to care deeply for those who use our software.</p>
+<p>Before joining the team at Nxtbook, I worked on software startups that never reached solvency, worked as a software dev in gigantic corporations, and did everything in between.</p>
+<p><strong>What inspires you?<br />
+</strong><br />
+J. S. Bach’s compositions (especially The Well-Tempered Clavier), the Gospel of John, the writings of J. R. R. Tolkien, sunsets, Ratatouille, Sigur Rós, my parents’ old Steinway, Ecclesiastes, The Incredibles, Ben Burtt’s sound design, Dorothy Sayers’ writing (especially the Peter Wimsey books and The Mind of the Maker), M83, my Nord Stage, Emacs, the Revelation of John, The Prydain Chronicles, stars, the Bourne film trilogy, downtime spent with my family (particularly singing or reading aloud together), the way Mike Burkholder wields his Fender Stratocaster, my Nord G2X, and the love of Jesus Christ.</p>
+<p><strong>What is your educational background?<br />
+</strong><br />
+I was homeschooled through high school, did my first two years of undergrad at HACC, and finished my BS in computer science at Penn State Harrisburg.</p>
+<p><strong>What makes you laugh?<br />
+</strong><br />
+The Emperor’s New Groove, unfailingly. The Princess Bride. My children. My wife. The Long Dark Tea-Time of the Soul. Unreadable code, when I manage to retain a sense of perspective. It just makes me cry if I lose that.</p>
+<p><strong>What is your favorite quote?<br />
+</strong><br />
+This is an incredibly difficult question. There are so many wonderful ones, and they’re all wonderful for different reasons.</p>
+<p>So let’s go with “The peasant! At the diner! …he didn’t pay his check.”</p>
+<p><strong>What are you passionate about?<br />
+</strong><br />
+Sustainability and aesthetics. The two often find themselves in polar opposition, but I find it hard to let go of either one.</p>
+<p><strong>What is one random fact about yourself?<br />
+</strong><br />
+I once beat the original Halo on Legendary in a single sitting. It took about eight hours.</p>
+<p><strong>If you could have one superpower, what would it be and why?<br />
+</strong><br />
+The ability to selectively ignore momentum, because it could be used in interesting ways (if you knew you were being targeted, you could be virtually unshootable).</p>
+<p>Or possibly nigh-invulnerability.</p>
+<p><strong>What is your favorite Nxtbook Value and why?<br />
+</strong><br />
+Excellence, because it’s something I care about a great deal.</p>
+<p><strong>What are two things you can’t live without?<br />
+</strong><br />
+Oxygen and water.</p>
+<p><strong>What is your greatest accomplishment?<br />
+</strong><br />
+I’d have to understand the entire universe in all respects to know which of the things I’ve done was the most valuable.</p>
+<p><strong>Any travel recommendations?<br />
+</strong><br />
+Ricketts Glen State Park has a lovely three-mile hike that’s jam-packed with waterfalls.</p>
+	</article>
+</section>
+<section class="col1 pad wrapper seperation">
+	<h4 class="center-text">Related Posts</h4>
+<div class="col3 gridgap">
+	</div>
+</section>
+<section class="full_width background-color-two">
+	<div class="col2 next wrapper gridgap">
+		<div class="prev"><a href="https://www.nxtbookmedia.com/team/molly-shaffer/" rel="next"><p><strong class="light-text">&#10229; Molly Shaffer</strong></p></a></div>
+		<div class="nex"><a href="https://www.nxtbookmedia.com/team/nicholas-hurst/" rel="prev"><p><strong class="light-text">Nicholas Hurst &#10230;</strong></p></a></div>
+	</div>
+</section>
+<footer class="pad">
+	<div class="pad"></div>
+	<div class="col2_right wrapper">
+		<ul id="menu-footer" class="menu"><li id="menu-item-17173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17173"><a href="https://www.nxtbookmedia.com/digital-platforms/">Platforms</a>
+<ul class="sub-menu">
+	<li id="menu-item-17175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17175"><a href="https://www.nxtbookmedia.com/responsive/">Responsive</a></li>
+	<li id="menu-item-17174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17174"><a href="https://www.nxtbookmedia.com/replica/">Replica</a></li>
+</ul>
+</li>
+<li id="menu-item-17178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17178"><a href="/responsive/#services">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-17176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17176"><a href="http://www.nxtcreative.com/">NXT Creative</a></li>
+	<li id="menu-item-17179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17179"><a href="https://www.nxtbookmedia.com/production-services/">Production Services</a></li>
+	<li id="menu-item-17170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17170"><a href="https://www.nxtbookmedia.com/nxtapp/">nxtapp</a></li>
+</ul>
+</li>
+<li id="menu-item-17181" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17181"><a href="/resources/">Clients</a>
+<ul class="sub-menu">
+	<li id="menu-item-17177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17177"><a target="_blank" rel="noopener noreferrer" href="https://help.nxtbookmedia.com/wp-login.php">Client Knowledge Base</a></li>
+	<li id="menu-item-17172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17172"><a href="https://www.nxtbookmedia.com/payment/">Payment</a></li>
+	<li id="menu-item-17168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17168"><a href="https://www.nxtbookmedia.com/contact/">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-17166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17166"><a href="https://www.nxtbookmedia.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-17169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17169"><a href="https://www.nxtbookmedia.com/meet-the-team/">Meet the Team</a></li>
+	<li id="menu-item-17167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17167"><a href="https://www.nxtbookmedia.com/careers/">Careers</a></li>
+	<li id="menu-item-17165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-17165"><a href="https://www.nxtbookmedia.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+</ul>		<div class="vertical_align">
+			<img src="https://www.nxtbookmedia.com/wp-content/themes/nxtbook/img/logo-full-white.svg" alt="Nxtbook Media" class="fit_img footer_logo">
+		</div>
+	</div>
+	<div class="pad"></div>
+	<div class="pad"></div>
+	<p class="credits">&copy;2020 Nxtbook Media <span class="break">|</span> Design by <a href="https://www.nxtcreative.com" target="_blank">nxt creative</a></p>
+	<style type="text/css">
+.background-color-one {background: #183d60;}
+.background-color-two {background: #7398ba;}
+.background-color-three {background: #d52953;}
+.background-color-four {background: #8dbfba;}
+.background-color-five {background: #2e333c;}
+</style>	<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/js/jquery.fitvids.js?ver=5.4'></script>
+<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/js/aos.js?ver=5.4'></script>
+<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/js/jquery.flexslider.js?ver=5.4'></script>
+<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/js/parallax.js?ver=5.4'></script>
+<script type='text/javascript' src='https://www.nxtbookmedia.com/wp-content/themes/nxtbook/js/theme.js?ver=5.4'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202016.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.4.2',blog:'173111675',post:'16975',tz:'-4',srv:'www.nxtbookmedia.com'} ]);
+	_stq.push([ 'clickTrackerInit', '173111675', '16975' ]);
+</script>
+	<!-- Google Analytics Code -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28806282-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-28806282-1');
+	</script>
+	<!-- Google Ads: 1069289952 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1069289952"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'AW-1069289952');
+	</script>
+	<!-- Pardot Code -->
+	<script type="text/javascript">
+		piAId = '4642';
+		piCId = '58704';
+		piHostname = 'pi.pardot.com';
+
+		(function() {
+		function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+		}
+		if(window.attachEvent) { window.attachEvent('onload', async_load); }
+		else { window.addEventListener('load', async_load, false); }
+		})();
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		 fbq('init', '581881058686077'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=581881058686077&ev=PageView &noscript=1"/>
+	</noscript>
+	<!-- Twitter universal website tag code -->
+	<script>
+	!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+	},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+	a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+	// Insert Twitter Pixel ID and Standard Event data below
+	twq('init','ny5qo');
+	twq('track','PageView');
+	</script>
+	<!-- Linkedin code -->
+	<script type="text/javascript">
+	_linkedin_partner_id = "1910474";
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+	</script><script type="text/javascript">
+	(function(){var s = document.getElementsByTagName("script")[0];
+	var b = document.createElement("script");
+	b.type = "text/javascript";b.async = true;
+	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+	s.parentNode.insertBefore(b, s);})();
+	</script>
+	<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1910474&fmt=gif" />
+	</noscript>
+</footer>
+</body>
+</html>
