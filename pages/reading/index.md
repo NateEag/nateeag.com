@@ -18,7 +18,8 @@ and characters back to her.
 I've read thousands of books at this point, I think - I didn't keep careful
 track of what I read from about seventeen through thirty-six (in Pennsylvania,
 where I was homeschooled, keeping a reading list was an important part of our
-portfolio process).
+yearly school district review process, so lists from that era probably exist if
+I can track them down).
 
 I'm starting to track what I read again, in part to keep track of what I'd
 recommend my kids read (and at what ages). I may even manage to reconstruct
