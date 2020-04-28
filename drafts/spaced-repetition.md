@@ -25,3 +25,21 @@ Reminds me that I should really add TOCs and subsection anchors to this site. I
 don't put a lot of long-form stuff on it because that's not my style, but these
 reference documents that can be converted into Anki decks would really benefit
 from that, I think.
+
+Anyway, Ankidown does not seem to have great support for adding new cards by
+re-importing existing note sets.
+
+It highlights duplicates for you, but IMO it would be better to override the
+existing cards when importing duplicates.
+
+I imagine logic something like:
+
+* Any note with contents or title exactly matching an existing note is treated
+  as an override by default, but can be added as a new note
+
+* Any note with contents or title close to an existing one suggests it could be
+  a conflict and lets you either skip, add as new, or add as override.
+
+* Any note that looks new is added as new by default
+
+I should ask if a PR implementing something like this would be accepted.
