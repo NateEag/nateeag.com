@@ -140,4 +140,16 @@ physical skills, which I have no evidence for and suspect is unlikely.
 
 However, you could adapt it to check memory of musical pieces, which could fit
 spaced repetition quite well, I think. As long as you break things down by
-phrases.
+phrases / sections.
+
+Comparing sequences of notes / chords for match up in relative order is far
+easier than saying "How close are you to correct rhythm?", so when considering
+just memorization, that might be all we need to do.
+
+Someone has built a less-nerdy, simpler version of something like this here:
+http://pianopracticeassistant.com/spaced-repetition/
+
+It's quite possible the gain of automatic checking and grading of your memory /
+performance is not worth the increased complexity of my proposed solution.
+Certainly what I suggest wouldn't help for pieces you don't have access to a
+MIDI file for, because you can't use it at all.
