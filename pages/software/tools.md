@@ -24,9 +24,9 @@ management and
 [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) to remap a
 handful of keys on MacBooks. In an ideal world I might prefer to run a Linux
 desktop, but since Macs can run Windows and Linux, and no other hardware
-reliably runs MacOS or simulates iOS. I don't want to ever have to tell a
-client "I can't update your app because an OS update broke my Hackintosh," so
-even if it were legal to build one, I still wouldn't.
+reliably runs MacOS or simulates iOS, OS X it is. I don't want to ever have to
+tell a client "I can't update your app because an OS update broke my
+Hackintosh," so even if it were legal to build one, I still wouldn't.
 
 Version control is a fundamental part of my programming workflow, whether solo
 or on a team. I think about it a lot, and while I believe [a better VCS is
@@ -54,18 +54,19 @@ have spent quality time with:
 * Objective-C
 * C++
 
-When it makes sense (which it often does), I use relational databases for
-data modeling. I've used a few different SQL DBs:
+When it makes sense (which it often does), I use relational databases for data
+modeling. I've used a few different SQL DBs. Again, in descending order of
+preference:
 
-* SQLServer
-* MySQL
-* SQLite
 * PostGreSQL
+* SQLServer
+* SQLite
+* MySQL
 
 They all have different strengths and weaknesses, but on the whole I prefer
-PostGres. MySQL gets a special shout-out for
-[causing much suffering](http://grimoire.ca/mysql/choose-something-else), and
-I recommend avoiding it.
+PostGres. MySQL gets a special shout-out for [causing much
+suffering](http://grimoire.ca/mysql/choose-something-else), and I recommend
+avoiding it where reasonable.
 
 [Chrome](https://www.google.com/chrome/browser/desktop/) is my preferred
 browser, both for regular use and development. It's primarily open-source,
