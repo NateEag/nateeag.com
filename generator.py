@@ -54,6 +54,10 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page = yaml.load(StringIO.StringIO(yaml_header))
     page['body'] = body
 
+    # Drafts should not be rendered.
+    if 'draft' in page:
+        return
+
     # Pages must have a title so we can show it in the link hierarchy.
     if page['title'] is None or page['title'] == '':
         raise Exception(path + ' has no title!')
