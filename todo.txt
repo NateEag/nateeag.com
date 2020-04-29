@@ -1,13 +1,16 @@
 - Add HTTPS to site
 
+- Make the site design responsive.
+
 - Protect photo galleries containing pictures of people with HTTP basic auth
-  and by forcing redirects to HTTPS for secured pages.
+  and by forcing redirects to HTTPS for secured pages. That requires I figure
+  out a way to store the actual photo galleries outside the repo and include
+  them at build time, so browsing the public repo doesn't just show you all the
+  contents.
   https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
   has what I need for a rough draft of this.
 
 - Add protected gallery of Maryn's first birthday
-
-- Make the site design responsive.
 
 - Finish up photo gallery design (Polaroid look, lightbox on click)
 
