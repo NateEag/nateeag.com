@@ -22,7 +22,8 @@
 
 - Add build sanity check that every folder has an index page.
 
-- Indicate essay draft status in header metadata, not by filesystem location
+- Move all pages in drafts/ to pages/ and mark them as drafts via header
+  metadata.
 
 - Require -f flag to deploy if build exits with non-zero status (so I stop
   pushing out errors to prod).

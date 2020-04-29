@@ -1,3 +1,11 @@
+---
+draft: yes
+title: Questions About Christianity
+meta_content: Questions I have about Christianity after being a Christian since about 1988.
+template: essay.html.tmpl
+---
+
+
 Here are questions about Christianity I wish I had answers to.
 
 When I come to conclusions, I remove them and put those conclusions in an

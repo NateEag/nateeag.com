@@ -41,7 +41,7 @@ untrustworthy. It is exactly the sort of divergence you might expect between an
 account written by an eyewitness and an account written by someone interviewing
 eyewitnesses.
 
-As that suggests, I am not a [Biblical
+As that implies, I am not a [Biblical
 literalist](https://en.wikipedia.org/wiki/Biblical_literalism). A lifetime of
 reading the Bible and many other texts has made it clear to me that the Bible
 contains many non-literal genres, ranging from parables to aphorisms to poems.

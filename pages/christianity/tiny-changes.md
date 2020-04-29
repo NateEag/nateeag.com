@@ -1,3 +1,7 @@
+---
+draft: yes
+---
+
 I have gone much of my life without an anthem.
 
 [Paul McBride](https://www.linkedin.com/in/paul-mcbride-92a55b77) just

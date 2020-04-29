@@ -1,3 +1,8 @@
+---
+draft: yes
+---
+
+
 For many years I've been completely confused as to why so many people talk
 about God "testing our faith".
 

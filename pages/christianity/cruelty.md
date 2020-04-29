@@ -1,3 +1,11 @@
+---
+draft: yes
+title: Is The Christian God Cruel?
+meta_content: My core beliefs.
+template: essay.html.tmpl
+---
+
+
 I've interacted with several people over the course of my life who insist that
 the God of the Bible is incredibly cruel.
 

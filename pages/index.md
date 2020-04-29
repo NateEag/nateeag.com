@@ -10,8 +10,9 @@ I am Nate Eagleson.
 
 [comment]: (TODO Hyperlink for Christian.)
 
-I am a Christian. I believe that the Maker of the universe loves me so much
-that He died to save me from myself. That belief is the heart of who I am.
+I am a [Christian](/christianity/). I believe that the Maker of the universe
+loves me so much that He died to save me from myself. That belief is the heart
+of who I am.
 
 [comment]: (TODO Hyperlinks for 'husband' and 'father'.)
 

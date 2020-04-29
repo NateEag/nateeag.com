@@ -1,3 +1,8 @@
+---
+draft: yes
+---
+
+
 No, this is not about the TV show.
 
 This is a place to dump notes on why I believe the supernatural is real, and

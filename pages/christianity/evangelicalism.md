@@ -1,3 +1,10 @@
+---
+draft: yes
+title: Me and the evangelical movement.
+meta_content: My core beliefs.
+template: essay.html.tmpl
+---
+
 American mainline evangelicalism and I have an odd relationship.
 
 I grew up in it. I can see many deep flaws and failings in it.
