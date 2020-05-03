@@ -54,6 +54,19 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page = yaml.load(StringIO.StringIO(yaml_header))
     page['body'] = body
 
+    if 'spaced-repetition' in page:
+        # Render this document as a simplified document for importing to a
+        # spaced repetition review deck.
+        #
+        # FIXME Preserve '---' lines in this export. Without them Ankidown
+        # can't import my documents, which is awkward.
+        #
+        # FIXME Put these in a gitignored folder of their own.
+        deck_contents_path = path.replace('.md', '-deck.md')
+        f = open(deck_contents_path, 'w')
+        f.write(body)
+        f.close()
+
     # Drafts should not be rendered.
     if 'draft' in page:
         return

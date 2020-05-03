@@ -35,3 +35,6 @@ but it certainly makes it easier for people and organizations to do that. I
 also know too well the frustration of being dependent on a vendor for critical
 changes. I therefore default to open-source programs and use proprietary ones
 only when there are compelling reasons.
+
+I am [starting a project](/software/fermi-approximations.html) to improve my
+estimation ability.

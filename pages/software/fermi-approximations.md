@@ -1,9 +1,16 @@
 ---
-title: Useful Ballparking Formulae
+title: Useful Ballparking Data
 meta_content:
-  Sometimes I want to guesstimate something roughly but quickly.
+  Enrico Fermi was legendary for his ability to approximate things quickly to
+  an order of magnitude or so.
 
-  Here are formulas I think it's worth keeping in my head for that.
+  I wish I was better at it.
+
+  To that end, I'm starting a collection of formulas, constants, and guidelines
+  for doing the task.
+
+  If this gets really big, I may wind up splitting it into multiple reference
+  sheets.
 
   I'll need to teach the site to render these reasonably. And also to offer
   links to each header.
@@ -12,7 +19,10 @@ meta_content:
   software (currently Anki), so my decks are version controlled. I might lose
   my review history, but not the raw data I chose to learn and remember, if I
   organize it this way.
+
+  TODO Write formulas and constnats up using LaTeX, so they can render prettily.
 template: "cheatsheet.html.tmpl"
+spaced-repetition: yes
 ---
 
 ## Area Of Circle
@@ -44,3 +54,19 @@ S = 2 * Pi * r * (h + r)
 ## Volume Of Cylinder
 
 V = Pi * r^2 * h
+
+---
+
+## Pi
+
+Ratio of a circle's circumference to its diameter.
+
+Pi ~= 3.1415926
+
+---
+
+## e
+
+Base of the natural logarithm.
+
+e ~= 2.71828
