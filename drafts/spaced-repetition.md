@@ -45,6 +45,8 @@ What things do I wish I remembered better?
   look up the details, and usually find a library that already does the heavy
   lifting.
 
+- People's names and basic info
+
 - Family facts and anecdotes
 
 
