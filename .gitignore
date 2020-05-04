@@ -4,3 +4,8 @@
 # src/ is where I generate the site to while working on a page - thus, we
 # ignore it.
 /src/*
+
+# flashcard_exports is where I dump modified versions of documents whose
+# contents should be committed to memory via spaced repetition. As build
+# products, those do not belong in version control.
+/flashcard_exports/*

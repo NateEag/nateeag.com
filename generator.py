@@ -1,10 +1,11 @@
 """Generate static versions of the site's pages using Jinja2."""
 
 # Standard library imports.
+import errno
 import os
+import re
 import shutil
 import sys
-import re
 import StringIO
 
 # Third party imports.
@@ -25,7 +26,7 @@ def markdown_filter(text):
     return Markup(markdown.markdown(text))
 
 
-def render_page(path, source_dir, target_dir, jinja_env):
+def render_page(path, source_dir, target_dir, project_path, jinja_env):
     """Render the page at `path` into `target_dir`."""
 
     f = open(path, 'r')
@@ -54,16 +55,37 @@ def render_page(path, source_dir, target_dir, jinja_env):
     page = yaml.load(StringIO.StringIO(yaml_header))
     page['body'] = body
 
+    docroot_relative_path = path[len(source_dir):]
+    path_components = docroot_relative_path.split(os.path.sep)[1:]
+    folders = path_components[:-1]
+    article = path_components[-1]
+
     if 'spaced-repetition' in page:
         # Render this document as a simplified document for importing to a
         # spaced repetition review deck.
+        flashcards_file_name = article.replace('.md', '-flashcards.md')
+
+        flashcards_path = os.path.sep.join([project_path,
+                                            'flashcard_exports',
+                                            docroot_relative_path])
+
+        flashcards_dir = os.path.dirname(flashcards_path)
+
+        # Don't explode if a target directory already exists. mkdir -p,
+        # essentially.
         #
+        # TODO Use pathlib.Path.mkdir once I upgrade to Python 3.
+        try:
+            os.makedirs(flashcards_dir)
+        except OSError as exc:
+            if exc.errno == errno.EEXIST and os.path.isdir(flashcards_dir):
+                pass
+            else:
+                raise
+
         # FIXME Preserve '---' lines in this export. Without them Ankidown
-        # can't import my documents, which is awkward.
-        #
-        # FIXME Put these in a gitignored folder of their own.
-        deck_contents_path = path.replace('.md', '-deck.md')
-        f = open(deck_contents_path, 'w')
+        # can't import my documents, which makes this pointless so far.
+        f = open(flashcards_path, 'w')
         f.write(body)
         f.close()
 
@@ -75,15 +97,10 @@ def render_page(path, source_dir, target_dir, jinja_env):
     if page['title'] is None or page['title'] == '':
         raise Exception(path + ' has no title!')
 
-    docroot_relative_path = path[len(source_dir):]
-    path_components = docroot_relative_path.split(os.path.sep)[1:]
-    folders = path_components[:-1]
-    article = path_components[-1]
     href = '/'
-
     breadcrumbs = [{
         'name': 'nateeag.com',
-        'href': '/'
+        'href': href
     }]
 
     for folder in folders:
@@ -191,7 +208,7 @@ def main():
     env.filters['markdown'] = markdown_filter
 
     for page_path in get_page_paths(pages_path):
-        render_page(page_path, pages_path, output_path, env)
+        render_page(page_path, pages_path, output_path, project_path, env)
 
     stylesheet_dir = os.path.join(project_path, 'stylesheets')
     css_dir = os.path.join(project_path, output_path)
