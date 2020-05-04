@@ -10,10 +10,9 @@ One of the best was teaching me to read at an early age and building
 motivational structures to make sure I did it heavily.
 
 For reasons I don't fully understand, I came out something of a speed reader.
-My mom first noticed it when she gave me _20,000 Leagues Under The Sea_ as a kid
-and I gave it back to her the next day. At first blush she thought I just
-hadn't actually read it, but on interrogation I was able to narrate the plot
-and characters back to her.
+My mom first noticed it when she gave me _Ben-Hur_ as a kid and I gave it back
+to her the next day. At first blush she thought I just hadn't actually read it,
+but on interrogation I was able to narrate the plot and characters back to her.
 
 I've read thousands of books at this point, I think - I didn't keep careful
 track of what I read from about seventeen through thirty-six (in Pennsylvania,
