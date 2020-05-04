@@ -20,9 +20,10 @@ meta_content:
   my review history, but not the raw data I chose to learn and remember, if I
   organize it this way.
 
-  TODO Write formulas and constnats up using LaTeX, so they can render prettily.
-template: "cheatsheet.html.tmpl"
+  TODO Write formulas and constants up using LaTeX, so they can render prettily.
+template: "essay.html.tmpl"
 spaced-repetition: yes
+draft: yes
 ---
 
 ## Area Of Circle
