@@ -10,6 +10,10 @@
   https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
   has what I need for a rough draft of this.
 
+- Figure out a way to automagically do the right thing with links to draft
+  pages. This necessarily involves figuring out some sort of abstraction to
+  describe links in the first place, I suppose.
+
 - Add protected gallery of Maryn's first birthday
 
 - Finish up photo gallery design (Polaroid look, lightbox on click)
