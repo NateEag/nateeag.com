@@ -23,3 +23,7 @@ Starting to accumulate some notes and thoughts on that argument here.
 
 * Deuteronomy 22:28 is a passage that does not fit well into my narrative, as I
   currently understand it. I should look more closely at it.
+
+*  Deuteronomy 23:15 makes it clear that "slavery" in ancient Israel is not
+   like slavery in 18th / 19th century US. A "slave" who ran from his master is
+   not to be sent back. It specifically says "do not oppress him".
