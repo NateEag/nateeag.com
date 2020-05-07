@@ -20,3 +20,6 @@ Starting to accumulate some notes and thoughts on that argument here.
   Hebrew male children by Pharoah and the tacit approval of it - the citizens
   and soldiers had a moral duty to stand up against it and (with the exception
   of the midwives) they did not.
+
+* Deuteronomy 22:28 is a passage that does not fit well into my narrative, as I
+  currently understand it. I should look more closely at it.
