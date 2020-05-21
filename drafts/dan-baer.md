@@ -5,7 +5,7 @@ I was sent a link to this gem recently:
 https://pbs.twimg.com/media/EWOtgoVXsAMY-6T.jpg
 
 I immediately became desperately curious how someone could swap Dan Baer's
-actual job of "deputy assistant secratary for the Bureau of Democracy, Human
+actual job of "deputy assistant secretary for the Bureau of Democracy, Human
 Rights, and Labor at the U.S. Department of State" for the erroneous label of
 "interior designer."
 
