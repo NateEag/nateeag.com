@@ -58,6 +58,18 @@ V = Pi * r^2 * h
 
 ---
 
+## Hack For Tricky Percentages
+
+X% of Y = Y% of X
+
+This isn't a huge thing - it can just save a bit of mental math sometimes.
+particularly for aphantasiacs with poor short-term memories.
+
+E.g., 32% of 50 is not a quick calculation, but 50% of 32 is easy (at least for
+CS people).
+
+---
+
 ## Pi
 
 Ratio of a circle's circumference to its diameter.
