@@ -18,9 +18,11 @@ because I expect anyone to give them to me.
 * Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
-* Monitor arms for 27" monitors (<https://www.amazon.com/dp/B00689HXI4/>)
 * More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
+* [Beyerdynamic DT 177x
+  Pro](https://drop.com/buy/massdrop-x-beyerdynamic-dt177x-go-headphones)
+  headphones, to replace my dying DT 770 Pros
 * [Continuum Fingerboard](https://www.hakenaudio.com/continuum-fingerboard/)
 * [Continuumini](https://www.hakenaudio.com/continuumini/), as a much-cheaper
   (if less awesome) alternative to the Fingerboard. Only $700 (though really,
@@ -32,9 +34,6 @@ because I expect anyone to give them to me.
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
   and easier to find)
-* [M-Audio Keystation 49 MIDI
-  controller](https://www.amazon.com/dp/B07DDN6TP6/ref=dp_prsubs_1) or similar,
-  for tinkering with music while my main boards live at church
 * [Boss FV-500L Volume Pedal](https://www.sweetwater.com/store/detail/FV500L),
   for use with G2 and Stage
 * [The Writer's Glove](https://thewritersglove.com/) might help keep my hands
