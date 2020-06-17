@@ -21,3 +21,15 @@ SheepSaver if I kept copies of them. Marathon is reborn as Aleph One, though.
 I suppose my best bet overall is to build a Nix or guix machine that can play
 the things I care about and keep backups of the data somewhere really safe -
 Amazon Glacier, for instance.
+
+Bigger picture, there are a few games I genuinely think are worth playing from
+an aesthetic perspective.
+
+What are those?
+
+- Passage
+- Portal
+- Super Hexagon
+- Mirror's Edge
+- Myth / Myth II
+- Oni?
