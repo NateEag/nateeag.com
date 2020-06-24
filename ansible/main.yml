@@ -1,0 +1,12 @@
+#
+
+- name: Create nateeag.com instance
+  hosts: all
+  become: true
+  become_user: root
+  become_method: sudo
+  roles:
+    # FIXME Rename this from 'nginx' to 'appserver' or something. What matters
+    # is not that it runs nginx - it's that it provides our web app to the
+    # world via HTTP.
+    - webserver
