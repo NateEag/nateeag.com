@@ -6,7 +6,7 @@ import os
 import re
 import shutil
 import sys
-import StringIO
+from io import StringIO
 
 # Third party imports.
 import yaml
@@ -49,10 +49,10 @@ def render_page(path, source_dir, target_dir, project_path, jinja_env):
     f.close()
 
     if body == '':
-        print yaml_header
+        print(yaml_header)
         raise Exception(path + ' has no body!')
 
-    page = yaml.load(StringIO.StringIO(yaml_header))
+    page = yaml.load(StringIO(yaml_header))
     page['body'] = body
 
     docroot_relative_path = path[len(source_dir):]
