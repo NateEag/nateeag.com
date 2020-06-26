@@ -15,4 +15,6 @@
 - name: Set dev hostname (to expose machine via Avahi)
   hostname:
     name: nateeag
+  notify:
+    - restart avahi-daemon
   when: is_dev_environment == True
