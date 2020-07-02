@@ -18,3 +18,21 @@
   notify:
     - restart avahi-daemon
   when: is_dev_environment == True
+
+- name: Make www.nateeag.com's webserver config available
+  template:
+    src: "{{ role_path }}/templates/etc/nginx/sites-available/nateeag.com.conf"
+    dest: /etc/nginx/sites-available/nateeag.com.conf
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - restart webserver
+
+- name: Activate www.nateeag.com's webserver configuration
+  file:
+    path: /etc/nginx/sites-enabled/nateeag.com.conf
+    src: /etc/nginx/sites-available/nateeag.com.conf
+    state: link
+  notify:
+    - restart webserver

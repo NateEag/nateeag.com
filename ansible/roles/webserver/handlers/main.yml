@@ -1,5 +1,5 @@
 ---
-- name: restart nginx
+- name: restart webserver
   service: name=nginx state=restarted enabled=yes
 
 - name: restart avahi-daemon
