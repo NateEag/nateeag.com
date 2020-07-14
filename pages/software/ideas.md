@@ -35,6 +35,36 @@ Note that before I started thinking about designing a new DVCS, I planned an
 [distributed code review system](https://github.com/NateEag/git-revue) for Git.
 
 
+## Browser Usage Reporting Tool
+
+I am easily distracted, and the World Wide Web is an always-present option for
+distraction.
+
+I am also obsessively honest.
+
+I think an effective way to reduce the amount of time I lose to needless
+browsing would be to make the "new tab" page in my browser require me to
+specify the basic activity I'm opening the tab for - "work", "curiousity",
+"personal", etc.
+
+The tool could then keep track of how much time I spend with a given purpose
+active.
+
+That data could be used to generate an overall report of time spent browsing in
+each category.
+
+That report would effectively be an interface to your browsing history, showing
+you how you're spending time on the web.
+
+If it was a static HTML file, you could publish it daily and have other people
+keep an eye on it. Accountability is one of the most effective tools I know for
+staying focused.
+
+You could add support for budgets, too, I suppose, but you could do that just
+about as well by just establishing those by other means with the people you
+share your history with.
+
+
 ## Interactive Browser-Based Git Tutorial
 
 Until a much better DVCS gains major mindshare, git is what I'll be using.
