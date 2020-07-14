@@ -253,7 +253,7 @@ for, but should serve as an example of an app that uses ANT+ data. [This blog
 post](https://johannesbader.ch/2014/06/track-your-heartrate-on-raspberry-pi-with-ant/)
 on using a Raspberry Pi to track your heart rate shows that you can do it
 without an Android device (using this [Python implementation of
-ANT](https://github.com/mvillalba/python-ant))
+ANT](https://github.com/mvillalba/python-ant)).
 
 It would be nice to be able to get raw accelerometer data, which I believe is
 what's usually used for sleep tracking, but I don't see a mechanism that would
@@ -261,6 +261,11 @@ make it possible at present.
 
 In tandem with this, I would like some tools that can analyze the data locally
 on my system to show me the big-picture trends.
+
+Since I first conceived of this idea, I have learned about
+[GadgetBridge](https://gadgetbridge.org/) and have purchased a [BangleJS
+smartwatch](https://banglejs.com/). I'm not sure what the precise next steps
+are, but I have working hardware now.
 
 
 ## Open Source GPS Track Analyzer
@@ -277,6 +282,10 @@ I would like to have a program that analyzes GPS track files for similar
 purposes. I would like it to work locally on the computer where the data are
 stored, so that the user can maintain control of their personal data while
 still gaining insight into the details of their walking and running routines.
+
+I have a little work on this in a private repository alongside a bunch of GPS
+tracks. I should consider splitting the programs out from my personal data and
+publicizing what I do have.
 
 
 ## Real-Life Marauder's Map
