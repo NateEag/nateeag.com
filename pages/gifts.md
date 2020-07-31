@@ -19,6 +19,8 @@ because I expect anyone to give them to me.
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
 * More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
+* A [Moonlander](https://zsa.io/moonlander/buy) keyboard, which is basically a
+  streamlined ErgoDox EZ
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
 * [Beyerdynamic DT 177x
   Pro](https://drop.com/buy/massdrop-x-beyerdynamic-dt177x-go-headphones)
