@@ -23,8 +23,8 @@ by, can turn out to be wrong even after they've been accepted for centuries,
 and when correct may not say what you think they do. See Donald Knuth's quote
 about "beware the above code; I have only proven it correct, not tested it."
 
-Fallacies are often really useful, in fact - just don't make the mistake of
-thinking they prove things.
+Fallacies are often really useful tools for thinking, in fact - just don't make
+the mistake of thinking they prove things.
 
 So, science is about pragmatic experimentation and finding practically-usable
 guidelines for predicting things ("Under what circumstances will this bridge
@@ -56,7 +56,8 @@ From a decision theory standpoint, you should *not* model yourself as one out
 of a thousand - you are you. Generalizing from "what a randomly-selected member
 of this population should do" to "What should I do" is often a mistake.
 
-If you have no other data, then yes, let the studies guide you.
+If you have no other data, then yes, let the studies guide you. It's probably
+better than ignoring them.
 
 However, if you can gather data about your specific biology or mindset or risk
 factors, you should massively prefer that to assuming you're a
