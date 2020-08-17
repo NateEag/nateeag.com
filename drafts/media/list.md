@@ -32,3 +32,12 @@ https://newjimcrow.com/about
 ## Neverending Story
 
 Classic 80s fantasy movie I've never seen.
+
+
+## The Free Design
+
+Acapella group from the 60s / 70s that did a lovely little number called "Love
+You" that showed up in the credits of Stranger Than Fiction.
+
+I'd really like to give the rest of their work a run-through to see what I
+think of it.
