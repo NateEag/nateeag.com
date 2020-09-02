@@ -42,6 +42,9 @@ because I expect anyone to give them to me.
   warm without impairing my ability to type.
 * [There Is No Cloud](https://shop.spreadshirt.co.uk/chriswatterston/there+is+no+cloud+t-shirt+heather+blue-A108460005)
   t-shirt
+* [To The Difference
+  Engine](https://www.zazzle.com/to_the_difference_engine_panel_t_shirt-235871448875341254)
+  t-shirt
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
 * [Maggard Razor Wet Shaving Starter
   kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
