@@ -51,6 +51,13 @@ Hannah, at venues as disparate as
 [the Whitaker Center](https://www.whitakercenter.org/) and
 [the Pennsylvania Renaissance Faire](http://www.parenfaire.com/).
 
+
+## Recording
+
+In April of 2020 I made a goal to record at least one small snippet of music
+daily. I publish those at [noise.nateeag.com](http://noise.nateeag.com).
+
+
 ## Arrangement
 
 I have arranged several pieces for harp and flute, as Hannah and I sometimes
@@ -65,6 +72,7 @@ I did most of the arranging (and the piano and keyboard performance) on
 [Veni Emmanuel](https://classicalacademicpress.com/product/veni-emmanuel-cd-ancient-traditional-latin-christmas-carols/)
 CD.
 
+
 ## Songwriting
 
 On occasion, I have been known to write lyrical songs.
@@ -75,14 +83,15 @@ have written down is incomplete fragments.
 
 [comment]: (TODO Add Sound of Shopping as a project and link it)
 
+
 ## Composition
 
-I have an underdeveloped interest in composing instrumental music.
+I have an interest in composing instrumental music.
 
 In some ways, composition is a natural outgrowth of improvisation and
-arranging, and most of my 'composition' has taken exactly that form -
-ephemeral snippets of melody, harmony, and rhythm that were not captured in
-an archiveable medium.
+arranging, and most of my 'composition' has taken exactly that form - ephemeral
+snippets of melody, harmony, and rhythm that were not captured in an
+archiveable medium.
 
 Of those that were recorded or written, many were lost in a hard drive crash
 years ago.
