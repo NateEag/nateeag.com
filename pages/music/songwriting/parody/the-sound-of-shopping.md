@@ -37,20 +37,20 @@ spilled onto the page, nearly full-formed.
     Hello Daddy my old friend
     I've come to talk with you again.
     Because a vision softly creeping,
-    planted seeds while I was sleeping,
+    left its seeds while I was sleeping,
     and the vision that was planted in my brain
     still remains
     within the sound of shopping.
 
     Through large textbooks I worked alone,
     pages on volcanic stone.
-    'Neath the halo of my desk lamp
+    'Neath the halo of a desk lamp
     I turned my eyes out to the cold and damp,
     When my eyes were stabbed by a sodium vapor light,
     it split the night
     and touched the sound of shopping.
 
-    And in the vapor lights I saw
+    And in the vapor light I saw
     ten million people, maybe more.
     People shopping without reason,
     buying things that were out of season.
@@ -61,14 +61,14 @@ spilled onto the page, nearly full-formed.
     "Mom," said I, "you do not know,
     shopping like a cancer grows.
     Hear my words that I might teach you,
-    Take a phone that I might reach you."
+    Take your phone that I might reach you."
     But my words like silent raindrops fell
     And echoed in the wells of shopping.
 
     And my mother went and stayed
-    by the Wal-Mart sign they made.
+    at the Wal-Mart sign they made.
     And the sign flashed out its warning
-    through the words which it was forming.
+    in the words that it was forming.
     And the sign said "We're open twenty-four hours every day
     So come and stay"
     and whispered in the sound of shopping.
