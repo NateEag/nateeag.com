@@ -13,7 +13,8 @@ computers in my displays (and the attendant spying).
 
 ## New Laptop
 
-I'll need to replace my personal laptop soon - it's dying.
+I'll need to replace my personal laptop soon - it's dying. Nine years is a
+decent run.
 
 I'm increasingly confident I don't want to use Apple any more, not as a daily
 driver. :(
@@ -25,9 +26,13 @@ body: https://puri.sm/products/librem-15/
 The hardware killswitches are appealing, as is supporting a company that's
 trying to make freedom-supporting hardware.
 
-It has a USB-C port and an HDMI port, so you can definitely run two monitors. I
-think you might be able to run two monitors through the USB-C port with the
-appropriate dock, though I'm not sure about that.
+It has a USB-C port and an HDMI port, but the USB-C port is data-only, so
+getting two monitors to work can be pretty involved:
+https://forums.puri.sm/t/please-recommend-a-port-replicator-docking-station/1115/16
+
+Their 14-inch model, on the other hand, has a fully-functional USB-C port and
+HDMI port, so it can just drive dual monitors without fussing. Maybe they'll
+update the 15 to work similarly next.
 
 Apparently you can get Windows 10 working on it without too much headache, too,
 so I have a fallback option if I try Linux for a year or so and wind up wanting
