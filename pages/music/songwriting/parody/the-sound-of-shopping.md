@@ -13,13 +13,13 @@ Garfunkel](https://en.wikipedia.org/wiki/Simon_%26_Garfunkel) in my teens. I
 quickly fell in love with their harmonies, their deft, delicate guitar work,
 and their dense, poetical lyrics.
 
-As an introverted intellectual homeschooler, I also happened to have a strong
-dislike for the act of shopping. For me, buying new physical stuff was (and
-often still is) frustrating, disturbing, and surreal. I hated the work of
-finding anything at all, the difficulty of divining whether the object would
-serve its purpose well, and the frenzy and hubbub of the mall. I also felt I
-could hear beneath its surface the incessant shrill peal of the ringmaster to
-"Buy, buy, buy! Eat, drink and be merry, for tomorrow you die!"
+As a shy, intellectual homeschooler, I also happened to have a strong dislike
+for the act of shopping. For me, buying new physical stuff was (and often still
+is) frustrating, disturbing, and surreal. I hated the work of finding anything
+at all, the difficulty of divining whether the object would serve its purpose
+well, and the frenzy and hubbub of the mall. I also felt I could hear beneath
+its surface the incessant shrill peal of the ringmaster to "Buy, buy, buy! Eat,
+drink and be merry, for tomorrow you die!"
 
 My mom, on the other hand, enjoyed wandering through stores mixing and
 matching, looking for the exact thing she wanted, not content to stop until
@@ -71,4 +71,4 @@ spilled onto the page, nearly full-formed.
     in the words that it was forming.
     And the sign said "We're open twenty-four hours every day
     So come and stay"
-    and whispered in the sound of shopping.
+    and whispered in the sounds of shopping.
