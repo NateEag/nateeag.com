@@ -74,7 +74,12 @@ CS people).
 
 Ratio of a circle's circumference to its diameter.
 
-Pi ~= 3.1415926
+Pi ~= 3.141592653589793
+
+This is the value used by JPL for their work. If it's good enough to make
+rockets work, I'll never need more for approximations (or heavy engineering).
+
+https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/
 
 ---
 
