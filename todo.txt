@@ -38,6 +38,11 @@
 - Run linkchecker locally as part of build process; exit non-zero status if it
   fails.
 
+- Add external links archiving to the build process. An archived link is one
+  that is available both in the wayback machine and also in a local archive,
+  thus offering public and private backup copies which can be compared against
+  each other to double-check accuracy.
+
 - Support backwards-compatible article renames by walking Git history and
   generating a table of 302s for inclusion in the nginx config for every
   rename. Obviously you'd want to cache the rename history somehow so you don't
