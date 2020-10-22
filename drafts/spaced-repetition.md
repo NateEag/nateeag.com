@@ -155,3 +155,10 @@ It's quite possible the gain of automatic checking and grading of your memory /
 performance is not worth the increased complexity of my proposed solution.
 Certainly what I suggest wouldn't help for pieces you don't have access to a
 MIDI file for, because you can't use it at all.
+
+
+## Links
+
+This is more about general learning, but it seems relevant to what this file is
+trying to be - how do I learn? How do I keep what I've learned in my head?
+https://vasilishynkarenka.com/learning/
