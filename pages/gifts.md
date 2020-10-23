@@ -6,9 +6,9 @@ template: "essay.html.tmpl"
 
 Here is a list of physical objects I would like to own.
 
-own of these things are obscenely expensive and/or hard to actually buy. They
-are listed because I am tracking things I would in theory like to own, not
-because I expect anyone to give them to me.
+Some of these things are obscenely expensive and/or hard to actually buy. They
+are listed because I am tracking things I would like to own, not because I
+expect anyone to give them to me.
 
 * Physical CD of [Through The Deep, Dark Valley](https://music.theohhellos.com/album/through-the-deep-dark-valley)
 * Physical CD of [Home In Halifax](https://www.amazon.com/Home-Halifax-STAN-ROGERS/dp/B000003BU3)
@@ -18,10 +18,14 @@ because I expect anyone to give them to me.
 * Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
-* More [ErgoDox EZ keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643) (black, blank keycaps, Cherry MX Brown keyswitches)
+* More [ErgoDox EZ
+  keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643)
+  (black, blank keycaps, no Cherry MX Brown keyswitches)
 * A [Moonlander](https://zsa.io/moonlander/buy) keyboard, which is basically a
   streamlined ErgoDox EZ
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
+* [EarFun wireless earbuds](https://www.amazon.com/dp/B08B4QSSPS) for use with
+  my smartphone (usually Android)
 * [Beyerdynamic DT 177x
   Pro](https://drop.com/buy/massdrop-x-beyerdynamic-dt177x-go-headphones)
   headphones, to replace my dying DT 770 Pros
@@ -42,15 +46,7 @@ because I expect anyone to give them to me.
   warm without impairing my ability to type.
 * [There Is No Cloud](https://shop.spreadshirt.co.uk/chriswatterston/there+is+no+cloud+t-shirt+heather+blue-A108460005)
   t-shirt
-* [To The Difference
-  Engine](https://www.zazzle.com/to_the_difference_engine_panel_t_shirt-235871448875341254)
-  t-shirt
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
-* [Maggard Razor Wet Shaving Starter
-  kit](https://www.maggardrazors.com/product/budget-starter-kit/) with MR6
-  razor, V3 head, Green Tea & Oat soap, and 10-blade sampler
-* [Designing Data-Intensive Applications](https://dataintensive.net/) looks like
-  an interesting read.
-* Any but the first two [Foxfire
+* Any but the first four [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
-* Any but the first two [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
+* Any but the first four [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
