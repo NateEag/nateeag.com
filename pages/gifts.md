@@ -47,6 +47,11 @@ expect anyone to give them to me.
 * [There Is No Cloud](https://shop.spreadshirt.co.uk/chriswatterston/there+is+no+cloud+t-shirt+heather+blue-A108460005)
   t-shirt
 * [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
+* [Real-World
+  SRE](https://www.amazon.com/Real-World-SRE-Survival-Responding-Maximizing-ebook/dp/B07BJKZQ7Y/)
+  looks like it could be helpful, as it sounds like it focuses on "since you're
+  not Google, what *should* you be doing with your SRE strategy and which tools
+  should you use to do it?"
 * Any but the first four [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first four [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
