@@ -41,3 +41,11 @@ You" that showed up in the credits of Stranger Than Fiction.
 
 I'd really like to give the rest of their work a run-through to see what I
 think of it.
+
+
+## Showbread
+
+Bob Stouffer mentioned the track "I'm Afraid That I Am Me" from their album
+"Cancer," and I was surprised how much I enjoyed it.
+
+So, I should look into them at some point.
