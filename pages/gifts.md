@@ -25,7 +25,7 @@ expect anyone to give them to me.
   streamlined ErgoDox EZ
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
 * [EarFun wireless earbuds](https://www.amazon.com/dp/B08B4QSSPS) for use with
-  my smartphone (usually Android)
+  my smartphone
 * [Beyerdynamic DT 177x
   Pro](https://drop.com/buy/massdrop-x-beyerdynamic-dt177x-go-headphones)
   headphones, to replace my dying DT 770 Pros
@@ -46,7 +46,7 @@ expect anyone to give them to me.
   warm without impairing my ability to type.
 * [There Is No Cloud](https://shop.spreadshirt.co.uk/chriswatterston/there+is+no+cloud+t-shirt+heather+blue-A108460005)
   t-shirt
-* [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-cash-strap-black)
+* [The Ridge Wallet (aluminum)](https://gallantry.com/products/the-ridge-aluminum-wallet-money-clip-navy)
 * [Real-World
   SRE](https://www.amazon.com/Real-World-SRE-Survival-Responding-Maximizing-ebook/dp/B07BJKZQ7Y/)
   looks like it could be helpful, as it sounds like it focuses on "since you're
