@@ -34,6 +34,20 @@ https://newjimcrow.com/about
 Classic 80s fantasy movie I've never seen.
 
 
+## Fatman
+
+A silly-looking Christmas action movie, in which Santa takes on a contract
+manufacturing hardware for the US military and a spoiled rich kid who got coal
+takes out a contract on Santa.
+
+
+## Fisherman's Friends
+
+What appears to be a feel-good comedy about a record company talent scout
+pranked into recruiting some rural Welsh fishing villagers for an album deal.
+Apparently somewhat based on a true story.
+true
+
 ## The Free Design
 
 Acapella group from the 60s / 70s that did a lovely little number called "Love
