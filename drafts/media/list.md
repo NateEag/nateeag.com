@@ -20,6 +20,18 @@ promising. Dark comedy about what the Singularity would actually be like (since
 it would be run by Silicon Valley venture capitalists).
 
 
+## Jojo Rabbit
+
+Comedy / drama about a member of the Hitler Youth who has Hitler for an
+imaginary friend and whose mother is keeping a Jewish girl safe in their attic.
+
+Sounds insane, but I've heard rave reviews.
+
+It is, of course, a Taika Waititi film, as anything with this bizarre a premise
+would have to be.
+
+
+
 ## The New Jim Crow
 
 A book proposing that the United States has used mass incarceration to
