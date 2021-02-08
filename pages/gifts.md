@@ -14,18 +14,17 @@ expect anyone to give them to me.
 * Physical CD of [Home In Halifax](https://www.amazon.com/Home-Halifax-STAN-ROGERS/dp/B000003BU3)
 * Physical CD of [The World As Best As I Remember It, vol. 1](https://www.amazon.com/World-As-Best-Remember/dp/B0000004RU)
 * Physical CD of [The World As Best As I Remember It, vol. 2](https://www.amazon.com/World-As-Best-Remember-Vol/dp/B00138D4UG)
-* [The Gift](https://www.amazon.com/Gift-Creativity-Artist-Modern-World/dp/0307279502)
 * Standing desk (more research needed) [claimed by my wife for birthday, waiting on me]
 * Good stool for sitting at standing desk (more research needed)
 * Plastic carpet protector (to put under chair)
+* Harney & Sons Hot Cinnamon Spice tea, which I got a tempting review of from a
+  coworker (apparently it smells like an Atomic Fireball).
 * More [ErgoDox EZ
   keyboards](https://ergodox-ez.com/collections/frontpage/products/ergodox-ez-original-standalone?variant=40172496643)
   (black, blank keycaps, no Cherry MX Brown keyswitches)
 * A [Moonlander](https://zsa.io/moonlander/buy) keyboard, which is basically a
   streamlined ErgoDox EZ
 * [The Tao of Programming](http://www.amazon.com/The-Tao-Programming-Geoffrey-James/dp/0931137071)
-* [EarFun wireless earbuds](https://www.amazon.com/dp/B08B4QSSPS) for use with
-  my smartphone
 * [Beyerdynamic DT 177x
   Pro](https://drop.com/buy/massdrop-x-beyerdynamic-dt177x-go-headphones)
   headphones, to replace my dying DT 770 Pros
@@ -55,3 +54,4 @@ expect anyone to give them to me.
 * Any but the first five [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first four [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
+* The Expanse books series
