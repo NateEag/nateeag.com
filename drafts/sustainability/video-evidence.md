@@ -1,4 +1,4 @@
-I no longer believe video evidence is no longer trustworthy.
+I no longer believe video evidence is trustworthy.
 
 It's not completely worthless, but in any case of significance I now try not
 to trust it on its own.
