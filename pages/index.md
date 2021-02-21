@@ -16,11 +16,10 @@ of who I am.
 
 [comment]: (TODO Hyperlinks for 'husband' and 'father'.)
 
-I am a husband to my beautiful, talented wife Stephanie and a father to my
-children [James](/photos/newborn-james/), Isaac, and Maryn. I am a brother to
-my three sisters, Hannah, Miriam, and Abigail, and a son to my parents, Bruce
-and Mary Ann. They are a far better family than I could ever have asked for,
-and I am eternally grateful for all they have poured into my life.
+I am a husband to my beautiful, skillful wife Stephanie and a father to my
+children James, Isaac, and Maryn. I am a brother to my three sisters, Hannah,
+Miriam, and Abigail, and a son to my parents, Bruce and Mary Ann. I am
+eternally grateful for all they have poured into my life.
 
 [comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
