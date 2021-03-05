@@ -63,3 +63,26 @@ Bob Stouffer mentioned the track "I'm Afraid That I Am Me" from their album
 "Cancer," and I was surprised how much I enjoyed it.
 
 So, I should look into them at some point.
+
+
+## Haley Reinhart
+
+A _killer_ jazz singer who did an amazing rendition of Radiohead's "Creep" with
+Postmodern Jukebox.
+
+
+## THPS 1 & 2 on Switch
+
+I played THPS 2 obsessively in my late teens and early twenties.
+
+Not sure I want to have the game again, but it is tempting.
+
+
+## Rattle 'n' Hum
+
+A documentary on U2 recommended by Lance.
+
+
+## High SCore
+
+A documentary on the history of video games, also recommended by Lance.
