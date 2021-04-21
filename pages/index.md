@@ -10,16 +10,15 @@ I am Nate Eagleson.
 
 [comment]: (TODO Hyperlink for Christian.)
 
-I am a [Christian](/christianity/). I believe that the Maker of the universe
-loves me so much that He died to save me from myself. That belief is the heart
-of who I am.
+I am a [Christian](/christianity/).
 
 [comment]: (TODO Hyperlinks for 'husband' and 'father'.)
 
-I am a husband to my beautiful, skillful wife Stephanie and a father to my
-children James, Isaac, and Maryn. I am a brother to my three sisters, Hannah,
-Miriam, and Abigail, and a son to my parents, Bruce and Mary Ann. I am
-eternally grateful for all they have poured into my life.
+I am a husband to my beautiful, skillful wife
+[Stephanie](https://stephaniegaileagleson.com) and a father to my children
+James, Isaac, and Maryn. I am a brother to my three sisters, Hannah, Miriam,
+and Abigail, and a son to my parents, Bruce and Mary Ann. I am eternally
+grateful for all they have poured into my life.
 
 [comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
