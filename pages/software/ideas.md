@@ -65,6 +65,37 @@ about as well by just establishing those by other means with the people you
 share your history with.
 
 
+## Generic CLI Spaced Repetition Tool
+
+I currently use [Anki](https://apps.ankiweb.net/) to help me remember things
+with minimal effort.
+
+I wish I had a tool that let me do spaced-repetition reviews against Unix CLI
+commands. If the command exits with status 0, the review was successful - if it
+exits non-zero, it was not.
+
+Uses I would have for it:
+
+- Regularly reviewing secrets I want to remember while leaving them encrypted
+  at rest (for instance, important passwords, SSNs, etc, which could live in my
+  [password store](https://www.passwordstore.org/))
+
+- Testing my ability to perform arbitrary mathematical operations by hand
+  (e.g., regularly review my ever-weakening grasp on useful math techniques by
+  making me actually practice them)
+
+- Hack up a MIDI-file-grading system to let me maintain a library of memorized
+  piano pieces with minimal effort. This would be a major undertaking, as
+  comparing MIDI files for "rough equality" is a Hard Problem, but it's
+  probably doable.
+
+- Work up a tool for remembering facts from Markdown-formatted (or similar
+  plain-text format) reference documents. Ideally, those documents themselves
+  could use embedded source code blocks and data to *derive* information where
+  feasible, so the argument that a given statement is true is a piece
+  of reproducible research.
+
+
 ## Interactive Browser-Based Git Tutorial
 
 Until a much better DVCS gains major mindshare, git is what I'll be using.
