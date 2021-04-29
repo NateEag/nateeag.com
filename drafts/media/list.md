@@ -46,7 +46,17 @@ takes out a contract on Santa.
 What appears to be a feel-good comedy about a record company talent scout
 pranked into recruiting some rural Welsh fishing villagers for an album deal.
 Apparently somewhat based on a true story.
-true
+
+
+## A Quiet Place
+
+A thriller / horror movie by John Krazinski, featuring Emily Blunt and John
+Krazinski as the parents in a family trying to survive while hunted by
+creatures that kill any sound they hear.
+
+Reviews say it's scary but it sounds more like the "Signs" sort of tense, not
+the horror/gore/nightmare tension stripe of horror that I can't stand.
+
 
 ## The Free Design
 
