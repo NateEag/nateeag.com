@@ -1,3 +1,8 @@
+A lovely poem that captures the essence of parenting as well as anything I have
+read, I think:
+
+https://poets.org/poem/children-1
+
 An idea I want to refine and put somewhere:
 
 Once a kid can do an action and can roughly understand the consequences of it,
