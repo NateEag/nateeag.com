@@ -75,6 +75,12 @@ Bob Stouffer mentioned the track "I'm Afraid That I Am Me" from their album
 So, I should look into them at some point.
 
 
+## The Mountain Goats
+
+Hannah recommended them, specifically their album "The Life of the World to
+Come".
+
+
 ## Haley Reinhart
 
 A _killer_ jazz singer who did an amazing rendition of Radiohead's "Creep" with
