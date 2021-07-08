@@ -94,6 +94,13 @@ I played THPS 2 obsessively in my late teens and early twenties.
 Not sure I want to have the game again, but it is tempting.
 
 
+## Thumper
+
+An abstract horror rhythm game. Looks like it may not be quite my style of
+rhythm game, but as a rhythm game guy, it might be worth trying just to see
+what it brings to the genre.
+
+
 ## Rattle 'n' Hum
 
 A documentary on U2 recommended by Lance.

@@ -36,6 +36,10 @@ expect anyone to give them to me.
 * [88-key Nord Stage 3](https://www.nordkeyboards.com/products/nord-stage-3),
   since my 76-key is a bit too short, is missing a lot of awesome features from
   the latest models, and is starting to break.
+* An [Organelle](critterandguitari.com/organelle). It's the closest thing I've
+  yet found to my ideal open-source audio rackmount module. Uses PureData for
+  patching and runs on a Raspberry Pi, with most (all?) of its software being
+  OSS.
 * Nord G2X (backup/home copy, for when my current one dies)
 * Nord G2 Engine + expansion card (again for backup and/or use at home; cheaper
   and easier to find)
