@@ -55,6 +55,7 @@ expect anyone to give them to me.
   looks like it could be helpful, as it sounds like it focuses on "since you're
   not Google, what *should* you be doing with your SRE strategy and which tools
   should you use to do it?"
+* Low-Tech Magazine's [paper editions](https://www.notechmagazine.com/low-tech-magazine-the-printed-website)
 * Any but the first five [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first four [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
