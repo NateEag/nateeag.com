@@ -43,6 +43,12 @@ looks roughly like a MacBook (though I'll never have a use for that freaking
 numeric keypad they all waste space on).
 https://www.thinkpenguin.com/gnu-linux/penguin-m3-gnulinux-laptop
 
+The Framework laptop is genuinely modular hardware, with an eye to letting you
+upgrade and expand your laptop and swap out the hardware you need for a given
+job. It's anyone's guess if the company will survive, but if it does it would
+almost certainly be the most sustainable laptop I've seen.
+https://frame.work/blog/category/hardware
+
 
 ## Family Media Machine
 
@@ -67,3 +73,9 @@ get a remote control of some kind working for it).
 
 Next step would be to show some sane method for controlling the thing. Would
 Steph be okay with a wireless keyboard / trackball combo?
+
+...we wound up buying a cheap Android tablet with a Mini HDMI port. It
+technically does the job, but is prone to stutter with all the streaming
+services we use.
+
+I have not given up on the idea of replacing it with something more general.
