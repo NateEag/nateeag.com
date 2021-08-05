@@ -162,3 +162,6 @@ MIDI file for, because you can't use it at all.
 This is more about general learning, but it seems relevant to what this file is
 trying to be - how do I learn? How do I keep what I've learned in my head?
 https://vasilishynkarenka.com/learning/
+
+How do you use Anki most effectively? Why do spaced repetition at all?
+http://augmentingcognition.com/ltm.html
