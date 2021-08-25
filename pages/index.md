@@ -18,7 +18,7 @@ I am a husband to my beautiful, skillful wife
 [Stephanie](https://stephaniegaileagleson.com) and a father to my children
 James, Isaac, and Maryn. I am a brother to my three sisters, Hannah, Miriam,
 and Abigail, and a son to my parents, Bruce and Mary Ann. I am eternally
-grateful for all they have poured into my life.
+grateful for all the good they have poured into my life.
 
 [comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
