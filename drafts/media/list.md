@@ -121,3 +121,14 @@ A documentary on U2 recommended by Lance.
 ## High SCore
 
 A documentary on the history of video games, also recommended by Lance.
+
+
+## Electronic Music Education and Preservation Project
+
+This is a huge museum of electronic music hardware. In some cases you can even
+arrange to record with the instruments. I'd love to visit and even more love to
+record there at some point.
+
+It's in Philly.
+
+https://emeapp.org/
