@@ -34,11 +34,9 @@ I sometimes dabble in [photography](/photos/).
 [comment]: (TODO Hyperlink "teach our children" to a homeschooling page.)
 
 I am a teacher. I love sharing what I have learned and helping people avoid the
-pitfalls and mistakes I have made. I have taught music and software
+pitfalls and mistakes I have made. I have taught music and software development
 professionally, while I help my wife homeschool our children as a passionate
 amateur.
-
-[comment]: (TODO Hyperlink for sustainability.)
 
 I think a lot about [sustainability](/sustaining/).
 
