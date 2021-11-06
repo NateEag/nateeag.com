@@ -58,6 +58,18 @@ Reviews say it's scary but it sounds more like the "Signs" sort of tense, not
 the horror/gore/nightmare tension stripe of horror that I can't stand.
 
 
+## Jojo Rabbit
+
+A Taika Waititi film about a young German boy in WWII who has Hitler as an
+imaginary friend, then discovers that his mother is hiding a Jewish girl in
+their attic.
+
+My impression is that it's a bittersweet tearjerker comedy, but I may be
+misunderstanding.
+
+Recommended to me by Matt Guest.
+
+
 ## The Free Design
 
 Acapella group from the 60s / 70s that did a lovely little number called "Love
