@@ -106,6 +106,14 @@ I played THPS 2 obsessively in my late teens and early twenties.
 Not sure I want to have the game again, but it is tempting.
 
 
+## Shovel Knight
+
+A modern 8-bit sidescroller with a truly magnificent soundtrack.
+
+I never really played Megaman or similar, but it might be worth trying someday,
+if only to remind myself I'm getting old and incompetent.
+
+
 ## Thumper
 
 An abstract horror rhythm game. Looks like it may not be quite my style of
