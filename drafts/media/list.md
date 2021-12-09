@@ -130,9 +130,27 @@ saw that it exists.
 A documentary on U2 recommended by Lance.
 
 
-## High SCore
+## High Score
 
 A documentary on the history of video games, also recommended by Lance.
+
+
+## How People Grow
+
+A book by the same team that wrote "Boundaries", relevant to the subject of
+suffering and failure being the mechanisms by which we grow.
+
+Bob Stouffer said it has good ideas, flimsy Scriptural backing, and some pretty
+terrible exegesis.
+
+He also said he thought it would not be a waste of my time to read.
+
+
+## The Structure Of Scientific Revolutions
+
+Bob half-recommended it. He says it is dry and slow-moving, but puts forth
+ideas he hasn't seen elsewhere. It apparently propounds the view that "science
+advances one funeral at a time," since people don't change their minds.
 
 
 ## Electronic Music Education and Preservation Project
