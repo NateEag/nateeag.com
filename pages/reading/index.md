@@ -29,3 +29,5 @@ other people cull through the infinite pile of written words in this world just
 a bit, avoiding the pointless things I've plowed through in favor of the best.
 
 [2020](/reading/2020.html)
+[2021](/reading/2021.html)
+[2022](/reading/2022.html)
