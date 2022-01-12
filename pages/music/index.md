@@ -42,9 +42,9 @@ classical and pop orchestral settings.
 I learned upright bass primarily to play bluegrass, which I did for several
 years in my late teens.
 
-I have played quite a bit of worship music for
-[Hershey Free Church](http://hersheyfree.com/), and currently play keyboards
-for the worship services once a month.
+I played quite a bit of worship music for [Hershey Free
+Church](http://hersheyfree.com/) over my decades of attending there, including
+a stint as the primary keyboard player for the main services.
 
 I have also played a fair amount of harp-and-flute duet music with my sister
 Hannah, at venues as disparate as
@@ -64,8 +64,7 @@ I have arranged several pieces for harp and flute, as Hannah and I sometimes
 found ourselves lacking good arrangements for a given need.
 
 I was a primary driver of the arrangements in most of the bands I have played
-in, including Hershey Free's worship band(s), where much of my work is still
-in use.
+in, including Hershey Free's worship band(s).
 
 I did most of the arranging (and the piano and keyboard performance) on
 [Classical Academic Press's](https://classicalacademicpress.com/) [Veni
