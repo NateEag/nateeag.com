@@ -49,6 +49,14 @@ job. It's anyone's guess if the company will survive, but if it does it would
 almost certainly be the most sustainable laptop I've seen.
 https://frame.work/blog/category/hardware
 
+Over in hardcore OSS land is the MNT Reform, which is fully open hardware,
+built with a blazing focus on repairability. You can pull out individual
+battery cells. ARM chips, only 4 GB of RAM - it's definitely an idealist's toy.
+That said, I think it might be an excellent first laptop for an inquisitive,
+electronics-minded kid. https://mntre.com/ Paired with a Lightphone, an older
+kid or younger teenager might have an effective set of tools that aren't
+optimized for sacrificing them to The Algorithms.
+
 
 ## Family Media Machine
 
@@ -66,10 +74,14 @@ could cover both of those). Could use it for playing stuff from the music
 library, too, maybe even dig up a mobile app for controlling that so we don't
 have to have the TV on (use Bluetooth to broadcast to wireless speakers).
 
-First step here would be to hack up a NixOS VM on which I can stream Netflix
-and Amazon Prime. If I can get that working, I'd say buying a machine to host
-that setup is a no-brainer (though I'd need to also build out a simple UI and
-get a remote control of some kind working for it).
+First step here would be to hack up a NixOS VM on which I can stream Netflix,
+Amazon Prime, and Disney Plus. If I can get that working, I'd say buying a
+machine to host that setup is a no-brainer (though I'd need to also build out a
+simple UI and get a remote control of some kind working for it).
+
+...actually the first step would be to buy the hardware with Windows
+preinstalled. I may hate it but it'll Just Work, as they say. Replacing it with
+a Linux substrate may be possible but may not be a good use of time.
 
 Next step would be to show some sane method for controlling the thing. Would
 Steph be okay with a wireless keyboard / trackball combo?
