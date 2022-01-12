@@ -81,8 +81,6 @@ This usually happens as [parody](/music/songwriting/parody/) or off-the-cuff
 improvised lyricism, and little of it has been written down. Most of what I
 have written down is incomplete fragments.
 
-[comment]: (TODO Add Sound of Shopping as a project and link it)
-
 
 ## Composition
 
