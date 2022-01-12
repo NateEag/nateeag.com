@@ -68,8 +68,8 @@ in, including Hershey Free's worship band(s), where much of my work is still
 in use.
 
 I did most of the arranging (and the piano and keyboard performance) on
-[Classical Academic Press's](https://classicalacademicpress.com/)
-[Veni Emmanuel](https://classicalacademicpress.com/product/veni-emmanuel-cd-ancient-traditional-latin-christmas-carols/)
+[Classical Academic Press's](https://classicalacademicpress.com/) [Veni
+Emmanuel](https://classicalacademicpress.com/products/veni-emmanuel-ancient-traditional-latin-christmas-carols)
 CD.
 
 
