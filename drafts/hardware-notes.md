@@ -91,3 +91,21 @@ technically does the job, but is prone to stutter with all the streaming
 services we use.
 
 I have not given up on the idea of replacing it with something more general.
+
+
+## Physical Teletype Terminal Project
+
+I would really love for the boys' early years of computing to include some
+hands-on time with a physical teletype-style terminal, if at all possible.
+
+Seeing this glorious video (https://youtu.be/2XLZ4Z8LpEE) helped me understand
+a whole lot of the ancient history of computing better than I had, and also to
+understand intuitively how you could have ever used `ed` for programming. In
+the context of an endless stream of physical paper, it's a really reasonable
+design.
+
+So, thinking about ways we could do this.
+
+Apparently one is to buy an IBM Wheelwriter 1000 and build the board described
+here https://github.com/IBM-1620/Cadetwriter to have your very own mechanical
+typewriter terminal.
