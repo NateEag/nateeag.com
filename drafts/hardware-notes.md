@@ -16,8 +16,11 @@ computers in my displays (and the attendant spying).
 I'll need to replace my personal laptop soon - it's dying. Nine years is a
 decent run.
 
-I'm increasingly confident I don't want to use Apple any more, not as a daily
-driver. :(
+I'm increasingly confident I don't want to use OS X long-term, not as a daily
+driver. They're so developer-hostile, and I worry that one day they'll finish
+closing the loopholes that let you run whatever code you want. :( ...those
+Apple Silicon chips sure do perform, though. Maybe someday Linux will be stable
+and usable on them.
 
 The Librem 15 from Purism has good Linux support, hardware killswitches for
 wireless connections and cameras, has been used for NixOS, and has an aluminum
@@ -91,6 +94,34 @@ technically does the job, but is prone to stutter with all the streaming
 services we use.
 
 I have not given up on the idea of replacing it with something more general.
+
+
+## Office Chair And Desk
+
+This is kind of a chicken-and-egg problem.
+
+I have a lovely pair of 27" monitors and high-end arms to put them on.
+
+I need a desk that supports:
+
+1) holding the monitor arms in place so that the monitors can be positioned at
+eye level while both standing and sitting.
+
+2) mounting my personal keyboard tray underneath it so that I use it both
+sitting and standing
+
+I'm not sure what will enable me to achieve that in practice, because I need a
+chair and desk that work together well.
+
+I could go with standard desk height while sitting and a normal chair, as long
+as the keyboard tray and monitor arms give enough height for me to work
+standing (which I haven't tried measuring).
+
+The other strategy is to have a really tall desk and a tall chair to go with it
+(plus a footrest of some kind).
+
+Matt Guest tried this gaming chair and recommended it:
+https://www.staples.com/staples-gaming-chair-black-and-white-55172/product_24381063
 
 
 ## Physical Teletype Terminal Project
