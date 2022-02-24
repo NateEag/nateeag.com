@@ -65,4 +65,4 @@ expect anyone to give them to me.
 * Any but the first five [Foxfire
   Books](https://www.amazon.com/gp/bookseries/B00CJDHL4Y/ref=dp_st_0385073534)
 * Any but the first four [Schlock Mercenary books](https://shop.schlockmercenary.com/collections/schlock-mercenary-books)
-* The Expanse books series
+* The Expanse book series
