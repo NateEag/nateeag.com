@@ -25,4 +25,5 @@ You can even work with passwords in the standard way with insert/edit/rm/mv.
 You just have to manage push/pull yourself in the child checkouts.
 
 Loosely inspired by this use of Git submodules, which introduces more
-complexity than I need in my case.
+complexity than I need in my case:
+https://lists.zx2c4.com/pipermail/password-store/2014-October/001188.html
