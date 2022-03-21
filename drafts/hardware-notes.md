@@ -140,3 +140,30 @@ So, thinking about ways we could do this.
 Apparently one is to buy an IBM Wheelwriter 1000 and build the board described
 here https://github.com/IBM-1620/Cadetwriter to have your very own mechanical
 typewriter terminal.
+
+There is always, of course, the ridiculous option of just paying through the
+nose for an ASR 33.
+
+And there's Drew DeVault's line printer pseudo-terminal hack:
+https://drewdevault.com/2019/10/30/Line-printer-shell-hack.html
+
+There is also the social angle - maybe we can get in touch with someone who has
+a restored teletype and arrange to try it out in person at some point.
+
+
+## Physical Glass Terminal
+
+I would sort of love to own a glass terminal and use it for hacking in Emacs
+with all the horsepower of LSP and friends.
+
+(https://github.com/Swordfish90/cool-retro-term is the closest you'll get in
+any sane way, and I kind of love it far more than makes sense [especially since
+it doesn't support using Option as the Meta key {though I got Meta-x to work by
+tapping escape promptly followed by x}])
+
+The VT100 is the classic, but I thought it was worth noting that there actually
+were multicolor terminals, such as the Wyse WY350 and WY370 terminals. If I
+could get one of those I really could code like it's 1985 with the best tech
+2022 has to offer (Emacs, evil-mode, lsp-mode, etc). Note that the terminfo
+database on most *nix systems should make it possible to find most hardware
+terminals that ever supported color.
