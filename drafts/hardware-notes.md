@@ -149,6 +149,9 @@ https://drewdevault.com/2019/10/30/Line-printer-shell-hack.html
 
 There is also the social angle - maybe we can get in touch with someone who has
 a restored teletype and arrange to try it out in person at some point.
+Apparently https://mailman.qth.net/mailman/listinfo/greenkeys is the mailing
+list to be on if you're hoping to pick up some connections for this kind of
+thing.
 
 
 ## Physical Glass Terminal
@@ -166,4 +169,5 @@ were multicolor terminals, such as the Wyse WY350 and WY370 terminals. If I
 could get one of those I really could code like it's 1985 with the best tech
 2022 has to offer (Emacs, evil-mode, lsp-mode, etc). Note that the terminfo
 database on most *nix systems should make it possible to find most hardware
-terminals that ever supported color.
+terminals that ever supported color. Apparently the VT-525 had color support
+but required a separate external monitor.
