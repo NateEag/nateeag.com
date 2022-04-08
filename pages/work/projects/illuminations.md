@@ -37,4 +37,5 @@ The result was a wxPython program that runs on Mac OS X (10.6+) and Windows (XP
 and up). The Windows installer is built using
 [InnoSetup](http://www.jrsoftware.org/isinfo.php).
 
-The client eventually decided to discontinue their use of the Python program.
+The client eventually decided to discontinue their use of the Python program,
+so it is no longer available.
