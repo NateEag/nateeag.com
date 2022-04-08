@@ -89,11 +89,21 @@ a Linux substrate may be possible but may not be a good use of time.
 Next step would be to show some sane method for controlling the thing. Would
 Steph be okay with a wireless keyboard / trackball combo?
 
-...we wound up buying a cheap Android tablet with a Mini HDMI port. It
-technically does the job, but is prone to stutter with all the streaming
-services we use.
+The cheap Android tablet with a Mini HDMI port that my wife impulse-bought out
+of frustration with my lack of progress broke.
 
-I have not given up on the idea of replacing it with something more general.
+So, we should probably do this.
+
+
+
+## Sanni Cartridge Reader
+
+This would let me rip my beloved old N64 cartridges, thus letting me legally
+play the games in future. More to the point, we could share them with the kids
+(without worrying about paying for Nintendo Switch Online in perpetuity).
+They're old and low-res, but James is curious and I think might enjoy them.
+
+https://github.com/sanni/cartreader
 
 
 ## Office Chair And Desk
