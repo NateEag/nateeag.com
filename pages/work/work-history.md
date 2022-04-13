@@ -218,3 +218,65 @@ at work and the kind of strengths I bring to a team.
 
 Three months in, I had everything working pretty solidly for Android and we
 started using it to maintain baseline new apps as of January 2017.
+
+In Feb 2017 I started digging into supporting in-app purchasing for Android
+apps, doing a combination of research, spec writing, digging through old
+codebases, and proof-of-concepting, trying to get some idea what this needed to
+do (my only concrete intelligence about it was "The current Android app has
+such bad support for in-app purchases that clients who tried it pulled it from
+the Play Store").
+
+There were plenty deviations in February to do things like write the first
+draft of the script to upgrade old Android datasets, fix bugs for clients
+testing the Android app, and so on.
+
+March went to more IAP work with a deviation into supporting PageRaft books. At
+the end of the month, one of the other devs left the company so I got set up to
+take over maintenance of some of his projects.
+
+Really, though, what have been my major achievements while at Nxtbook? I don't
+need to do an exhaustive blow-by-blow - I need to hit the highlights and
+explain what made them work.
+
+- Specified, built, tested, and documented most of the features in the mobile
+  app solo using Cordova and AngularJS
+
+- Defined data structures for the core of the app generator and wrote a robust,
+  literate-programming-style documentation-driven validator for app datasets
+
+- Handled native Cordova plugin development for iOS and Android platforms as
+  needed, including updates to in-app purchasing plugins
+
+- Maintained thorough documentation and specifications for the mobile app
+  project as I built it using Markdown, Pandoc, and an AWS
+
+- Introduced functional tests and functional tests as alerting mechanism
+  paradigm to our team
+
+- Introduced Git and GitLab to the team and started moving repositories from
+  Subversion to GiLab on an as-needed basis with git-svn
+
+- Helped extensively with software design sessions and architecture reviews for
+  our products with other senior developers
+
+- Found and mitigated multiple security issues in our projects
+
+- Spearheaded a successful project to optimize our core product's pageload
+  times
+
+- Built and maintained purchase verification API using Lumen, PHP, and MySQL.
+  Used JSON Schema to drive API endpoint specification, documentation, and
+  input validation, and used Ansible to build local dev environments and
+  supported environments
+
+- Introduced devops tools and approach to managing dev environments; used
+  Vagrant + Ansible to define dev sandboxes and supported environments with
+  unified code living in main project repo
+
+- Used Ansible and bash to build out replacement versions of core Ubuntu 12 /
+  14 server fleet, a job the previous two sysadmins never managed to
+
+- Primary sysadmin monitoring 
+
+- Performed sysadmin duties since sysadmin left in 2019, in addition to all my
+  other duties
