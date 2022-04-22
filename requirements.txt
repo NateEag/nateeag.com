@@ -2,4 +2,4 @@ jinja2==2.11.2
 PyYAML==3.11
 Markdown==2.5.2
 libsass==0.11.1
-ansible==2.9.10
+ansible==2.9.27
