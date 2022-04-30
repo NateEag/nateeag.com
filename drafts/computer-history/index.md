@@ -16,3 +16,6 @@ options](https://srconstantin.posthaven.com/how-to-make-a-memex) continue to
 emerge). It is worth noting that Bush's proposal [was not about digital
 computers and that it built on existing technology of his
 era](http://people.ischool.berkeley.edu/~buckland/goldbush.html).
+
+TODO Integrate content from my comment here:
+https://news.ycombinator.com/item?id=31130716
