@@ -45,13 +45,13 @@ When serving as team lead, I avoid large blocking tasks so I can focus on the te
 \f1\b0\fs24 \cf0 \
 \pard\pardeftab720\partightenfactor0
 
-\fs22 \cf0 I am a senior full-stack web developer for Nxtbook Media. I fill many roles, including full-stack developer, build systems guy, dev tooling maintainer, API designer, version control expert, code reviewer, hybrid mobile app dev, top-tier tech support, sysadmin, devops lead, business analyst, software architect, and technical writer.\
+\fs22 \cf0 I am a senior full-stack web developer for Nxtbook Media. I wear many hats, including build systems guy, dev tooling maintainer, API designer, version control expert, code reviewer, hybrid mobile app dev, top-tier tech support, sysadmin, devops lead, business analyst, technical writer, and software architect.\
 \
-I built and maintain an iOS/Android mobile app generation framework, based on Apache Cordova, AngularJS, Angular Material and SCSS, with bash and NodeJS to handle the app templating via Cordova hooks. We maintain about seventy client apps with it. I specified and wrote most of the app\'92s core features, including push notifications via Airship and in-app purchasing support for both the Play and iOS stores. I wrote the majority of the app\'92s UI and maintain it as new Android and iOS versions are released.  I also make changes to the Objective-C and Java code in our Cordova plugins as needed.\
+I built and maintain an iOS/Android UI and app generation framework for managing about seventy client apps, using Cordova, AngularJS, Angular Material, SCSS, bash, and Node.js. Cordova hooks for app templating. It uses Cordova plugins for in-app purchasing and other features, and I\'92ve maintained Java and Objective-C plugins as needed.\
 \
-I built and maintain the JSON HTTP API at api.nxtbook.com, which supports several of our systems (including purchase verification for in-app purchasing). It\'92s written in PHP using Lumen and Composer, and uses MySQL for data persistence. API interfaces are specified and documented with RAML and JSON Schema, and controller registration and input validations use those specifications programmatically. Dev VMs are managed with Vagrant and are provisioned with the same Ansible playbooks we use for the production environment.\
+The generated apps do purchase verification via a JSON HTTP API I wrote with PHP, Lumen, Composer, RAML, JSON Schema, and MySQL. The API has endpoints for other systems too, which we add as we need them. Dev VMs are provisioned with Vagrant using the production Ansible playbooks.\
 \
-As sysadmin and devops lead, I introduced Ansible and Vagrant to multiple projects for provisioning all supported environments with the same tooling. I wrangle our multi-AZ EC2 server fleet with a combination of bash, Ansible, PHP scripts, Node.js CLI scripts, the AWS CLI, and the AWS Console. I introduced functional tests as black-box monitoring tools for our systems using bash, bats, and curl. I monitor and analyze events from across our EC2 fleet using syslog-ng for log aggregation and the standard *nix tools for slicing and dicing logs.\
+As sysadmin and devops lead, I wrangle the multi-AZ EC2 herd for www.nxtbook.com with bash, Ansible, PHP, Node.js, the AWS CLI, and the AWS Console. I added black-box monitoring with functional tests using bash / bats / curl, and automatic blocking of malicious HTTP bots with a custom fail2ban configuration. I analyze events from across our EC2 fleet using syslog-ng for log aggregation and *nix tools for slicing and dicing logs.\
 \pard\pardeftab720\partightenfactor0
 
 \f0\b \cf0 \
@@ -75,7 +75,7 @@ My goals for phase two were to make the larger frontend team gel together, to ge
 \pard\pardeftab720\partightenfactor0
 
 \f1\b0 \cf0 \
-I was the primary maintainer for the JavaScript Maps API. I added features, wrote code samples for developer.mapquest.com, wrote functional Selenium tests for the samples, triaged and fixed bugs, wrote BDD tests with Jasmine, and maintained our API reference docs with YUIDoc.\
+I was the primary maintainer for the JavaScript Maps API. I added features, wrote code samples for developer.mapquest.com, wrote functional Selenium tests for our interactive code samples, triaged and fixed bugs, wrote BDD tests with Jasmine, and maintained our API reference docs with YUIDoc.\
 \
 I also worked on a greenfield project, a rich single-page app to help non-technical users work with the Data Manager API. We used git for version control, npm and bower for dependency management, and Grunt.js for running tasks. We used Mocha and Chai for unit tests, and CasperJS for functional tests. The app itself was written using RequireJS, Backbone, Thorax, Handlebars, jQuery, and SCSS. We used Stash for code review.\
 \pard\pardeftab720\partightenfactor0
