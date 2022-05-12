@@ -13,10 +13,14 @@ I use [Emacs](https://www.gnu.org/software/emacs/), [heavily
 customized](https://github.com/NateEag/.emacs.d), as my text editor.
 
 When I'm not in Emacs, I'm usually in a
-[bash](https://www.gnu.org/software/bash/) prompt in Terminal.app (or
-[ConEmu](https://conemu.github.io/) if I'm on Windows). I have flirted
-with using Emacs' built-in terminal emulators, but have not yet taken the
-time to adapt them to my style properly.
+[bash](https://www.gnu.org/software/bash/) prompt. I have flirted with using
+Emacs' built-in terminal emulators, and was on the verge of making the jump to
+using libvterm when
+[cool-retro-term](https://github.com/Swordfish90/cool-retro-term) seduced me
+with its wonderful aesthetics. I use [tmux](https://github.com/tmux/tmux) as a
+mechanism to have something like overpowered scriptable tabbed terminal
+sessions with the same configuration and shortcuts no matter what platform or
+terminal emulator I'm using.
 
 My preferred desktop is Mac OS X, with
 [HammerSpoon](http://www.hammerspoon.org/) for keyboard-driven window
@@ -27,6 +31,10 @@ desktop, but since Macs can run Windows and Linux, and no other hardware
 reliably runs MacOS or simulates iOS, OS X it is. I don't want to ever have to
 tell a client "I can't update your app because an OS update broke my
 Hackintosh," so even if it were legal to build one, I still wouldn't.
+
+I use [Nix](https://nixos.org/) to manage my collection of day-to-day
+development tools, though, and am very tempted to try NixOS for my desktop, the
+above pragmatism notwithstanding.
 
 Version control is a fundamental part of my programming workflow, whether solo
 or on a team. I think about it a lot, and while I believe [a better VCS is
