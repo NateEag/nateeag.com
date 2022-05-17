@@ -3,8 +3,7 @@ title: ShapeDrawingControl
 slug: shape-drawing-control
 template: project.html.tmpl
 links:
-  # Once this goes offline, use archive.org: https://web.archive.org/web/20150920172034/https://developer.mapquest.com/documentation/javascript-api/controls/
-  - url: https://developer.mapquest.com/documentation/javascript-api/controls#drawingcontrol
+  - url:  https://web.archive.org/web/20150920172034/https://developer.mapquest.com/documentation/javascript-api/controls/
     text: ShapeDrawingControl documentation
 summary: MapQuest's JavaScript API for user-drawn shapes
 ---
