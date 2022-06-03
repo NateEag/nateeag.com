@@ -10,7 +10,8 @@ if [ "$#" -ne 1 ]; then
     exit 2
 fi
 
-project_dir=$(dirname "$0")
+bin_dir="$(dirname "${BASH_SOURCE[0]}")"
+project_dir="$(dirname "$bin_dir")"
 
 cur_branch=$(git rev-parse --abbrev-ref HEAD)
 
@@ -28,7 +29,7 @@ mkdir -p "$project_dir/build/$short_hash"
 git checkout "$short_hash"
 
 source "$project_dir/virtualenv/bin/activate"
-python generator.py "$project_dir/build/$short_hash"
+python "$bin_dir/generator.py" "$project_dir/build/$short_hash"
 
 git checkout "$cur_branch"
 

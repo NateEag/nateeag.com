@@ -1,0 +1,16 @@
+#! /bin/bash
+
+session=nateeag
+
+bin_dir="$(dirname "${BASH_SOURCE[0]}")"
+project_dir="$(dirname "$bin_dir")"
+
+tmux new-session -d -s $session
+tmux rename-window -t $session:0 project
+tmux send-keys -t $session:0 "cd $project_dir" C-m
+
+tmux new-window -t $session:1 -n build
+tmux send-keys -t $session:1 "cd $project_dir" C-m
+tmux send-keys -t $session:1 'run-devserver' C-m
+
+tmux attach-session -t $session

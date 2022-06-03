@@ -10,16 +10,19 @@ wrapper code.
 Usage
 =====
 
-To create a local sandbox, do the following:
+If you have direnv installed and configured, the following should work:
 
-    $ ./make-virtualenv.sh
-    $ ./generate.sh
+    $ make-virtualenv
+    $ generate
 
 To view the generated code, just view it through a browser. An easy way:
 
-    $ ./run-devserver
+    $ run-devserver
 
-then open a browser and hit localhost:8000.
+then open a browser and hit localhost:$PORT, based on the CLI output.
+
+Note that `bin/start-interactive-shells` takes care of that for you, if you're
+a tmux user.
 
 
 Production Environment

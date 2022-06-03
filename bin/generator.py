@@ -195,7 +195,7 @@ def main():
     # Rather than re-implement our own version of it that supports pre-existing
     # directories, we just copy assets first, thereby working around the issue.
 
-    project_path = os.path.dirname(os.path.realpath(__file__))
+    project_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     output_path = sys.argv[1]
     pages_path = os.path.join(project_path, 'pages')
 

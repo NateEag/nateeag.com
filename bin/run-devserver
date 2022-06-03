@@ -21,8 +21,9 @@ elif ! command -v fswatch > /dev/null ||
     exit 1
 fi
 
-project_path="$(dirname "$0")"
+bin_dir="$(dirname "${BASH_SOURCE[0]}")"
+project_dir="$(dirname "$bin_dir")"
 
-http-server -p 8000 "$project_path/src" &
+http-server -p 8010 "$project_dir/src" &
 
-./watch.sh
+"$bin_dir/watch"

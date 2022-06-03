@@ -7,10 +7,12 @@ if [[ "$#" -ne 1 ]]; then
     exit 2
 fi
 
-project_dir=$(dirname "$0")
+bin_dir="$(dirname "${BASH_SOURCE[0]}")"
+project_dir="$(dirname "$bin_dir")"
+
 short_hash=$(git rev-parse --short "$1")
 
-"./$project_dir/build.sh" "$short_hash"
+"$bin_dir/build" "$short_hash"
 
 # TODO I should probably make this a standard path. /var/www/sites?
 site_root=/usr/local/nginx/sites/www.nateeag.com
