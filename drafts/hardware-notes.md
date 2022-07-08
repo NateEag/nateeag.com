@@ -95,6 +95,61 @@ of frustration with my lack of progress broke.
 So, we should probably do this.
 
 
+## Replacement Audio Processing Headphones
+
+I used to do a lot of heavy sound design and musical work, especially audio
+synthesis.
+
+My beloved Beyerdynamic DT 770 Pros have a flaky cable that gets worse with
+each passing year.
+
+I'd therefore like to replace them with either the DT 1770 Pro or the DT 177x
+Go. Both have a detachable cable and therefore are at less risk for the kind of
+damage my 770s have experienced.
+
+It's hard to pick between them, as the 1770s are built for engineering (more
+even frequency response) but have 250 ohms resistance and therefore require a
+headphone amp, while the 177xs are tweaked for pleasant listening but have only
+32 ohms resistance, making them workable directly with devices like cell
+phones. Also the 177x is about $150 cheaper.
+
+I'd probably lean towards the 177x, as it's more all-around usable, and if I
+were ever taking audio engineering so seriously that I needed really precise
+results for, I could probably buy a second set (and maybe do more exhaustive
+research first).
+
+
+## PQ Y28 Earbuds
+
+Wireless earbuds are a dreadful source of e-waste, because in most cases the
+battery cannot be replaced, which means consigning perfectly functional
+electronics to destruction.
+
+However, the PQ Y28s are designed to avoid that problem, by making their
+batteries easily replaced and recycled.
+
+They don't seem to be considered all-around amazing - people have complaints.
+
+Nonetheless, sustainability matters to me, and these are closer to that than
+most earbuds I'm aware of.
+
+https://pqearbuds.com/products/longest-lasting-interchangeable-magnetic-attach-battery-wireless-earbuds
+
+
+## Family NAS Device
+
+I would really like a NAS that can hold a large volume of data to serve as the
+centralized, online backup for our various hunks of information (could start
+storing optical disks in a different physical location to be fireproof).
+
+https://dataswamp.org/~solene/2020-10-18-nixos-nas.html is a recipe for running
+a NAS on NixOS. If I could get a chassis that hosts a good number of drive
+bays, I might be somewhere interesting.
+
+I recently discovered that you can find old rackmount servers for _dirt_ cheap
+(I found one decent one for ~100 USD). One with four drive bays would make it
+quite feasible to have a pretty large volume of storage space.
+
 
 ## Sanni Cartridge Reader
 
@@ -106,7 +161,7 @@ They're old and low-res, but James is curious and I think might enjoy them.
 https://github.com/sanni/cartreader
 
 
-## Office Chair And Desk
+## Standing / Sitting Desk Setup
 
 This is kind of a chicken-and-egg problem.
 
@@ -144,6 +199,9 @@ a whole lot of the ancient history of computing better than I had, and also to
 understand intuitively how you could have ever used `ed` for programming. In
 the context of an endless stream of physical paper, it's a really reasonable
 design.
+
+After I showed James a video of teletypes, he became slightly enamored of them,
+too.
 
 So, thinking about ways we could do this.
 
