@@ -136,6 +136,21 @@ most earbuds I'm aware of.
 https://pqearbuds.com/products/longest-lasting-interchangeable-magnetic-attach-battery-wireless-earbuds
 
 
+## Fenix BC26R Bike Light
+
+Many modern bike lights have a built-in, non-user-replaceable battery pack,
+turning the light into electronic waste after a thousand or so charging cycles.
+
+Fenix's bike lights use a standardized replaceable 18650 battery, so that's not
+such an issue.
+
+The LED supposedly has a 50,000 hours runtime, which if you bicycle 2 hours /
+day would last you ~70 years.
+
+I'd rather have one with a user-replaceable bulb, too, but still - seems like a
+good candidate for now.
+
+
 ## Family NAS Device
 
 I would really like a NAS that can hold a large volume of data to serve as the
