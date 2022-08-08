@@ -151,6 +151,24 @@ I'd rather have one with a user-replaceable bulb, too, but still - seems like a
 good candidate for now.
 
 
+## PedalCell
+
+I took up bicycling as a form of exercise and potential transit in summer 2022.
+
+I was inordinately intrigued by the idea of generating electricity via
+bicycling, and thus did some research that led me to [the PedalCell USB
+charger](https://pedalcell.com/).
+
+It moves fairly easily between bikes, is cheaper than a dyno hub, and is more
+efficient.
+
+I'd never reach financial breakeven on charging batteries with it, so to justify
+the cost of owning one I'd need to go another route, such as deciding I think
+it's worth spending on for the coolness factor, or for having the ability to
+charge electronics while on a long ride of the sort I don't currently do
+(touring, bikepacking, etc).
+
+
 ## Family NAS Device
 
 I would really like a NAS that can hold a large volume of data to serve as the
