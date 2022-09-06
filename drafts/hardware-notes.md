@@ -119,6 +119,17 @@ results for, I could probably buy a second set (and maybe do more exhaustive
 research first).
 
 
+## Ploopy Thumb Trackball
+
+I like open-source things, for repairability and sustainability.
+
+I also like my thumb trackballs, as they distress my wrists far less than any
+other pointing tool I have tried.
+
+The Ploopy Thumb ticks both those boxes, so I'm inclined to get one next time I
+need to replace a trackball.
+
+
 ## PQ Y28 Earbuds
 
 Wireless earbuds are a dreadful source of e-waste, because in most cases the
