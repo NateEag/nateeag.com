@@ -33,6 +33,9 @@ lot about people ("Are you familiar with the works of Shan Yu?").
   control?" "What's their task tracker?" "Is deployment automated?" "Do they
   have automated tests?" "Do they do manual QA?" "Do they have CI/CD?"]
 
+* Does your health insurance cover my family's current providers?
+  [straightforward logistical question that matters a lot to me]
+
 * Can I see the employee handbook? [if the answer is not "here you go", that
   tells you something about company transparency and culture]
 
