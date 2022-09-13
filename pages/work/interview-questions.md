@@ -16,7 +16,7 @@ lot about people ("Are you familiar with the works of Shan Yu?").
 * Will I be able to use Emacs, mbsync, and notmuch for email? If you use GSuite
   with 2FA, I just need app passwords enabled to make it work. [I really care
   about my email setup, and this also lets me find out how much the company
-  controls individual dev environments]
+  locks down individual dev environments]
 
 * When's the last time someone was let go? Why were they let go?
 
@@ -32,3 +32,9 @@ lot about people ("Are you familiar with the works of Shan Yu?").
   details. [Should reveal the answers to: "What do they use for version
   control?" "What's their task tracker?" "Is deployment automated?" "Do they
   have automated tests?" "Do they do manual QA?" "Do they have CI/CD?"]
+
+* Can I see the employee handbook? [if the answer is not "here you go", that
+  tells you something about company transparency and culture]
+
+* Do you claim the IP rights to code your devs write on their own hardware and
+  time?
