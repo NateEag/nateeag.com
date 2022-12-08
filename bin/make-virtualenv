@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/env bash
 
 # Create the virtualenv for building this site.
 bin_dir="$(dirname "${BASH_SOURCE[0]}")"

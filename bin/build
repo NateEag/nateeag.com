@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/env bash
 
 # Make a build in a sub-folder of the targeted git revision.
 #

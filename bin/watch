@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/env bash
 
 # Watch the content folder and re-render the site when it changes.
 
