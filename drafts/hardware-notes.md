@@ -63,36 +63,18 @@ optimized for sacrificing them to The Algorithms.
 
 ## Family Media Machine
 
-Our old phones are not really a viable answer for streaming media.
+Currently a cheap Windows desktop with an HDMI out. I just bought one,
+installed Chrome, and paired it with a Logitech K600 TV keyboard, which has
+been working just fine.
 
-We mostly stream Netflix and Amazon Video - I have not found an off-the-shelf
-device that manages to do both.
+At first I tried a much cheaper Macally Bluetooth keyboard and it worked pretty
+poorly - insufficient range and flaky reliability.
 
-I'm therefore considering an IntelNUC machine with NixOS.
+In principle I'd like to replace Windows with NixOS, but I doubt it will ever
+be necessary.
 
-Bonus - could put emulators on it for our old consoles, like the N64, GameCube,
-and even the Wii (Dolphin). Obviously a media library with rips of our DVDs
-would be feasible too, as would some sort of photo browsing UI (Plex or similar
-could cover both of those). Could use it for playing stuff from the music
-library, too, maybe even dig up a mobile app for controlling that so we don't
-have to have the TV on (use Bluetooth to broadcast to wireless speakers).
-
-First step here would be to hack up a NixOS VM on which I can stream Netflix,
-Amazon Prime, and Disney Plus. If I can get that working, I'd say buying a
-machine to host that setup is a no-brainer (though I'd need to also build out a
-simple UI and get a remote control of some kind working for it).
-
-...actually the first step would be to buy the hardware with Windows
-preinstalled. I may hate it but it'll Just Work, as they say. Replacing it with
-a Linux substrate may be possible but may not be a good use of time.
-
-Next step would be to show some sane method for controlling the thing. Would
-Steph be okay with a wireless keyboard / trackball combo?
-
-The cheap Android tablet with a Mini HDMI port that my wife impulse-bought out
-of frustration with my lack of progress broke.
-
-So, we should probably do this.
+Ripping my N64 ROMs and Steph's GameCube cartridges and getting some emulators
+set up would be a far better use of my time, I think.
 
 
 ## Replacement Audio Processing Headphones
@@ -264,6 +246,24 @@ a restored teletype and arrange to try it out in person at some point.
 Apparently https://mailman.qth.net/mailman/listinfo/greenkeys is the mailing
 list to be on if you're hoping to pick up some connections for this kind of
 thing.
+
+...but aha. The elegant solution appears: TI's Silent 700 line of terminals.
+
+They used thermal paper and a heating element, with acoustic couplers and
+serial ports for communicating to computers.
+
+The design makes them much more mechanically simple and robust than a standard
+printing teletype (and also quieter).
+
+As younger, simpler terminals, it seems to be fairly common to be able to pick
+up mostly-working models on eBay for $100 - $200 USD.
+
+If I can get a hold of a working model that handles upper and lowercase (some
+do, some don't), then I could pair that with that NAS server I keep meaning to
+build, and my kids could start off their computation education without screens
+or any of the disruptions of modern systems.
+
+I bet I could get James to play Zork and ADVENT for hours.
 
 
 ## Physical Glass Terminal
