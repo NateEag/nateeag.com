@@ -4,7 +4,7 @@ meta_content: "A very silly thing."
 template: essay.html.tmpl
 ---
 
-As an avid fan of [The Emporer's New
+As an avid fan of [The Emperor's New
 Groove](https://www.imdb.com/title/tt0120917/), I make references to it often
 in day-to-day communication.
 
