@@ -11,40 +11,13 @@ more expensive, but that might be worth avoiding the insanity of having
 computers in my displays (and the attendant spying).
 
 
-## New Laptop
+## Laptop
 
-I'll need to replace my personal laptop soon - it's dying. Nine years is a
-decent run.
-
-I'm increasingly confident I don't want to use OS X long-term, not as a daily
-driver. They're so developer-hostile, and I worry that one day they'll finish
-closing the loopholes that let you run whatever code you want. :( ...those
-Apple Silicon chips sure do perform, though. Maybe someday Linux will be stable
-and usable on them.
-
-The Librem 15 from Purism has good Linux support, hardware killswitches for
-wireless connections and cameras, has been used for NixOS, and has an aluminum
-body: https://puri.sm/products/librem-15/
-
-The hardware killswitches are appealing, as is supporting a company that's
-trying to make freedom-supporting hardware.
-
-It has a USB-C port and an HDMI port, but the USB-C port is data-only, so
-getting two monitors to work can be pretty involved:
-https://forums.puri.sm/t/please-recommend-a-port-replicator-docking-station/1115/16
-
-Their 14-inch model, on the other hand, has a fully-functional USB-C port and
-HDMI port, so it can just drive dual monitors without fussing. Maybe they'll
-update the 15 to work similarly next.
-
-Apparently you can get Windows 10 working on it without too much headache, too,
-so I have a fallback option if I try Linux for a year or so and wind up wanting
-to bail out.
-
-The Penguin M3 might be another decent option. Appears to support Windows,
-looks roughly like a MacBook (though I'll never have a use for that freaking
-numeric keypad they all waste space on).
-https://www.thinkpenguin.com/gnu-linux/penguin-m3-gnulinux-laptop
+In fall 2022 I acquired a Framework 14" laptop, with the 12th gen Intel CPU.
+I'm currently using NixOS as my daily driver. I have a long way to go before
+I'm genuinely happy with the OS (my macOS setup has been carefully tweaked over
+a decade), but the hardware's serving pretty well, and I have been enjoying the
+upgrade-safety the OS promises and seems to deliver on so far.
 
 The Framework laptop is genuinely modular hardware, with an eye to letting you
 upgrade and expand your laptop and swap out the hardware you need for a given
@@ -52,13 +25,13 @@ job. It's anyone's guess if the company will survive, but if it does it would
 almost certainly be the most sustainable laptop I've seen.
 https://frame.work/blog/category/hardware
 
-Over in hardcore OSS land is the MNT Reform, which is fully open hardware,
-built with a blazing focus on repairability. You can pull out individual
-battery cells. ARM chips, only 4 GB of RAM - it's definitely an idealist's toy.
-That said, I think it might be an excellent first laptop for an inquisitive,
-electronics-minded kid. https://mntre.com/ Paired with a Lightphone, an older
-kid or younger teenager might have an effective set of tools that aren't
-optimized for sacrificing them to The Algorithms.
+I'm inordinately intrigued by the MNT Reform laptop, which is fully open
+hardware, built with a blazing focus on repairability. You can pull out
+individual battery cells. ARM chips, only 4 GB of RAM - it's definitely an
+idealist's toy. That said, I think it might be an excellent first laptop for an
+inquisitive, electronics-minded kid. https://mntre.com/ Paired with a
+Lightphone, an older kid or younger teenager might have an effective set of
+tools that aren't optimized for sacrificing them to The Algorithms.
 
 
 ## Family Media Machine
@@ -97,7 +70,7 @@ phones. Also the 177x is about $150 cheaper.
 
 I'd probably lean towards the 177x, as it's more all-around usable, and if I
 were ever taking audio engineering so seriously that I needed really precise
-results for, I could probably buy a second set (and maybe do more exhaustive
+results, I could probably buy a second set (and maybe do more exhaustive
 research first).
 
 
@@ -121,7 +94,7 @@ electronics to destruction.
 However, the PQ Y28s are designed to avoid that problem, by making their
 batteries easily replaced and recycled.
 
-They don't seem to be considered all-around amazing - people have complaints.
+They don't seem to be considered all-around great - people have complaints.
 
 Nonetheless, sustainability matters to me, and these are closer to that than
 most earbuds I'm aware of.
@@ -264,6 +237,9 @@ build, and my kids could start off their computation education without screens
 or any of the disruptions of modern systems.
 
 I bet I could get James to play Zork and ADVENT for hours.
+
+Apparently some models don't support case-sensitivity, so I need to find one
+that does.
 
 
 ## Physical Glass Terminal

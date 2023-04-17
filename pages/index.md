@@ -30,6 +30,9 @@ helping them grow into what they should be. My primary mediums are
 [avisual](https://en.wikipedia.org/wiki/Aphantasia),
 I sometimes dabble in [photography](/photos/).
 
+I am a part-time home-maker, as all parents should be. I am particularly
+interested in [cooking](/cooking/) and [baking](/baking/).
+
 [comment]: (TODO Hyperlink "software" below to stories about software mentoring.)
 [comment]: (TODO Hyperlink "teach our children" to a homeschooling page.)
 
