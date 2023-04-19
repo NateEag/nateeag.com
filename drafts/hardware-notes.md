@@ -162,27 +162,21 @@ https://github.com/sanni/cartreader
 
 ## Standing / Sitting Desk Setup
 
-This is kind of a chicken-and-egg problem.
+Thanks to Jared Worthen's recommendation when I started at ServiceTitan, I've
+been using the wonderful [Husky 52"x24" adjustable height
+workbench](https://www.homedepot.com/p/Husky-52-in-W-x-24-in-D-Steel-2-Drawer-Adjustable-Height-Solid-Wood-Top-Workbench-Table-in-White-HOLT5202BJ2/311742117)
+as a sit/stand desk. Paired with 27" external monitors and two of ErgoTron's
+[tall pole monitor
+arms](https://www.ergotron.com/en-us/products/product-details/45-295#?color=polished%20aluminum),
+it's sit/stand desk bliss.
 
-I have a lovely pair of 27" monitors and high-end arms to put them on.
+I have yet to find a good chair to go with all this, alas, nor have I
+integrated a keyboard tray, because my sitting stool pairs with the desk well
+enough to get away with in general.
 
-I need a desk that supports:
-
-1) holding the monitor arms in place so that the monitors can be positioned at
-eye level while both standing and sitting.
-
-2) mounting my personal keyboard tray underneath it so that I use it both
-sitting and standing
-
-I'm not sure what will enable me to achieve that in practice, because I need a
-chair and desk that work together well.
-
-I could go with standard desk height while sitting and a normal chair, as long
-as the keyboard tray and monitor arms give enough height for me to work
-standing (which I haven't tried measuring).
-
-The other strategy is to have a really tall desk and a tall chair to go with it
-(plus a footrest of some kind).
+I do want to get a decent chair and a keyboard tray, though, if only so I can
+have a chair that works for playing my musical keyboards, and so I have a way
+to quickly pull my computer control surfaces near aforementioned instruments.
 
 Matt Guest tried this gaming chair and recommended it:
 https://www.staples.com/staples-gaming-chair-black-and-white-55172/product_24381063
