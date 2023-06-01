@@ -149,6 +149,17 @@ I recently discovered that you can find old rackmount servers for _dirt_ cheap
 (I found one decent one for ~100 USD). One with four drive bays would make it
 quite feasible to have a pretty large volume of storage space.
 
+A good example is this place selling 8-bay Dell R720s at a starting point of
+$105:
+
+https://pcserverandparts.com/servers/dell-servers/poweredge-r720-server/
+
+The R720 is a 2U server that's 29" and fits in standard EIA 19-inch racks. It
+can get pretty loud when it's running hard, but NASes mostly don't run hard,
+and if I rack it up in the basement, it wouldn't be that in the way regardless.
+
+Could I hook up a TTY to it?
+
 
 ## Sanni Cartridge Reader
 
@@ -232,8 +243,8 @@ or any of the disruptions of modern systems.
 
 I bet I could get James to play Zork and ADVENT for hours.
 
-Apparently some models don't support case-sensitivity, so I need to find one
-that does.
+It looks like the 707 supports flipping between UPPERCASE and case-sensitive
+mode (see page 29 of this manual [2-4 in the manual's parlance]).
 
 
 ## Physical Glass Terminal
