@@ -244,7 +244,16 @@ or any of the disruptions of modern systems.
 I bet I could get James to play Zork and ADVENT for hours.
 
 It looks like the 707 supports flipping between UPPERCASE and case-sensitive
-mode (see page 29 of this manual [2-4 in the manual's parlance]).
+mode (see page 29 of this manual [2-4 in the manual's parlance]). It appears to
+be modem-only, though, with no serial port, if I'm understanding the manual
+right. I've seen a claim that the 703 is the equivalent model without a modem.
+
+Aha - CuriousMarc did an episode on a 703
+(https://www.youtube.com/watch?v=DchXxsqa0BE), and confirms that the 707 is
+modem-only while the 703 has the relevant
+
+Note this PDF of the maintenance manual for the 703/707 models:
+http://www.bitsavers.org/pdf/ti/terminal/silent_700/2310453-0001_Model_703_707_Data_Terminals_Maintenance_Manual_Feb84.pdf
 
 
 ## Physical Glass Terminal
