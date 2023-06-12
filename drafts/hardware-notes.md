@@ -82,7 +82,7 @@ I also like my thumb trackballs, as they distress my wrists far less than any
 other pointing tool I have tried.
 
 The Ploopy Thumb ticks both those boxes, so I'm inclined to get one next time I
-need to replace a trackball.
+need to replace a trackball: https://ploopy.co/shop/thumb-trackball-full-kit/
 
 
 ## PQ Y28 Earbuds
@@ -250,10 +250,16 @@ right. I've seen a claim that the 703 is the equivalent model without a modem.
 
 Aha - CuriousMarc did an episode on a 703
 (https://www.youtube.com/watch?v=DchXxsqa0BE), and confirms that the 707 is
-modem-only while the 703 has the relevant
+modem-only while the 703 has a serial port.
 
 Note this PDF of the maintenance manual for the 703/707 models:
 http://www.bitsavers.org/pdf/ti/terminal/silent_700/2310453-0001_Model_703_707_Data_Terminals_Maintenance_Manual_Feb84.pdf
+
+This article provides what looks like a good overview of the Silent 700's
+history and development:
+http://oldvcr.blogspot.com/2022/02/refurb-weekend-texas-instruments-silent.html
+
+and points out that the 700/1200 was the last model they made.
 
 
 ## Physical Glass Terminal
