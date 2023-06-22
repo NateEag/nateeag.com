@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Emacs",
+        "start_date": "2003-09",
+        "category": "text_editor",
+        "description": "I use [Emacs](https://www.gnu.org/software/emacs/), [heavily customized](https://github.com/NateEag/.emacs.d), as my text editor.\n\nIt's not for everyone, but if what you want is power, flexibility, and sustainability, Vim is probably the only contender.\n\n...though I do use `evil-mode`.\n\nThe [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) means that I get decent auto-completion and jump-to-definition in most languages I use. It's not quite as good as some first-rate IDEs, but the gap is mostly in arcane features specific to a given language.",
+        "fondness_rank": 1
+    },
+    {
+        "name": "Bash",
+        "start_date": "2003-09",
+        "category": "programming language",
+        "description": "",
+        "fondness_rank": 3
+    },
+    {
+        "name": "Emacs Lisp",
+        "start_date": "2010-02-09",
+        "category": "programming language",
+        "description": "",
+        "fondness_rank": 4
+    },
+    {
+        "name": "JavaScript",
+        "start_date": "2007-07",
+        "category": "programming language",
+        "description": "",
+        "fondness_rank": 2
+    },
+    {
+        "name": "Scheme",
+        "start_date": "2004",
+        "category": "programming language",
+        "description": "I don't have a record of when my college programming language theory class was, but that's when I first met Scheme (2004 is most likely).\n\nI've actually used it professionally, and no, it wasn't nearly as cool as that sounds.",
+        "fondness_rank": 4
+    },
+    {
+        "name": "Python",
+        "start_date": "2006",
+        "category": "programming language",
+        "description": "",
+        "fondness_rank": 2
+    },
+    {
+        "name": "SQLServer",
+        "start_date": "2005-06",
+        "category": "database",
+        "description": "",
+        "fondness_rank": 7
+    },
+    {
+        "name": "MySQL",
+        "start_date": "2007-09",
+        "category": "database",
+        "description": "MySQL 5 is a powerful tool with a number of sharp edges and errors in its design (the `utf8mb4` charset's existence comes to mind, but [there are many other issues](http://grimoire.ca/mysql/choose-something-else)). I have used it on many projects over the years but don't love it.\n\nI understand MySQL 8 solved a lot of the worst issues, but I prefer PostGreSQL.",
+        "fondness_rank": 8
+    },
+    {
+        "name": "git",
+        "start_date": "2009",
+        "category": "version control",
+        "description": "",
+        "fondness_rank": 2
+    },
+    {
+        "name": "Subversion",
+        "start_date": "2005",
+        "category": "version control",
+        "description": "",
+        "fondness_rank": 5
+    },
+    {
+        "name": "CVS",
+        "start_date": "2005",
+        "category": "version control",
+        "description": "",
+        "fondness_rank": 7
+    },
+    {
+        "name": "CA Harvest SCM",
+        "start_date": "2015-04",
+        "category": "version control",
+        "description": "",
+        "fondness_rank": 10
+    }
+]
