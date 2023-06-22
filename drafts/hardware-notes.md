@@ -50,6 +50,13 @@ Ripping my N64 ROMs and Steph's GameCube cartridges and getting some emulators
 set up would be a far better use of my time, I think.
 
 
+## Router
+
+Shiva (coworker at $DAYJOB) says the AmpliFi Alien is a home router built by an
+enterprise-grade router company. He uses it and has found it to be extremely
+reliable.
+
+
 ## Replacement Audio Processing Headphones
 
 I used to do a lot of heavy sound design and musical work, especially audio
