@@ -295,3 +295,8 @@ I would really love to try an e-ink external monitor.
 Behold:
 
 https://www.indiegogo.com/projects/paperlike-color-world-first-color-e-ink-monitor#/
+
+Also there's this impressive piece of engineering, though it's smaller and
+black and white:
+
+https://www.modos.tech/blog/modos-paper-monitor
