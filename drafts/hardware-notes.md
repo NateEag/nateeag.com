@@ -120,8 +120,8 @@ such an issue.
 The LED supposedly has a 50,000 hours runtime, which if you bicycle 2 hours /
 day would last you ~70 years.
 
-I'd rather have one with a user-replaceable bulb, too, but still - seems like a
-good candidate for now.
+I'd rather have one with a user-replaceable bulb, too, but still - this works
+and is better than a lot of the options.
 
 
 ## PedalCell
@@ -286,3 +286,12 @@ could get one of those I really could code like it's 1985 with the best tech
 database on most *nix systems should make it possible to find most hardware
 terminals that ever supported color. Apparently the VT-525 had color support
 but required a separate external monitor.
+
+
+## e-ink Monitor
+
+I would really love to try an e-ink external monitor.
+
+Behold:
+
+https://www.indiegogo.com/projects/paperlike-color-world-first-color-e-ink-monitor#/
