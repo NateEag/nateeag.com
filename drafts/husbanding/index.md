@@ -13,16 +13,7 @@ Here is what I promised her on that day:
     Spirit. With all that I am and all that I have, I honor you, until death and
     death alone should part us.
 
-Marrying her was one of the best decisions I have ever made. Choosing to follow
-Jesus would rank higher, and having children is right up there too.
-
-For me all three of those decisions are tangled together, and it may be
-incorrect reductionism to describe them as different.
-
-Pastor George Davis performed the ceremony, and has also best described my
-experience of marriage with the following question:
-
-"What if God designed marriage more to make us holy than to make us happy?"
+Pastor George Davis performed the ceremony.
 
 Also, too, I think of Andrew Peterson's lyric in _Dancing In The Minefields_:
 
