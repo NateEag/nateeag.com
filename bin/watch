@@ -32,7 +32,14 @@ project_dir="$(dirname "$bin_dir")"
 # shellcheck disable=SC2016
 OUTPUT_DATE_CMD='echo $(date "+%Y-%m-%d %H:%M:%S"): Rendered site'
 
-fswatch --one-per-batch \
+# At least on NixOS, fswatch seems to include file access time changes by
+# default.
+#
+# We only care about actual changes to files, hence the --event options below.
+fswatch \
+    --event-flags --event Created --event Updated --event Removed --event Renamed \
+    --recursive \
+    --one-per-batch \
         "$project_dir/pages" \
         "$project_dir/templates" \
         "$project_dir/stylesheets" \
