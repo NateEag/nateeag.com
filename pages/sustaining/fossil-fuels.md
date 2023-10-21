@@ -35,7 +35,7 @@ the grunt work of changing over to renewable energy sources. That process could
 be done without power tools, but it would take several orders of magnitude more
 time and human effort.
 
-[comment]: (TODO Find estimate of remaining oil and coal supplies.)
+[comment]: # (TODO Find estimate of remaining oil and coal supplies.)
 
 A brief summary from the worldview's frame of reference:
 

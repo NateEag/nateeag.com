@@ -12,7 +12,7 @@ I am Nate Eagleson.
 
 I am a [Christian](/christianity/).
 
-[comment]: (TODO Hyperlinks for 'husband' and 'father'.)
+[comment]: # (TODO Hyperlinks for 'husband' and 'father'.)
 
 I am a husband to my beautiful, skillful wife
 [Stephanie](https://stephaniegaileagleson.com) and a father to my children
@@ -20,21 +20,17 @@ James, Isaac, and Maryn. I am a brother to my three sisters, Hannah, Miriam,
 and Abigail, and a son to my parents, Bruce and Mary Ann. I am eternally
 grateful for all the good they have poured into my life.
 
-[comment]: (TODO Hyperlinks for family? Only if they want them, I suppose.)
+[comment]: # (TODO Hyperlinks for family? Only if they want them, I suppose.)
 
-[comment]: (TODO Hyperlinks for 'artist' and 'craftsman'.)
-I am an artist and a craftsman. I love bringing new things into being and
-helping them grow into what they should be. My primary mediums are
-[software](/software/), [writing](/writing/), [music](/music/), and
-[audio synthesis](/audio-synthesis/). Despite being
-[avisual](https://en.wikipedia.org/wiki/Aphantasia),
-I sometimes dabble in [photography](/photos/).
+[comment]: # (TODO Hyperlinks for 'artist' and 'craftsman'.)
+
+I am an artist and a craftsman. I love bringing new things into being and helping them grow into what they should be. My primary mediums are [software](/software/), [writing](/writing/), [music](/music/), and [audio synthesis](/audio-synthesis/). Despite being [avisual](https://en.wikipedia.org/wiki/Aphantasia), I sometimes dabble in [photography](/photos/).
 
 I am a part-time home-maker, as all parents should be. I am particularly
 interested in [cooking](/cooking/) and [baking](/baking/).
 
-[comment]: (TODO Hyperlink "software" below to stories about software mentoring.)
-[comment]: (TODO Hyperlink "teach our children" to a homeschooling page.)
+[comment]: # (TODO Hyperlink "software" below to stories about software mentoring.)
+[comment]: # (TODO Hyperlink "teach our children" to a homeschooling page.)
 
 I am a teacher. I love sharing what I have learned and helping people avoid the
 pitfalls and mistakes I have made. I have taught music and software development

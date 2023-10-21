@@ -17,7 +17,7 @@ When I sat down to email my family and explain what I had done, a fairly
 cheesy couplet sprang into my head, and the following bit of fairly cheesy
 poetry followed immediately.
 
-[comment]: (TODO Format poems better?)
+[comment]: # (TODO Format poems better?)
 
 ## Laundry Hacks
 
