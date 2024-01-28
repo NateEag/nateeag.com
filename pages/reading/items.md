@@ -27,8 +27,8 @@ the media I've experienced and hope to experience... :P
 * The Frugal Wizard's Handbook For Surviving Medieval England, by Brandon Sanderson (revisit)
 * Tress of the Emerald Sea, by Brandon Sanderson (revisit)
 * After, by Bruce Greyson (revisit / footnote-mine)
-* The Resurrection of Jesus: Apologetics, Polemics, History, by Dale Allison Jr. (revisit; closest thing I've found to balanced history on the Resurrection. Written by a Christian, recommended to me by an atheistic agnostic)
-* Imagine Heaven, by John Burke. Interprets NDEs as evidence for Christianity. Not as bad as you might expect.
-* Freckles, by Gene Stratton-Porter. Given to me by my wife on the first Valentine's Day after we'd met.
+* The Resurrection of Jesus: Apologetics, Polemics, History, by Dale Allison Jr. (revisit; footnote-mine; closest thing I've found to balanced history on the Resurrection. Written by a Christian, recommended to me by an atheistic agnostic)
+* Imagine Heaven, by John Burke. Interprets NDEs as evidence for Christianity. More convincing than you might expect.
+* Freckles, by Gene Stratton-Porter. Given to me by my wife on the first Valentine's Day after we'd met. (revisit)
 * Peace Like A River, by Leif Enger. A beautiful book about faith, miracles, the harsh brutality of humans and the life everlasting. (revisit)
-* The Night Circus, by Erin Morgenstern. A lovely tone-poem of a novel in stark black, white and red, about battling magicians creating scenes of aesthetic bliss at the cost of lives to prove points about how to train students, with an unneeded last chapter.
+* The Night Circus, by Erin Morgenstern. A lovely tone-poem of a novel in stark black, white and red, about battling magicians creating scenes of aesthetic bliss at the cost of lives to prove points about how to train students, with a needless last chapter.
