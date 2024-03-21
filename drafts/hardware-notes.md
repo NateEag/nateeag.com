@@ -165,6 +165,21 @@ The R720 is a 2U server that's 29" and fits in standard EIA 19-inch racks. It
 can get pretty loud when it's running hard, but NASes mostly don't run hard,
 and if I rack it up in the basement, it wouldn't be that in the way regardless.
 
+Similarly see these SuperMicro servers, at ~$120 reasonably kitted:
+
+https://www.theserverstore.com/supermicro-2027r-n3rft-16x-sff-2u-server.html
+https://www.theserverstore.com/supermicro-1u-server-w-x9drd-it-sas3-10x-sff.html
+
+12U adjustable-depth rolling rack for ~$150
+
+https://www.amazon.com/Sound-Town-Adjustable-Management-ST4POF-A12U/dp/B09HF4MN1C/
+
+Judging from Amazon, I should be able to get 4 TB SAS drives for around $60 a
+pop, maybe a little less.
+
+Buy six of those, RAID 6 them, and I'd have 16 TB of storage that can survive
+two disks failing simultaneously. Slap in a 1 TB SSD for a boot volume and bam.
+
 Could I hook up a TTY to it?
 
 
@@ -266,7 +281,9 @@ This article provides what looks like a good overview of the Silent 700's
 history and development:
 http://oldvcr.blogspot.com/2022/02/refurb-weekend-texas-instruments-silent.html
 
-and points out that the 700/1200 was the last model they made.
+and points out that the 700/1200 was the last model they made. Apparently it
+combined the 703 and 707's features, so it would also be a viable option if I
+could find one.
 
 
 ## Physical Glass Terminal
