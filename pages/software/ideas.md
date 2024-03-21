@@ -14,6 +14,29 @@ When I (help) get one to a usable point, I move it to my [list of
 projects](/software/projects.html).
 
 
+## pass-env
+
+[pass](https://www.passwordstore.org/) is a useful thing.
+
+Sometimes I pass secrets from it to other commands by populating environment
+variables.
+
+I would like a command to handle that automatically, so I can just run commands
+as below:
+
+```
+pass-env npm run install
+```
+
+It should be simple to implement - lists pass entries named `env/$1/*`, run
+`export \$ENTRY_NAME="$(pass show env/$1/$ENTRY_NAME)"` for each returned
+entry, then invoke the passed command.
+
+For maximum convenience, it should include a bash completer function that uses
+any registered completer for `$1`, so you get normal tab completions for all
+commands you use with it.
+
+
 ## The Audio Engine
 
 I would love to have an open-source, real-time, auto-scaling audio DSP engine
