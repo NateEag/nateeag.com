@@ -13,11 +13,17 @@ computers in my displays (and the attendant spying).
 
 ## Laptop
 
-In fall 2022 I acquired a Framework 14" laptop, with the 12th gen Intel CPU.
+In fall 2022 I acquired a Framework 13" laptop, with the 12th gen Intel CPU.
 I'm currently using NixOS as my daily driver. I have a long way to go before
 I'm genuinely happy with the OS (my macOS setup has been carefully tweaked over
 a decade), but the hardware's serving pretty well, and I have been enjoying the
 upgrade-safety the OS promises and seems to deliver on so far.
+
+I've been surprised to discover that thanks to Steam, a whole lot of Windows
+games can actually work on this thing. In case I ever start playing something
+that requires a real graphics card, here's a forum discussion of how to get an
+eGPU working with Linux on the 13" Framework:
+https://community.frame.work/t/guide-egpu-performance-tests-using-amd-rx-580-on-linux/26384
 
 The Framework laptop is genuinely modular hardware, with an eye to letting you
 upgrade and expand your laptop and swap out the hardware you need for a given
@@ -177,10 +183,14 @@ https://www.amazon.com/Sound-Town-Adjustable-Management-ST4POF-A12U/dp/B09HF4MN1
 Judging from Amazon, I should be able to get 4 TB SAS drives for around $60 a
 pop, maybe a little less.
 
-Buy six of those, RAID 6 them, and I'd have 16 TB of storage that can survive
-two disks failing simultaneously. Slap in a 1 TB SSD for a boot volume and bam.
+Buy six of those ($360), RAID 6 them, and I'd have 16 TB of storage that can
+survive two disks failing simultaneously. Slap in a 1 TB SSD for a boot volume
+and bam.
 
 Could I hook up a TTY to it?
+
+I suppose if it has a serial port (or an expansion port I can put serial ports
+into).
 
 
 ## Sanni Cartridge Reader
