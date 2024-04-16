@@ -37,6 +37,18 @@ any registered completer for `$1`, so you get normal tab completions for all
 commands you use with it.
 
 
+## Emacs Mode For Writing mongosh Scripts
+
+I currently use `typescript-mode` for writing mongosh scripts at $DAYJOB.
+
+It works okay, but it knows nothing about the various mongosh-specific JS
+modules, nor does it give me any awareness of the schema used by the
+collections I'm working with.
+
+I [think that's
+fixable](https://gitlab.com/NateEag/tsserver-mongosh-scripting-plugin).
+
+
 ## The Audio Engine
 
 I would love to have an open-source, real-time, auto-scaling audio DSP engine
