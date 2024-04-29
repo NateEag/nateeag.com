@@ -11,6 +11,31 @@ more expensive, but that might be worth avoiding the insanity of having
 computers in my displays (and the attendant spying).
 
 
+## Computer Keyboard
+
+I have had wrist problems throughout my career as a programmer.
+
+As a result I've used many different keyboards:
+
+2005 - 2006: Microsoft Erogonomic 4000
+2006 - 2012: Happy Hacker Lite 2
+2011: brief flirtation with Kinesis Advantage
+2012 - 2015: Truly Ergonomic Computer Keyboard
+2015 - 2024: ErgoDox EZ
+
+My ErgoDox EZ is still much-beloved and my daily driver, but I have kept my
+eyes on evolution in the space, and there are some interesting boards out
+there:
+
+- MoErgo Glove80: https://www.moergo.com/
+- ReDox Wireless: https://falbatech.click/products/ReDOX_FT-Wireless-Fully-Assembled-Custom-Mechanical-Keyboard-p648828330
+- Ergodox Wireless Pro: https://www.slicemk.com/products/ergodox-wireless-pro
+
+Wireless vs. wired is a difficult tradeoff. Wireless consumes batteries, but
+over a long-enough timespan, wired devices break due to unplugging and
+replugging. Which is more sustainable?
+
+
 ## Laptop
 
 In fall 2022 I acquired a Framework 13" laptop, with the 12th gen Intel CPU.
