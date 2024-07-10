@@ -28,8 +28,9 @@ an aesthetic perspective.
 What are those?
 
 - Passage
-- Portal
+- Portal (the original)
 - Super Hexagon
 - Mirror's Edge
 - Myth / Myth II
+- Myst
 - Oni?
