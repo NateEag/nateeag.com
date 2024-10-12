@@ -77,9 +77,6 @@ poorly - insufficient range and flaky reliability.
 In principle I'd like to replace Windows with NixOS, but I doubt it will ever
 be necessary.
 
-Ripping my N64 ROMs and Steph's GameCube cartridges and getting some emulators
-set up would be a far better use of my time, I think.
-
 
 ## Router
 
@@ -227,6 +224,26 @@ They're old and low-res, but James is curious and I think might enjoy them.
 
 https://github.com/sanni/cartreader
 
+I've purchased one from [this Etsy
+seller](https://www.etsy.com/listing/1313908826/open-source-cartridge-reader-oscr-hw5)
+and have been quite happy with it.
+
+
+## N64 (and others) Emulator
+
+The Sanni cart reader enables legal emulation of N64 games.
+
+Now then, how can I actually emulate these games in a satisfactory manner?
+
+I tried Mario 64 on our Windows media PC, and it was kind of laggy.
+Playable-ish, but not an ideal experience.
+
+I've just learned that [Moonlight](https://moonlight-stream.org/) and
+[Sunshine](https://github.com/LizardByte/Sunshine) exist.
+
+Between the two of them, I should be able to run emulators on a beefier machine
+(say, my laptop, Steph's gaming rig, or the hypothetical NAS device), along
+with a Sunshine server, then run Moonlight on the media PC.
 
 ## Standing / Sitting Desk Setup
 
