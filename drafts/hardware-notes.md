@@ -105,8 +105,7 @@ phones. Also the 177x is about $150 cheaper.
 
 I'd probably lean towards the 177x, as it's more all-around usable, and if I
 were ever taking audio engineering so seriously that I needed really precise
-results, I could probably buy a second set (and maybe do more exhaustive
-research first).
+results, I could buy a second set (or just work out an EQ preset that).
 
 
 ## Ploopy Thumb Trackball
@@ -245,6 +244,7 @@ Between the two of them, I should be able to run emulators on a beefier machine
 (say, my laptop, Steph's gaming rig, or the hypothetical NAS device), along
 with a Sunshine server, then run Moonlight on the media PC.
 
+
 ## Standing / Sitting Desk Setup
 
 Thanks to Jared Worthen's recommendation when I started at ServiceTitan, I've
@@ -278,8 +278,7 @@ understand intuitively how you could have ever used `ed` for programming. In
 the context of an endless stream of physical paper, it's a really reasonable
 design.
 
-After I showed James a video of teletypes, he became slightly enamored of them,
-too.
+After I showed James a video of teletypes, he became slightly enamored of them, too.
 
 So, thinking about ways we could do this.
 
