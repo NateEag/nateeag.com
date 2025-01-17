@@ -84,6 +84,9 @@ Shiva (coworker at $DAYJOB) says the AmpliFi Alien is a home router built by an
 enterprise-grade router company. He uses it and has found it to be extremely
 reliable.
 
+I'm currently skating by on the router provided by my ISP, mainly because it
+came with a preconfigured backhaul extender.
+
 
 ## Replacement Audio Processing Headphones
 
@@ -147,8 +150,8 @@ such an issue.
 The LED supposedly has a 50,000 hours runtime, which if you bicycle 2 hours /
 day would last you ~70 years.
 
-I'd rather have one with a user-replaceable bulb, too, but still - this works
-and is better than a lot of the options.
+I've been using the BC26R for several years now, and it's served me admirably
+well.
 
 
 ## PedalCell
@@ -179,40 +182,27 @@ https://dataswamp.org/~solene/2020-10-18-nixos-nas.html is a recipe for running
 a NAS on NixOS. If I could get a chassis that hosts a good number of drive
 bays, I might be somewhere interesting.
 
-I recently discovered that you can find old rackmount servers for _dirt_ cheap
-(I found one decent one for ~100 USD). One with four drive bays would make it
-quite feasible to have a pretty large volume of storage space.
+To that end, I have recently purchased a [used SuperMicro
+6028U-TR4T+](https://www.supermicro.com/en/products/system/2u/6028/sys-6028u-tr4t_.cfm).
+Its twelve hot-swap drive bays should be more than I'll ever need for a home
+NAS / media server.
 
-A good example is this place selling 8-bay Dell R720s at a starting point of
-$105:
+I'm having some trouble installing NixOS, as the refurbished 3 TB SAS drive
+I've purchased for a boot volume isn't showing up in /dev.
 
-https://pcserverandparts.com/servers/dell-servers/poweredge-r720-server/
+I purchased mine [from
+TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-tr4t-2u-w-x10dru-i),
+whose blurb suggests they have the correct backplane for SAS support in the
+variant they sell, so I think it's not a lack of SAS support.
 
-The R720 is a 2U server that's 29" and fits in standard EIA 19-inch racks. It
-can get pretty loud when it's running hard, but NASes mostly don't run hard,
-and if I rack it up in the basement, it wouldn't be that in the way regardless.
+The drive caddy is showing the steady blue light that indicates a drive is
+installed, so the hardware at least is detecting it as present.
 
-Similarly see these SuperMicro servers, at ~$120 reasonably kitted:
+I bought the HBA storage controller flashed to IT mode, so it should just be
+reporting all drives as distinct items.
 
-https://www.theserverstore.com/supermicro-2027r-n3rft-16x-sff-2u-server.html
-https://www.theserverstore.com/supermicro-1u-server-w-x9drd-it-sas3-10x-sff.html
-
-12U adjustable-depth rolling rack for ~$150
-
-https://www.amazon.com/Sound-Town-Adjustable-Management-ST4POF-A12U/dp/B09HF4MN1C/
-
-Judging from Amazon, I should be able to get 4 TB SAS drives for around $60 a
-pop, maybe a little less.
-
-Buy six of those ($360), RAID 6 them, and I'd have 16 TB of storage that can
-survive two disks failing simultaneously. Slap in a 1 TB SSD for a boot volume
-and bam.
-
-Could I hook up a TTY to it?
-
-I suppose if it has a serial port (or an expansion port I can put serial ports
-into).
-
+Some googling suggests BIOS configuration can impact what drives are available.
+I guess I should take a look at that next.
 
 ## Sanni Cartridge Reader
 
