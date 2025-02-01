@@ -187,22 +187,13 @@ To that end, I have recently purchased a [used SuperMicro
 Its twelve hot-swap drive bays should be more than I'll ever need for a home
 NAS / media server.
 
-I'm having some trouble installing NixOS, as the refurbished 3 TB SAS drive
-I've purchased for a boot volume isn't showing up in /dev.
-
 I purchased mine [from
 TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-tr4t-2u-w-x10dru-i),
 whose blurb suggests they have the correct backplane for SAS support in the
 variant they sell, so I think it's not a lack of SAS support.
 
-The drive caddy is showing the steady blue light that indicates a drive is
-installed, so the hardware at least is detecting it as present.
+I manage the setup in [this project](https://gitlab.com).
 
-I bought the HBA storage controller flashed to IT mode, so it should just be
-reporting all drives as distinct items.
-
-Some googling suggests BIOS configuration can impact what drives are available.
-I guess I should take a look at that next.
 
 ## Sanni Cartridge Reader
 
