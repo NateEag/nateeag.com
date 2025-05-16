@@ -261,25 +261,7 @@ design.
 
 After I showed James a video of teletypes, he became slightly enamored of them, too.
 
-So, thinking about ways we could do this.
-
-Apparently one is to buy an IBM Wheelwriter 1000 and build the board described
-here https://github.com/IBM-1620/Cadetwriter to have your very own mechanical
-typewriter terminal.
-
-There is always, of course, the ridiculous option of just paying through the
-nose for an ASR 33.
-
-And there's Drew DeVault's line printer pseudo-terminal hack:
-https://drewdevault.com/2019/10/30/Line-printer-shell-hack.html
-
-There is also the social angle - maybe we can get in touch with someone who has
-a restored teletype and arrange to try it out in person at some point.
-Apparently https://mailman.qth.net/mailman/listinfo/greenkeys is the mailing
-list to be on if you're hoping to pick up some connections for this kind of
-thing.
-
-...but aha. The elegant solution appears: TI's Silent 700 line of terminals.
+After some research, the elegant solution appears: TI's Silent 700 line of terminals.
 
 They used thermal paper and a heating element, with acoustic couplers and
 serial ports for communicating to computers.
@@ -287,22 +269,17 @@ serial ports for communicating to computers.
 The design makes them much more mechanically simple and robust than a standard
 printing teletype (and also quieter).
 
-As younger, simpler terminals, it seems to be fairly common to be able to pick
-up mostly-working models on eBay for $100 - $200 USD.
+The 703 is capable of case-sensitivity, and has a 25-pin female RS-232 serial port.
 
-If I can get a hold of a working model that handles upper and lowercase (some
-do, some don't), then I could pair that with that NAS server I keep meaning to
-build, and my kids could start off their computation education without screens
-or any of the disruptions of modern systems.
+I've been watching eBay for a decent 703 for probably a year, and a decent-looking one finally turned up for $175, so I've ordered it.
 
-I bet I could get James to play Zork and ADVENT for hours.
+My SuperMicro box has a 9-pin male serial port, so I should be able to connect the two with any needed converters and a null modem cable.
 
-It looks like the 707 supports flipping between UPPERCASE and case-sensitive
-mode (see page 29 of this manual [2-4 in the manual's parlance]). It appears to
-be modem-only, though, with no serial port, if I'm understanding the manual
-right. I've seen a claim that the 703 is the equivalent model without a modem.
+I have therefore ordered a 9-pin female to 25-pin male null modem cable (and a six-pack of thermal paper).
 
-Aha - CuriousMarc did an episode on a 703
+Until the machine arrives, there's not much more I can do with it. Excited to try it out, though, and get it so the kids can try their first steps into command-line computing.
+
+Worth noting CuriousMarc did an episode on a 703
 (https://www.youtube.com/watch?v=DchXxsqa0BE), and confirms that the 707 is
 modem-only while the 703 has a serial port.
 
