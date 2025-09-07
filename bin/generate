@@ -2,11 +2,11 @@
 
 # A minimal wrapper script to render the project into the src/ directory, for
 # use while developing.
+#
+# Assumes the appropriate virtualenv (or nix-shell) is active.
 
 bin_dir="$(dirname "${BASH_SOURCE[0]}")"
 project_dir="$(dirname "$bin_dir")"
-
-source "$project_dir/virtualenv/bin/activate"
 
 mkdir -p "$project_dir/src"
 

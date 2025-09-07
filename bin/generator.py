@@ -52,7 +52,7 @@ def render_page(path, source_dir, target_dir, project_path, jinja_env):
         print(yaml_header)
         raise Exception(path + ' has no body!')
 
-    page = yaml.load(StringIO(yaml_header))
+    page = yaml.safe_load(StringIO(yaml_header))
     page['body'] = body
 
     docroot_relative_path = path[len(source_dir):]

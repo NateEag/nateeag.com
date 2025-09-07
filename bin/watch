@@ -5,10 +5,10 @@
 # Depends on the fswatch program. Mostly exists so I don't have to remember
 # fswatch syntax.
 
+# Assumes the appropriate virtualenv or nix-shell is active.
+
 bin_dir="$(dirname "${BASH_SOURCE[0]}")"
 project_dir="$(dirname "$bin_dir")"
-
-. "$project_dir/virtualenv/bin/activate"
 
 # The xargs invocation is a bit labored in order to output the timestamp of
 # each re-rendering, and xargs doesn't have long option names, so some

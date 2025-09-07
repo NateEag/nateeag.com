@@ -1,11 +1,12 @@
 #! /usr/bin/env bash
 
 script_name="$(basename "$0")"
+
 help_msg="Start a local development server for this project.
 
-Only works if [fswatch](https://github.com/emcrisostomo/fswatch) and [http-server](https://github.com/indexzero/http-server) are installed globally.
+Only works if [fswatch](https://github.com/emcrisostomo/fswatch) and [http-server](https://github.com/indexzero/http-server) are available on PATH.
 
-TODO Install dependencies locally and activate them with direnv.
+If you have direnv and nix installed, that should happen automatically.
 
 Usage: $script_name"
 
