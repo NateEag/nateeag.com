@@ -253,7 +253,7 @@ https://www.staples.com/staples-gaming-chair-black-and-white-55172/product_24381
 I would really love for the boys' early years of computing to include some
 hands-on time with a physical teletype-style terminal, if at all possible.
 
-Seeing this glorious video (https://youtu.be/2XLZ4Z8LpEE) helped me understand
+Seeing [this glorious video](https://youtu.be/2XLZ4Z8LpEE) helped me understand
 a whole lot of the ancient history of computing better than I had, and also to
 understand intuitively how you could have ever used `ed` for programming. In
 the context of an endless stream of physical paper, it's a really reasonable
