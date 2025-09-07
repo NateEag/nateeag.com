@@ -8,9 +8,7 @@ template: "essay.html.tmpl"
 
 I am Nate Eagleson.
 
-[comment]: (TODO Hyperlink for Christian.)
-
-I am a [Christian](/christianity/).
+I [was a Christian](/worldview/).
 
 [comment]: # (TODO Hyperlinks for 'husband' and 'father'.)
 
