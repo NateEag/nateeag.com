@@ -253,7 +253,7 @@ any further luck with this.
 
 ## Physical Teletype Terminal Project
 
-I would really love for the boys' early years of computing to include some
+I would really love for the kids' early years of computing to include some
 hands-on time with a physical teletype-style terminal, if at all possible.
 
 Seeing [this glorious video](https://youtu.be/2XLZ4Z8LpEE) helped me understand
@@ -267,36 +267,38 @@ After I showed James a video of teletypes, he became slightly enamored of them, 
 After some research, the elegant solution appeared: TI's Silent 700 line of
 terminals.
 
-They used thermal paper and a heating element, with acoustic couplers and
-serial ports for communicating to computers.
+They use thermal paper and a heating element, with acoustic couplers and serial
+ports for communicating to computers.
 
-The design makes them much more mechanically simple and robust than a standard
-printing teletype (and also quieter).
+The design made them much more mechanically simple and robust than a standard
+teletype (and also quieter).
 
 The 703 is capable of case-sensitivity, and has a 25-pin female RS-232 serial port.
 
-I've been watching eBay for a decent 703 for probably a year, and a decent-looking one finally turned up for $175, so I've ordered it.
+After watching eBay for a working 703 for probably a year, a decent-looking one
+finally turned up for $175, so I bought it.
 
-My SuperMicro box has a 9-pin male serial port, so I should be able to connect the two with any needed converters and a null modem cable.
+My SuperMicro box has a 9-pin male serial port, so I also bought a null modem
+cable that converts from 9-pin to 25-pin.
 
-I have therefore ordered a 9-pin female to 25-pin male null modem cable (and a six-pack of thermal paper).
+I connected the two with that cable and tried a few `agetty` commands found on
+a Reddit discussion I lost the link to:
 
-Until the machine arrives, there's not much more I can do with it. Excited to try it out, though, and get it so the kids can try their first steps into command-line computing.
+```
+sudo agetty -v 300 /dev/ttyS0 ti703
+sudo agetty -m /dev/ttyS0 ti703
+```
+
+but neither of them achieved any result. I believe I flipped the "online"
+switch on the 703 to active, though now I'm questioning myself, as it's been a
+few weeks.
 
 Worth noting CuriousMarc did an episode on a 703
-(https://www.youtube.com/watch?v=DchXxsqa0BE), and confirms that the 707 is
-modem-only while the 703 has a serial port.
+(https://www.youtube.com/watch?v=DchXxsqa0BE), which is full of his usual pile
+of fascinating details.
 
-Note this PDF of the maintenance manual for the 703/707 models:
+Note also this PDF of the maintenance manual for the 703/707 models:
 http://www.bitsavers.org/pdf/ti/terminal/silent_700/2310453-0001_Model_703_707_Data_Terminals_Maintenance_Manual_Feb84.pdf
-
-This article provides what looks like a good overview of the Silent 700's
-history and development:
-http://oldvcr.blogspot.com/2022/02/refurb-weekend-texas-instruments-silent.html
-
-and points out that the 700/1200 was the last model they made. Apparently it
-combined the 703 and 707's features, so it would also be a viable option if I
-could find one.
 
 
 ## Physical Glass Terminal
