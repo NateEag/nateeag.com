@@ -236,17 +236,20 @@ as a sit/stand desk. Paired with 27" external monitors and two of ErgoTron's
 arms](https://www.ergotron.com/en-us/products/product-details/45-295#?color=polished%20aluminum),
 it's sit/stand desk bliss.
 
-I have yet to find a good chair to go with all this, alas, nor have I
-integrated a keyboard tray, because my sitting stool pairs with the desk well
-enough to get away with in general.
+I _would_ like to get another inch or three of height out of them. Swapping out
+the tall poles for [these 28"
+poles](https://www.ergotron.com/en-us/products/product-details/20-137#?color=black)
+would would more than do the job. Would need to verify they'll actually work
+with the other parts I have, though.
 
-I do want to get a decent chair and a keyboard tray, though, if only so I can
-have a chair that works for playing my musical keyboards, and so I have a way
-to quickly pull my computer control surfaces near aforementioned instruments.
+I've bought a used [Humanscale
+Freedom](https://www.humanscale.com/products/seating/freedom-headrest-executive-chair).
+I accidentally got one that does not have the real headrest, which I'm
+disappointed about (though return proved impractical), but it should work well
+enough for now.
 
-Matt Guest tried this gaming chair and recommended it:
-https://www.staples.com/staples-gaming-chair-black-and-white-55172/product_24381063
-
+I need a keyboard tray that will attach usefully to my desk before I'll have
+any further luck with this.
 
 ## Physical Teletype Terminal Project
 
@@ -261,7 +264,8 @@ design.
 
 After I showed James a video of teletypes, he became slightly enamored of them, too.
 
-After some research, the elegant solution appears: TI's Silent 700 line of terminals.
+After some research, the elegant solution appeared: TI's Silent 700 line of
+terminals.
 
 They used thermal paper and a heating element, with acoustic couplers and
 serial ports for communicating to computers.
