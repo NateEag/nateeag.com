@@ -275,22 +275,6 @@ I feel this must exist out there somewhere. I'm surprised it's not built into
 Google Calendar in some form, but it doesn't seem to be as of 2020-04-14.
 
 
-## Open Source Calorie/Nutrient Tracker
-
-The FDA has a branded food products database that would be a decent baseline for "scan a UPC and add calories to the day".
-
-Pair that with their regular nutrient database and a source of meal
-ingredients and amounts (like an OSS recipe database, perhaps?), and I think
-most meals could be pretty quick to enter.
-
-Obviously you'd still want support for adding random calorie entries, as well
-as UPCs that aren't yet in the branded food products DB.
-
-Aforementioned DB gets updated every now and again, so you'd want to design
-this to be capable of taking advantage of these updates, rather than using a
-one-time snapshot.
-
-
 ## Open Source Fitness Tracker
 
 I am a firm believer in the value of data, and I'm intrigued by the idea of
