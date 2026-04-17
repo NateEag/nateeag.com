@@ -67,15 +67,17 @@ tools that aren't optimized for sacrificing them to The Algorithms.
 
 ## Family Media Machine
 
-Currently a cheap Windows desktop with an HDMI out. I just bought one,
-installed Chrome, and paired it with a Logitech K600 TV keyboard, which has
-been working just fine.
+Currently a cheap desktop with an HDMI out. I just bought one, installed
+Chrome, and paired it with a Logitech K600 TV keyboard, which has been working
+just fine.
 
 At first I tried a much cheaper Macally Bluetooth keyboard and it worked pretty
 poorly - insufficient range and flaky reliability.
 
-In principle I'd like to replace Windows with NixOS, but I doubt it will ever
-be necessary.
+Windows 10 was getting slow and flaky, so I installed NixOS.
+
+That hasn't been much faster, and I'm suspicious the issues are actually due to
+our internet connection (which is most of what we use it for).
 
 
 ## Router
@@ -192,7 +194,7 @@ TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-
 whose blurb suggests they have the correct backplane for SAS support in the
 variant they sell, so I think it's not a lack of SAS support.
 
-I manage the setup in [this project](https://gitlab.com).
+I manage the setup in [this project](https://gitlab.com/home-server).
 
 
 ## Sanni Cartridge Reader
@@ -300,6 +302,16 @@ of fascinating details.
 Note also this PDF of the maintenance manual for the 703/707 models:
 http://www.bitsavers.org/pdf/ti/terminal/silent_700/2310453-0001_Model_703_707_Data_Terminals_Maintenance_Manual_Feb84.pdf
 
+Oh look - fellow computer nerds from many years ago have written voluminous
+documents on the subjects of:
+
+* [connecting physical terminals to Linux computers](https://tldp.org/HOWTO/Text-Terminal-HOWTO-7.html)
+* [debugging serial port hardware](https://tldp.org/HOWTO/Serial-HOWTO.html#toc10)
+
+The [6028U-TR4T+'s
+manual](https://www.manualslib.com/download/3101281/Supermicro-Superserver-6028u-T-Series.html)
+has the interesting note that it's possible to turn off the serial port. I
+wonder if it's turned off?
 
 ## Physical Glass Terminal
 
