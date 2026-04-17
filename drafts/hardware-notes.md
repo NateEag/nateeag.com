@@ -313,6 +313,24 @@ manual](https://www.manualslib.com/download/3101281/Supermicro-Superserver-6028u
 has the interesting note that it's possible to turn off the serial port. I
 wonder if it's turned off?
 
+[This post](https://jasonmurray.org/posts/2020/serialconsolelinux/) taught
+me that `sudo less /proc/tty/driver/serial` can help you see which `/dev/ttyS*`
+devices are physical ports:
+
+```
+serinfo:1.0 driver revision:
+0: uart:16550A port:000003F8 irq:4 tx:0 rx:0
+1: uart:16550A port:000002F8 irq:3 tx:0 rx:0 CTS
+2: uart:unknown port:000003E8 irq:4
+3: uart:unknown port:000002E8 irq:3
+```
+
+The `16550A` is a reference to [the 16550A
+UART](https://en.wikipedia.org/wiki/16550_UART), so the entries displayed with
+that label should correspond to physical hardware.
+
+Thus, it's worth trying both ttyS0 and ttyS1 in my case.
+
 ## Physical Glass Terminal
 
 I would sort of love to own a glass terminal and use it for hacking in Emacs
