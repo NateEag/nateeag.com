@@ -331,6 +331,45 @@ that label should correspond to physical hardware.
 
 Thus, it's worth trying both ttyS0 and ttyS1 in my case.
 
+...oh. I didn't read agetty's manual. The tty's path is relative to `/dev`.
+
+`sudo agetty -m ttyS0 ti703`
+
+has convinced the 703 to turn the "line ready" light on.
+
+After giving myself the `tty` group, I even got the print head to move once or
+twice by echoing to /dev/ttyS0.
+
+I think I have the wrong settings.
+
+a quick manpage read later, this gave me a login prompt!
+
+```bash
+sudo agetty ttyS0 300 ti703
+```
+
+and once I'd set a login for my user, sure enough, I could log in!
+
+I can run commands, but the prompt is an unholy mess. Appears /etc/bashrc is
+running and thus spewing a bunch of terminal escape codes that mean nothing to
+a 703.
+
+...looks like the `[?2004` getting put at the start of every line has something
+to do with [a SIGALRM trap in bash](https://apple.stackexchange.com/q/477385).
+Putting `set enable-bracketed-paste 0` in `~/.inputrc` has resolved it.
+
+I built `dfrotz` myself (easy enough - clone repo, install `gnumake` / `clang`,
+then `make dumb`), so now it should be straightforward to ensure each kid has
+it in their path (or, more likely, a few aliases to make firing up Zork and
+other games easier).
+
+Things I still need to sort:
+
+- Suppress color codes and similar from nixos's default /etc/bashrc
+- Figure out tab completion
+- Get output to be 79 cols wide and skip the first column, since my 703 has a
+  damaged backing strip that means the first column mostly doesn't print.
+
 ## Physical Glass Terminal
 
 I would sort of love to own a glass terminal and use it for hacking in Emacs
