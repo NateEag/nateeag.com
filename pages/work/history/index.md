@@ -1,8 +1,22 @@
 ---
 title: "Work History"
-meta_content: "Nate Eagleson's work history."
+meta_content: "Nate Eagleson's software dev work history."
 template: "essay.html.tmpl"
 ---
+
+I've worked several full- and part-time jobs as a software developer.
+
+* [Rite Aid](/work/history/rite-aid.html) - June 2005 - April 27th, 2007
+* [codeninjaz.net](/work/history/codeninjaz.net.html) - September 3rd, 2007 - January 31st, 2009
+* [freelance services](/work/history/freelance.html) - February 1st, 2009 - June 29th, 2012
+* [2x30.com](/work/history/2x30.com.html) - January 3rd, 2011 - June 29th, 2012
+* [Clark Associates](/work/history/clark-associates.html) - October 1st, 2012 - June 20th, 2014
+* [MapQuest](/work/history/mapquest.html) - June 24th, 2014 - January 30th, 2015
+* [United Concordia](/work/history/united-concordia.html) - March 9th, 2015 - September 12th, 2016
+* [Nxtbook Media](/work/history/nxtbook-media.html) - September 19th, 2016 - October 7th, 2022
+* [ServiceTitan](/work/history/servicetitan.html) - October 10th, 2022 - present
+
+
 
 I worked as a software developer at Rite Aid from June 2005 (exact start date
 lost to the ages) to April 27th, 2007.
@@ -276,7 +290,7 @@ explain what made them work.
 - Used Ansible and bash to build out replacement versions of core Ubuntu 12 /
   14 server fleet, a job the previous two sysadmins never managed to
 
-- Primary sysadmin monitoring 
+- Primary sysadmin monitoring
 
 - Performed sysadmin duties since sysadmin left in 2019, in addition to all my
   other duties
