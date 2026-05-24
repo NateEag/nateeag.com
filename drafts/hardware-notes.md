@@ -1,6 +1,4 @@
-I am thinking more about computer and display hardware lately.
-
-Keeping some quick notes in here.
+Notes on various pieces of physical equipment I own or wish to own.
 
 
 ## How To Not Buy Smart TVs
@@ -9,6 +7,109 @@ I recently saw someone suggest that buying commercial displays is a viable
 strategy for avoiding 'smart' TVs. Huge monitors fill a similar role. They're
 more expensive, but that might be worth avoiding the insanity of having
 computers in my displays (and the attendant spying).
+
+I have investigated this option, but discussion with my wife leaves me
+concerned that she might not be able to tolerate the brighter screens on
+commercial displays.
+
+As a result, we've gone the less-ideal route of buying a smart TV and
+resolutely treating it as a dumb TV, giving no quarter when it begs for the
+ability to send its spy reports back to Amazon.
+
+
+## Hot Water Heater
+
+Ours is failing. We need to replace it promptly.
+
+Options (no natural gas in our neighborhood, just external propane tanks):
+
+- electric tank
+
+- electric tankless
+
+- geothermal (ground water heat pump, do both hot water and house temperature
+  with one [expensive] install)
+
+Geothermal is probably worth considering. Takes a lot of capital, but I do have
+some stock I should be able to sell off for a decent amount of exactly that.
+
+My wife's been told by plumbers that tankless would use way too much
+electricity.
+
+I'm skeptical, because they gave no clear breakdown of why - just asserted it
+would use tons. That I don't doubt, but I do doubt the constant energy
+consumption of a tank model would be better.
+
+So how do I figure out which one would be more cost-effective?
+
+Do the (basic) thermo.
+
+Cold water is coming in ~61 degrees Fahrenheit.
+
+Hot water comes out ~117 degrees Fahrenheit.
+
+The Eemax HA036240 (36 kW) is officially rated for 8 gallons/minute. [According
+to the
+manual](https://files.myrheem.com/webpartners/ProductDocuments/CF96AE9D-9A44-4F7D-A134-74CB0455B50A.pdf),
+it can produce 5.5 gallons/minute of 105-degree water when inbound water is 60
+degrees. From the temperature -> GPM table, I speculate that we could count on
+~4.5 GPM at 115 degrees.
+
+That's not _quite_ enough for two showers simultaneously. Each one would get
+warm water, but not hot water.
+
+What would it cost to operate monthly?
+
+Let's SWAG that we use ~75 gallons daily at present, since we regularly empty
+the tank by showering back-to-back.
+
+That will likely increase to >100 gallons daily once all the kids are showering
+every day.
+
+Our shower does 3 GPM (I just measured it). No wonder we burn through water
+fast. I think the kids' shower is the same.
+
+That means our max usage, assuming ten-minute showers, would be 3 * 10 * 5 =
+150 gallons. Realistically, we're probably doing fifteen-minute showers, so 3 *
+15 * 5 = 225 gallons. Oof.
+
+If we downgraded to the efficient 1.5 GPM showerheads, that becomes 112.5
+gallons.
+
+At 4.5 GPM, heating 300 gallons means running for 66 minutes daily.
+
+36 kW * (66 minutes / 60 minutes) hours = 13.2 kWh daily. We pay $0.11 / kWh,
+so ~$1.45 / day.
+
+But that's not enough to meet our needs, as noted previously.
+
+The Rheems RTEX-18 (18 kWh) can achieve a 25-degree temperature rise at 5 GPM,
+with a max. throughput of 7 GPM.
+
+
+
+Now, what's heating similar usage with a tank gonna take?
+
+Worst case, everyone showers in the morning before some event.
+
+For that, I think we'd need a first-hour delivery rating of ~100 gallons. Such
+tanks seem to be rare.
+
+Rheems does have a 105-gallon Marathon heater that does 104 gallons first-hour
+(which I guess tells me how many kWh it takes / gallon, implicitly).
+
+So what kind of electricity usage are we looking at for those?
+
+Finding actual numbers on these heaters' usage (or raw stats to compute numbers
+for it) is kinda hard. According to [this
+post](https://community.sense.com/t/rheem-marathon-100-gallon-water-heater-usage/9766/15),
+the EnergyGuide label thinks it'd be 4825 kWh / year, or 13.2 kWh / day. That'd
+be about $1.45 / day. Obviously that's a very rough estimate.
+
+Any day we all shower (which will be most of them in five years), with our 3
+GPM
+
+...it's also $5000 to purchase.
 
 
 ## Computer Keyboard
@@ -250,13 +351,22 @@ I accidentally got one that does not have the real headrest, which I'm
 disappointed about (though return proved impractical), but it should work well
 enough for now.
 
-I need a keyboard tray that will attach usefully to my desk before I'll have
-any further luck with this.
+In case I do ever want to buy a full headrest and add it, here are the assembly
+instructions and part list:
+https://www.humanscale.com/userfiles/file/HeadrestSupportAssemblyInstructions.pdf
+
+I need a keyboard tray that will attach usefully to my desk before I can use
+the Humanscale as my chair.
+
+A trackless keyboard tray is one option:
+
+https://www.ergoexperts.com/products/vanish-trackless-keyboard-tray?variant=44594745278676
+
+but another option would be to get some risers for a tracked tray.
 
 ## Physical Teletype Terminal Project
 
-I would really love for the kids' early years of computing to include some
-hands-on time with a physical teletype-style terminal, if at all possible.
+I'm using a TI Silent 703 to teach my kids basic computing like it's 1973.
 
 Seeing [this glorious video](https://youtu.be/2XLZ4Z8LpEE) helped me understand
 a whole lot of the ancient history of computing better than I had, and also to
@@ -264,7 +374,8 @@ understand intuitively how you could have ever used `ed` for programming. In
 the context of an endless stream of physical paper, it's a really reasonable
 design.
 
-After I showed James a video of teletypes, he became slightly enamored of them, too.
+After I showed James a video of teletypes, he became slightly enamored of them,
+too.
 
 After some research, the elegant solution appeared: TI's Silent 700 line of
 terminals.
@@ -272,103 +383,16 @@ terminals.
 They use thermal paper and a heating element, with acoustic couplers and serial
 ports for communicating to computers.
 
+The 703 is capable of case-sensitivity, making it suitable for use on a
+traditional Unixy filesystem, and has a 25-pin female RS-232 serial port,
+making it easy to connect physically to any computer with a serial port.
+
 The design made them much more mechanically simple and robust than a standard
-teletype (and also quieter).
+teletype (and also quieter), so it's not that hard to find working ones in
+2026.
 
-The 703 is capable of case-sensitivity, and has a 25-pin female RS-232 serial port.
-
-After watching eBay for a working 703 for probably a year, a decent-looking one
-finally turned up for $175, so I bought it.
-
-My SuperMicro box has a 9-pin male serial port, so I also bought a null modem
-cable that converts from 9-pin to 25-pin.
-
-I connected the two with that cable and tried a few `agetty` commands found on
-a Reddit discussion I lost the link to:
-
-```
-sudo agetty -v 300 /dev/ttyS0 ti703
-sudo agetty -m /dev/ttyS0 ti703
-```
-
-but neither of them achieved any result. I believe I flipped the "online"
-switch on the 703 to active, though now I'm questioning myself, as it's been a
-few weeks.
-
-Worth noting CuriousMarc did an episode on a 703
-(https://www.youtube.com/watch?v=DchXxsqa0BE), which is full of his usual pile
-of fascinating details.
-
-Note also this PDF of the maintenance manual for the 703/707 models:
-http://www.bitsavers.org/pdf/ti/terminal/silent_700/2310453-0001_Model_703_707_Data_Terminals_Maintenance_Manual_Feb84.pdf
-
-Oh look - fellow computer nerds from many years ago have written voluminous
-documents on the subjects of:
-
-* [connecting physical terminals to Linux computers](https://tldp.org/HOWTO/Text-Terminal-HOWTO-7.html)
-* [debugging serial port hardware](https://tldp.org/HOWTO/Serial-HOWTO.html#toc10)
-
-The [6028U-TR4T+'s
-manual](https://www.manualslib.com/download/3101281/Supermicro-Superserver-6028u-T-Series.html)
-has the interesting note that it's possible to turn off the serial port. I
-wonder if it's turned off?
-
-[This post](https://jasonmurray.org/posts/2020/serialconsolelinux/) taught
-me that `sudo less /proc/tty/driver/serial` can help you see which `/dev/ttyS*`
-devices are physical ports:
-
-```
-serinfo:1.0 driver revision:
-0: uart:16550A port:000003F8 irq:4 tx:0 rx:0
-1: uart:16550A port:000002F8 irq:3 tx:0 rx:0 CTS
-2: uart:unknown port:000003E8 irq:4
-3: uart:unknown port:000002E8 irq:3
-```
-
-The `16550A` is a reference to [the 16550A
-UART](https://en.wikipedia.org/wiki/16550_UART), so the entries displayed with
-that label should correspond to physical hardware.
-
-Thus, it's worth trying both ttyS0 and ttyS1 in my case.
-
-...oh. I didn't read agetty's manual. The tty's path is relative to `/dev`.
-
-`sudo agetty -m ttyS0 ti703`
-
-has convinced the 703 to turn the "line ready" light on.
-
-After giving myself the `tty` group, I even got the print head to move once or
-twice by echoing to /dev/ttyS0.
-
-I think I have the wrong settings.
-
-a quick manpage read later, this gave me a login prompt!
-
-```bash
-sudo agetty ttyS0 300 ti703
-```
-
-and once I'd set a login for my user, sure enough, I could log in!
-
-I can run commands, but the prompt is an unholy mess. Appears /etc/bashrc is
-running and thus spewing a bunch of terminal escape codes that mean nothing to
-a 703.
-
-...looks like the `[?2004` getting put at the start of every line has something
-to do with [a SIGALRM trap in bash](https://apple.stackexchange.com/q/477385).
-Putting `set enable-bracketed-paste 0` in `~/.inputrc` has resolved it.
-
-I built `dfrotz` myself (easy enough - clone repo, install `gnumake` / `clang`,
-then `make dumb`), so now it should be straightforward to ensure each kid has
-it in their path (or, more likely, a few aliases to make firing up Zork and
-other games easier).
-
-Things I still need to sort:
-
-- Suppress color codes and similar from nixos's default /etc/bashrc
-- Figure out tab completion
-- Get output to be 79 cols wide and skip the first column, since my 703 has a
-  damaged backing strip that means the first column mostly doesn't print.
+For a detailed overview of the setup, see [my home server
+config](https://gitlab.com/NateEag/home-server/-/blob/main/readme.md)
 
 ## Physical Glass Terminal
 
