@@ -291,9 +291,7 @@ Its twelve hot-swap drive bays should be more than I'll ever need for a home
 NAS / media server.
 
 I purchased mine [from
-TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-tr4t-2u-w-x10dru-i),
-whose blurb suggests they have the correct backplane for SAS support in the
-variant they sell, so I think it's not a lack of SAS support.
+TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-tr4t-2u-w-x10dru-i).
 
 I manage the setup in [this project](https://gitlab.com/home-server).
 
