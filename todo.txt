@@ -1,3 +1,9 @@
+- Overhaul local dev server to spawn a WebSocket server, dynamically inject
+  listener registration code into rendered pages only in the dev env, and use
+  that to trigger page reloads based on URL matching on watch events. Pull all
+  that into standalone programs, so I can also replace the analogous logic I
+  have in the how-i-code codebase (and other static sites I maintain).
+
 - Move /gifts.html to /wishlist.html.
 
 - Put a link to /wishlist.html on the front page.
