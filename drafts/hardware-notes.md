@@ -392,6 +392,32 @@ teletype (and also quieter), so it's not that hard to find working ones in
 For a detailed overview of the setup, see [my home server
 config](https://gitlab.com/NateEag/home-server/-/blob/main/readme.md)
 
+## Build-Your-Own Teletype
+
+As I've been teaching my children to compute using a teletype, I've been
+realizing that there's a lot to recommend it as a learning environment.
+
+So, I'm pondering how people could use the approach more widely.
+
+The biggest issue is the low supply of actual teletypes.
+
+It occurred to me that adapting electronic typewriters into teletypes might be
+feasible.
+
+Lo, an admirable gentleman has [done this with a Brother
+SX-4000](https://github.com/numist/project-typewriter).
+
+He hand-soldered some lines to the keyboard's scan circuitry, connected it to
+an Arduino, then wrote the code to handle interfacing between the two.
+
+Soldering is outside my wheelhouse, but that basic approach seems adaptable to
+almost any daisywheel electronic typewriter - they probably all use
+roughly-similar mechanisms.
+
+It would be _really_ fun if there were an adaptable typewriter that supported
+more than one color, so basic syntax coloration and the like would be possible.
+
+
 ## Physical Glass Terminal
 
 I would sort of love to own a glass terminal and use it for hacking in Emacs
