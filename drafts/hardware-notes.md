@@ -166,6 +166,39 @@ Lightphone, an older kid or younger teenager might have an effective set of
 tools that aren't optimized for sacrificing them to The Algorithms.
 
 
+## Cell Phone
+
+I was dragged kicking and screaming into the world of the smartphone.
+
+I often wish to go back to the land of the dumbphone, because it's too easy to
+waste my life in Firefox, but it's hard to say goodbye to having my todo list,
+calendar, Anki deck, and camera all in one little package.
+
+To that end, my current smartphone is a [Fairphone
+5](https://www.fairphone.com), purchased through [Clove
+Technology](https://www.clove-technology.com/).
+
+The Fairphone 5 is not officially supported in the US, but others had reported
+success with T-Mobile as their carrier. I use Ting as my cell plan provider,
+which is effectively a T-Mobile reseller, and it has worked pretty well.
+
+It was purchased very much as an idealist attempt to live out my values - I
+don't know of a phone manufacturer who tries harder to treat everyone in its
+manufacturing chain as well as it can, and I very much wanted to support that
+with my dollars.
+
+Issues I've run into:
+
+- The microphone does not work for calls after a restart until I've swapped it
+  to speakerphone and back. I do not know why, but my workaround is to manually
+  place a call to a test number and do that after each restart.
+
+- I've occasionally had it shut down while charging. That seems to be due to
+  using fast-charge USB cable and/or chargers, as documented in this forum
+  thread:
+  https://community.e.foundation/t/farphone-5-reboot-during-chargeing/78962
+
+
 ## Family Media Machine
 
 Currently a cheap desktop with an HDMI out. I just bought one, installed
@@ -291,10 +324,11 @@ I manage the setup in [this project](https://gitlab.com/home-server).
 
 ## Sanni Cartridge Reader
 
-This would let me rip my beloved old N64 cartridges, thus letting me legally
-play the games in future. More to the point, we could share them with the kids
-(without worrying about paying for Nintendo Switch Online in perpetuity).
-They're old and low-res, but James is curious and I think might enjoy them.
+This lets me rip old video games from catridges, legally, specifically my
+beloved old N64 cartridges, thus letting me legally play the games in future.
+More to the point, we could share them with the kids (without worrying about
+paying for Nintendo Switch Online in perpetuity). They're old and low-res, but
+James is curious and I think might enjoy them.
 
 https://github.com/sanni/cartreader
 
