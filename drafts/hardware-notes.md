@@ -196,22 +196,15 @@ came with a preconfigured backhaul extender.
 I used to do a lot of heavy sound design and musical work, especially audio
 synthesis.
 
+I still care about audio more than is reasonable.
+
 My beloved Beyerdynamic DT 770 Pros have a flaky cable that gets worse with
 each passing year.
 
-I'd therefore like to replace them with either the DT 1770 Pro or the DT 177x
-Go. Both have a detachable cable and therefore are at less risk for the kind of
-damage my 770s have experienced.
-
-It's hard to pick between them, as the 1770s are built for engineering (more
-even frequency response) but have 250 ohms resistance and therefore require a
-headphone amp, while the 177xs are tweaked for pleasant listening but have only
-32 ohms resistance, making them workable directly with devices like cell
-phones. Also the 177x is about $150 cheaper.
-
-I'd probably lean towards the 177x, as it's more all-around usable, and if I
-were ever taking audio engineering so seriously that I needed really precise
-results, I could buy a second set (or just work out an EQ preset that).
+Thus, I've replaced them with the [DT 770 Prox
+X](https://north-america.beyerdynamic.com/p/dt-770-pro-x), which features a
+detachable cable, with nearly-identical hardware to my beloved old headphones in
+almost every other respect.
 
 
 ## Ploopy Thumb Trackball
