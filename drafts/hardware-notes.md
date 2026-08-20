@@ -322,6 +322,20 @@ TheServerStore.com](https://www.theserverstore.com/supermicro-superserver-6028u-
 I manage the setup in [this project](https://gitlab.com/home-server).
 
 
+## Printer
+
+I use a [Brother
+MFCL3770CDW](https://www.brother-usa.com/products/mfcl3770cdw#accessories) for
+printing, scanning, and photocopying documents.
+
+It is the source of one of my bigger NixOS complaints, namely that a couple
+years ago Gnome knew that the printer supported duplex printing, but forgot it
+at some point.
+
+Some attempts at debugging recently restored duplex printing, but at present it
+does not believe in color output.
+
+
 ## Sanni Cartridge Reader
 
 This lets me rip old video games from catridges, legally, specifically my
